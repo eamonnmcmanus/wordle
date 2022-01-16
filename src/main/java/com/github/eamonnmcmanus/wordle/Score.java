@@ -64,13 +64,11 @@ class Score {
     assert attempt.length() == 5;
     assert actual.length() == 5;
     assert Colour.GREY.ordinal() == 0;
-    // We encode each word in an int, 5 bits per letter, 'a' is 1. Then we knock one letter out of
-    // the encoded forms whenever we have a match, by overwriting the bits with 0.
-    // It would be even faster if we used these encoded forms everywhere instead of strings, but
-    // probably not enough faster to justify the resulting code illegibility.
+    return of(Dictionary.encode(attempt), Dictionary.encode(actual));
+  }
+
+  static Score of(int attemptCode, int actualCode) {
     int slots = 0;
-    int attemptCode = encode(attempt);
-    int actualCode = encode(actual);
     for (int i = 0, shift = 0; i < 5; i++, shift += 5) {
       int attemptC = (attemptCode >> shift) & 31;
       int actualC = (actualCode >> shift) & 31;
@@ -98,15 +96,6 @@ class Score {
       }
     }
     return new Score(slots);
-  }
-
-  private static int encode(String s) {
-    int code = 0;
-    for (int i = 0, shift = 0; i < 5; i++, shift += 5) {
-      int c = s.charAt(i) - 'a' + 1;
-      code |= c << shift;
-    }
-    return code;
   }
 
   static Score parse(String s) {

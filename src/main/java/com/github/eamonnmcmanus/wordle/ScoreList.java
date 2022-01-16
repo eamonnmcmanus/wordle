@@ -10,7 +10,7 @@ import com.google.common.collect.ImmutableSet;
 abstract class ScoreList {
   static final ScoreList EMPTY = new ScoreList() {
     @Override
-    boolean consistentWith(String word) {
+    boolean consistentWith(int word) {
       return true;
     }
 
@@ -30,22 +30,22 @@ abstract class ScoreList {
     }
 
     @Override
-    boolean containsWord(String word) {
+    boolean containsWord(int word) {
       return false;
     }
   };
 
-  ScoreList plus(String guess, Score guessScore) {
+  ScoreList plus(int guess, Score guessScore) {
     ScoreList next = this;
     return new ScoreList() {
       @Override
-      boolean consistentWith(String actual) {
+      boolean consistentWith(int actual) {
         return Score.of(guess, actual).equals(guessScore) && next.consistentWith(actual);
       }
 
       @Override
       public String toString() {
-        return next.toString() + " " + guess + ":" + guessScore;
+        return next.toString() + " " + Dictionary.decode(guess) + ":" + guessScore;
       }
 
       @Override
@@ -59,21 +59,25 @@ abstract class ScoreList {
       }
 
       @Override
-      boolean containsWord(String word) {
-        return word.equals(guess) || next.containsWord(word);
+      boolean containsWord(int word) {
+        return word == guess || next.containsWord(word);
       }
     };
   }
 
-  abstract boolean consistentWith(String word);
+  ScoreList plus(String guess, Score guessScore) {
+    return plus(Dictionary.encode(guess), guessScore);
+  }
+
+  abstract boolean consistentWith(int word);
 
   abstract boolean solved();
 
   abstract int size();
 
-  abstract boolean containsWord(String word);
+  abstract boolean containsWord(int word);
 
-  ImmutableSet<String> possible(Dictionary dict) {
+  ImmutableSet<Integer> possible(Dictionary dict) {
     return dict.guessWords().stream().filter(this::consistentWith).collect(toImmutableSet());
   }
 }

@@ -1,6 +1,5 @@
 package com.github.eamonnmcmanus.wordle;
 
-import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.collect.ImmutableSet.toImmutableSet;
 
 import com.google.common.collect.ImmutableSet;
@@ -18,23 +17,23 @@ class Dictionary {
   private static final String GUESS_WORDS = "/wordledict";
   private static final String SOLUTION_WORDS = "/wordlewords";
 
-  private final ImmutableSet<String> guessWords;
-  private final ImmutableSet<String> solutionWords;
+  private final ImmutableSet<Integer> guessWords;
+  private final ImmutableSet<Integer> solutionWords;
 
   private Dictionary(ImmutableSet<String> guessWords, ImmutableSet<String> solutionWords) {
     if (!guessWords.containsAll(solutionWords)) {
       throw new IllegalArgumentException(
           "Missing words: " + Sets.difference(solutionWords, guessWords));
     }
-    this.guessWords = guessWords;
-    this.solutionWords = solutionWords;
+    this.guessWords = guessWords.stream().map(Dictionary::encode).collect(toImmutableSet());
+    this.solutionWords = solutionWords.stream().map(Dictionary::encode).collect(toImmutableSet());
   }
 
-  ImmutableSet<String> guessWords() {
+  ImmutableSet<Integer> guessWords() {
     return guessWords;
   }
 
-  ImmutableSet<String> solutionWords() {
+  ImmutableSet<Integer> solutionWords() {
     return solutionWords;
   }
 
@@ -69,5 +68,23 @@ class Dictionary {
       }
     }
     return true;
+  }
+
+  static int encode(String s) {
+    int code = 0;
+    for (int i = 0, shift = 0; i < 5; i++, shift += 5) {
+      int c = s.charAt(i) - 'a' + 1;
+      code |= c << shift;
+    }
+    return code;
+  }
+
+  static String decode(int code) {
+    char[] chars = new char[5];
+    for (int i = 0, shift = 0; i < 5; i++, shift += 5) {
+      int c = (code >> shift) & 31;
+      chars[i] = (char) (c + 'a' - 1);
+    }
+    return new String(chars);
   }
 }

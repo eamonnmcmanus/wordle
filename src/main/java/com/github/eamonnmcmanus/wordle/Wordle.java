@@ -1,5 +1,7 @@
 package com.github.eamonnmcmanus.wordle;
 
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.collect.ImmutableList.toImmutableList;
 import static com.google.common.collect.ImmutableSet.toImmutableSet;
 import static java.lang.Integer.max;
 
@@ -31,7 +33,7 @@ import java.util.concurrent.Future;
 public class Wordle {
   private final Dictionary dict;
   private final ScoreList scores;
-  private final ImmutableSet<String> consistentWords;
+  private final ImmutableSet<Integer> consistentWords;
 
   Wordle(Dictionary dict, ScoreList scores) {
     this.dict = dict;
@@ -40,12 +42,12 @@ public class Wordle {
         dict.solutionWords().stream().filter(scores::consistentWith).collect(toImmutableSet());
   }
 
-  ImmutableList<String> guesses() {
-    ArrayList<String> bestGuesses = new ArrayList<>();
+  ImmutableList<Integer> guesses() {
+    ArrayList<Integer> bestGuesses = new ArrayList<>();
     int bestMax = Integer.MAX_VALUE;
     int bestCount = 0;
     boolean bestIsConsistent = false;
-    for (String guess : dict.guessWords()) {
+    for (Integer guess : dict.guessWords()) {
       Multiset<Score> scoreCounts = HashMultiset.create();
       consistentWords.forEach(actual -> scoreCounts.add(Score.of(guess, actual)));
       int max = scoreCounts.entrySet().stream()
@@ -86,17 +88,18 @@ public class Wordle {
     return ImmutableList.copyOf(bestGuesses);
   }
 
-  private static ScoreList solve(Dictionary dict, String actual) {
-    return solve(dict, actual, ScoreList.EMPTY.plus("crate", Score.of("crate", actual)));
+  private static ScoreList solve(Dictionary dict, int actual) {
+    int startCode = Dictionary.encode("crate");
+    return solve(dict, actual, ScoreList.EMPTY.plus(startCode, Score.of(startCode, actual)));
   }
 
-  private static ScoreList solve(Dictionary dict, String actual, ScoreList scores) {
+  private static ScoreList solve(Dictionary dict, int actual, ScoreList scores) {
     if (scores.solved()) {
       return scores;
     }
-    ImmutableList<String> guesses = new Wordle(dict, scores).guesses();
-    ImmutableSet<String> solutionWords = dict.solutionWords();
-    String guess =
+    ImmutableList<Integer> guesses = new Wordle(dict, scores).guesses();
+    ImmutableSet<Integer> solutionWords = dict.solutionWords();
+    Integer guess =
         guesses.stream().filter(solutionWords::contains).findFirst().orElse(guesses.get(0));
     if (scores.containsWord(guess)) {
       throw new IllegalStateException("With scores " + scores + ", guessed " + guess);
@@ -106,14 +109,14 @@ public class Wordle {
   }
 
   private static void solveAll() {
-    String starting = "raise";
+    int starting = Dictionary.encode("raise");
     Dictionary dict = Dictionary.create();
     int solutionCount = dict.solutionWords().size();
     long total = 0;
     int max = 0;
     int n = 0;
     long startTime = System.nanoTime();
-    for (String actual : dict.solutionWords()) {
+    for (int actual : dict.solutionWords()) {
       ScoreList initial = ScoreList.EMPTY.plus(starting, Score.of(starting, actual));
       ScoreList solved = solve(dict, actual, initial);
       System.out.println(solved);
@@ -122,16 +125,16 @@ public class Wordle {
       max = max(max, size);
       n++;
       long elapsed = System.nanoTime() - startTime;
-      double rate = (double) elapsed / 1e9 / n;
+      double rate = elapsed / 1e9 / n;
       double eta = rate * (solutionCount - n);
       System.out.printf("\nword %s (%d/%d) length %d average %.3f max %d elapsed %.1fs %.2fs per word ETA %ds\n\n",
           actual, n, solutionCount, solved.size(), (double) total / n, max, elapsed / 1e9, rate, (long) eta);
     }
   }
 
-  private static long solveAllStarting(Dictionary dict, String starting) {
+  private static long solveAllStarting(Dictionary dict, int starting) {
     long total = 0;
-    for (String actual : dict.solutionWords()) {
+    for (int actual : dict.solutionWords()) {
       ScoreList initial = ScoreList.EMPTY.plus(starting, Score.of(starting, actual));
       ScoreList solved = solve(dict, actual, initial);
       total += solved.size();
@@ -139,39 +142,41 @@ public class Wordle {
     return total;
   }
 
-  private record Result(String starting, long total) {}
+  private record Result(int starting, long total) {}
 
-  private static final Result SENTINEL_RESULT = new Result("", 0);
+  private static final Result SENTINEL_RESULT = new Result(0, 0);
 
   private static void parallelSolve(Dictionary dict)
       throws IOException, InterruptedException, ExecutionException {
     Path output = Paths.get(StandardSystemProperty.USER_HOME.value() + "/wordlestart.txt");
-    ImmutableSet<String> existing;
+    ImmutableSet<Integer> existing;
     if (Files.exists(output)) {
       existing =
           Files.lines(output)
               .map(s -> {
                 int space = s.indexOf(' ');
-                return s.substring(0, space);
+                return Dictionary.encode(s.substring(0, space));
               })
               .collect(toImmutableSet());
       if (!existing.isEmpty()) {
         System.out.printf(
-            "existing %s..%s\n", Iterables.getFirst(existing, "?"), Iterables.getLast(existing));
+            "existing %s..%s\n",
+            Dictionary.decode(Iterables.getFirst(existing, 0)),
+            Dictionary.decode(Iterables.getLast(existing)));
       }
     } else {
       existing = ImmutableSet.of();
     }
     int nThreads = 10;
-    ImmutableSet<String> startWords = dict.solutionWords(); // could also be dict.guessWords()
+    ImmutableSet<Integer> startWords = dict.solutionWords(); // could also be dict.guessWords()
     startWords = ImmutableSet.copyOf(Sets.difference(startWords, existing));
     int count = startWords.size();
-    BlockingQueue<String> wordsToSolve = new ArrayBlockingQueue<>(count);
+    BlockingQueue<Integer> wordsToSolve = new ArrayBlockingQueue<>(count);
     wordsToSolve.addAll(startWords);
     BlockingQueue<Result> results = new ArrayBlockingQueue<>(count + nThreads);
     ExecutorService executor = Executors.newFixedThreadPool(nThreads);
     Runnable task = () -> {
-      String word;
+      Integer word;
       while ((word = wordsToSolve.poll()) != null) {
         long total = solveAllStarting(dict, word);
         results.add(new Result(word, total));
@@ -193,7 +198,11 @@ public class Wordle {
         } else {
           done++;
           long elapsed = System.nanoTime() - startTime;
-          writer.printf("%s %d %ds %.1fs per\n", result.starting, result.total, elapsed / 1_000_000_000, elapsed / 1e9 / done);
+          writer.printf(
+              "%s %d %ds %.1fs per\n",
+              Dictionary.decode(result.starting),
+              result.total,
+              elapsed / 1_000_000_000, elapsed / 1e9 / done);
           writer.flush();
         }
       }
@@ -209,12 +218,12 @@ public class Wordle {
       parallelSolve(Dictionary.create());
       return;
     }
-    if (false) {
+    if (true) {
       solveAll();
       return;
     }
-    if (true) {
-      System.out.println(solve(Dictionary.create(), "panic"));
+    if (false) {
+      System.out.println(solve(Dictionary.create(), Dictionary.encode("panic")));
       return;
     }
     if (args.length % 2 == 1) {
@@ -225,15 +234,19 @@ public class Wordle {
     Dictionary dict = Dictionary.create();
     for (int i = 0; i < args.length; i += 2) {
       String guess = args[i];
-      if (!dict.guessWords().contains(guess)) {
+      checkArgument(guess.length() == 5);
+      int guessCode = Dictionary.encode(guess);
+      if (!dict.guessWords().contains(guessCode)) {
         System.err.printf("Guess %s is not in the dictionary\n", guess);
         System.exit(1);
       }
       Score score = Score.parse(args[i + 1]);
-      scores = scores.plus(guess, score);
+      scores = scores.plus(guessCode, score);
     }
     System.out.println("starting scores: " + scores);
     Wordle wordle = new Wordle(dict, scores);
-    System.out.printf("guesses: %s\n", wordle.guesses());
+    System.out.printf(
+        "guesses: %s\n",
+        wordle.guesses().stream().map(Dictionary::decode).collect(toImmutableList()));
   }
 }
