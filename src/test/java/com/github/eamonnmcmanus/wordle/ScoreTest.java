@@ -17,5 +17,9 @@ public class ScoreTest {
     expect.that(Score.of("natty", "tangy").toString()).isEqualTo("/+/-+");
     expect.that(Score.of("natty", "tanay").toString()).isEqualTo("/+/-+");
     expect.that(Score.of("natay", "tangy").toString()).isEqualTo("/+/-+");
+    expect.that(Score.of("natty", "tanny").toString()).isEqualTo("/+/-+");
+    expect.that(Score.of("natty", "tanty").toString()).isEqualTo("/+/++");
+    expect.that(Score.of("natty", "natyt").toString()).isEqualTo("+++//");
+    expect.that(Score.of("aahed", "drama").toString()).isEqualTo("//--/");
   }
 }

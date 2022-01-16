@@ -202,7 +202,7 @@ public class Wordle {
   }
 
   public static void main(String[] args) throws Exception {
-    if (true) {
+    if (false) {
       parallelSolve(Dictionary.create());
       return;
     }

@@ -1,14 +1,8 @@
 package com.github.eamonnmcmanus.wordle;
 
 import static com.google.common.base.Preconditions.checkArgument;
-import static com.google.common.collect.ImmutableList.toImmutableList;
-import static java.util.stream.Collectors.joining;
 
-import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.stream.IntStream;
 
 /**
  * @author Éamonn McManus
@@ -34,13 +28,10 @@ class Score {
     static final Colour[] values = values();
   }
 
-  private static ImmutableMap<Character, Colour> CHAR_TO_COLOUR =
+  private static final ImmutableMap<Character, Colour> CHAR_TO_COLOUR =
       ImmutableMap.of('-', Colour.GREY, '/', Colour.OCHRE, '+', Colour.GREEN);
 
   static final Score SOLVED = parse("+++++");
-
-  static final Score NOTHING = parse("-----");
-
 
   // bits 0 and 1 are the score for the first letter, 2 and 3 for the second, etc.
   private final int slots;
@@ -73,88 +64,49 @@ class Score {
     assert attempt.length() == 5;
     assert actual.length() == 5;
     assert Colour.GREY.ordinal() == 0;
-    int attemptBits = charBits(attempt);
-    int actualBits = charBits(actual);
-    if ((attemptBits & actualBits) == 0) {
-      return NOTHING;
-    }
+    // We encode each word in an int, 5 bits per letter, 'a' is 1. Then we knock one letter out of
+    // the encoded forms whenever we have a match, by overwriting the bits with 0.
+    // It would be even faster if we used these encoded forms everywhere instead of strings, but
+    // probably not enough faster to justify the resulting code illegibility.
     int slots = 0;
-    var attemptMap = map(attempt);
-    var actualMap = map(actual);
-    for (int i = 4; i >= 0; i--) {
-      int entry = attemptMap[i];
-      char c = (char) (entry >>> 16);
-      if ((actualBits & charBit(c)) != 0) {
-        int index = entry & 0xffff;
-        int actualIndex = indexOf(actualMap, c, index);
-        if (actualIndex >= 0) {
-          slots |= Colour.GREEN.ordinal() << (i * 2);
-          removeAt(attemptMap, i);
-          removeAt(actualMap, actualIndex);
-        }
+    int attemptCode = encode(attempt);
+    int actualCode = encode(actual);
+    for (int i = 0, shift = 0; i < 5; i++, shift += 5) {
+      int attemptC = (attemptCode >> shift) & 31;
+      int actualC = (actualCode >> shift) & 31;
+      if (attemptC == actualC) {
+        slots |= Colour.GREEN.ordinal() << (i * 2);
+        int mask = 31 << shift;
+        attemptCode &= ~mask;
+        actualCode &= ~mask;
       }
     }
-    int entry;
-    for (int i = 0; (entry = attemptMap[i]) != 0; i++) {
-      char c = (char) (entry >>> 16);
-      if ((actualBits & charBit(c)) != 0) {
-        int actualIndex = indexOf(actualMap, c);
-        if (actualIndex >= 0) {
-          int index = entry & 0xffff;
-          slots |= Colour.OCHRE.ordinal() << (index * 2);
-          removeAt(actualMap, actualIndex);
+    for (int attemptI = 0, attemptShift = 0;
+        attemptI < 5 && attemptCode != 0;
+        attemptI++, attemptShift += 5) {
+      int attemptC = (attemptCode >> attemptShift) & 31;
+      for (int actualI = 0, actualShift = 0;
+          actualI < 5;
+          actualI++, actualShift += 5) {
+        int actualC = (actualCode >> actualShift) & 31;
+        if (attemptC == actualC && attemptC != 0) {
+          slots |= Colour.OCHRE.ordinal() << (attemptI * 2);
+          attemptCode &= ~(31 << attemptShift);
+          actualCode &= ~(31 << actualShift);
+          break;
         }
       }
     }
     return new Score(slots);
   }
 
-  private static int charBit(char c) {
-    int shift = c - 'a';
-    return 1 << shift;
-  }
-
-  private static int charBits(String s) {
-    int bits = 0;
-    for (int i = 0; i < s.length(); i++) {
-      bits |= charBit(s.charAt(i));
+  private static int encode(String s) {
+    int code = 0;
+    for (int i = 0, shift = 0; i < 5; i++, shift += 5) {
+      int c = s.charAt(i) - 'a' + 1;
+      code |= c << shift;
     }
-    return bits;
-  }
-
-  private static int[] map(String s) {
-    int stop = s.length();
-    int[] positions = new int[stop + 1];
-    for (int i = 0; i < stop; i++) {
-      positions[i] = (s.charAt(i) << 16) | i;
-    }
-    positions[stop] = 0;
-    return positions;
-  }
-
-  private static void removeAt(int[] positions, int i) {
-    for (int j = i; positions[j] != 0; j++) {
-      positions[j] = positions[j + 1];
-    }
-  }
-
-  private static int indexOf(int[] positions, char c, int index) {
-    int code = (c << 16) | index;
-    for (int i = 0; positions[i] != 0; i++) {
-      if (positions[i] == code) {
-        return i;
-      }
-    }
-    return -1;
-  }
-
-  private static int indexOf(int[] positions, char c) {
-    for (int i = 0; positions[i] != 0; i++) {
-      if (positions[i] >>> 16 == c) {
-        return i;
-      }
-    }
-    return -1;
+    return code;
   }
 
   static Score parse(String s) {
