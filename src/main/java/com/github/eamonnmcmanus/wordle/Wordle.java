@@ -87,14 +87,17 @@ public class Wordle {
   }
 
   private static ScoreList solve(Dictionary dict, String actual) {
-    return solve(dict, actual, ScoreList.EMPTY);
+    return solve(dict, actual, ScoreList.EMPTY.plus("crate", Score.of("crate", actual)));
   }
 
   private static ScoreList solve(Dictionary dict, String actual, ScoreList scores) {
     if (scores.solved()) {
       return scores;
     }
-    String guess = new Wordle(dict, scores).guesses().get(0);
+    ImmutableList<String> guesses = new Wordle(dict, scores).guesses();
+    ImmutableSet<String> solutionWords = dict.solutionWords();
+    String guess =
+        guesses.stream().filter(solutionWords::contains).findFirst().orElse(guesses.get(0));
     if (scores.containsWord(guess)) {
       throw new IllegalStateException("With scores " + scores + ", guessed " + guess);
     }
@@ -206,7 +209,7 @@ public class Wordle {
       parallelSolve(Dictionary.create());
       return;
     }
-    if (true) {
+    if (false) {
       solveAll();
       return;
     }
