@@ -19,6 +19,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -31,54 +32,89 @@ import java.util.concurrent.Future;
  * @author Éamonn McManus
  */
 public class Wordle {
+  private static final ScoreFactory DEFAULT_SCORE_FACTORY = Score::of;
+
+  interface Guesser {
+    ImmutableList<Integer> guesses(Wordle wordle);
+  }
+
   private final Dictionary dict;
+  private final ScoreFactory scoreFactory;
   private final ScoreList scores;
   private final ImmutableSet<Integer> consistentWords;
 
-  Wordle(Dictionary dict, ScoreList scores) {
+  Wordle(Dictionary dict, ScoreFactory scoreFactory, ScoreList scores) {
     this.dict = dict;
+    this.scoreFactory = scoreFactory;
     this.scores = scores;
     this.consistentWords =
         dict.solutionWords().stream().filter(scores::consistentWith).collect(toImmutableSet());
   }
 
-  ImmutableList<Integer> guesses() {
+  static ImmutableList<Integer> knuthGuesses(Wordle wordle) {
     ArrayList<Integer> bestGuesses = new ArrayList<>();
     int bestMax = Integer.MAX_VALUE;
-    int bestCount = 0;
     boolean bestIsConsistent = false;
-    for (Integer guess : dict.guessWords()) {
+    for (Integer guess : wordle.dict.guessWords()) {
       Multiset<Score> scoreCounts = HashMultiset.create();
-      consistentWords.forEach(actual -> scoreCounts.add(Score.of(guess, actual)));
+      boolean guessIsConsistent = false;
+      for (int actual : wordle.consistentWords) {
+        scoreCounts.add(wordle.scoreFactory.score(guess, actual));
+        if (actual == guess) {
+          guessIsConsistent = true;
+        }
+      }
       int max = scoreCounts.entrySet().stream()
           .map(Multiset.Entry::getCount)
           .max(Integer::compare)
           .orElse(Integer.MAX_VALUE);
-      int count = scoreCounts.size();
-      if (max < bestMax || (max == bestMax && count > bestCount)) {
+      if (max < bestMax || (max == bestMax && (guessIsConsistent || !bestIsConsistent))) {
         if (false) {
-          System.out.printf("better: old best %s max %d count %d, new best %s max %d count %d\n",
-              bestGuesses, bestMax, bestCount, guess, max, count);
+          System.out.printf("better: old best %s max %d, new best %s max %d\n",
+              bestGuesses.stream().map(Dictionary::decode).toList(), bestMax, Dictionary.decode(guess), max);
         }
         bestGuesses.clear();
         bestGuesses.add(guess);
-        bestCount = count;
         bestMax = max;
-        bestIsConsistent = scores.consistentWith(guess);
-      } else if (max == bestMax) {
-        if (!bestIsConsistent && consistentWords.contains(guess)) {
-          if (false) {
-            System.out.printf("consistent: old best %s max %d count %d, new best %s max %d count %d\n",
-                bestGuesses, bestMax, bestCount, guess, max, count);
-          }
-          bestGuesses.clear();
-          bestGuesses.add(guess);
-          bestIsConsistent = true;
-        } else if (count == bestCount && bestGuesses.size() < 10) {
-          bestGuesses.add(guess);
-          if (false) {
-            System.out.printf("same: guesses now %s\n", bestGuesses);
-          }
+        bestIsConsistent = guessIsConsistent;
+      }
+    }
+    if (bestGuesses.isEmpty()) {
+      throw new IllegalStateException("could not find a compatible word");
+    }
+    return ImmutableList.copyOf(bestGuesses);
+  }
+
+  static ImmutableList<Integer> irvingGuesses(Wordle wordle) {
+    ArrayList<Integer> bestGuesses = new ArrayList<>();
+    int bestSquareSum = Integer.MAX_VALUE;
+    boolean bestIsConsistent = false;
+    for (Integer guess : wordle.dict.guessWords()) {
+      Multiset<Score> scoreCounts = HashMultiset.create();
+      boolean guessIsConsistent = false;
+      for (int actual : wordle.consistentWords) {
+        scoreCounts.add(wordle.scoreFactory.score(guess, actual));
+        if (actual == guess) {
+          guessIsConsistent = true;
+        }
+      }
+      int squareSum = scoreCounts.entrySet().stream()
+          .mapToInt(Multiset.Entry::getCount)
+          .map(x -> x * x)
+          .sum();
+      if (squareSum < bestSquareSum || (squareSum == bestSquareSum && guessIsConsistent && !bestIsConsistent)) {
+        if (false) {
+          System.out.printf("better: old best %s sqsum %d, new best %s sqsum %d\n",
+              bestGuesses.stream().map(Dictionary::decode).toList(), bestSquareSum, Dictionary.decode(guess), squareSum);
+        }
+        bestGuesses.clear();
+        bestGuesses.add(guess);
+        bestSquareSum = squareSum;
+        bestIsConsistent = guessIsConsistent;
+      } else if (squareSum == bestSquareSum && bestGuesses.size() < 10 && guessIsConsistent == bestIsConsistent) {
+        bestGuesses.add(guess);
+        if (false) {
+          System.out.printf("same: guesses now %s\n", bestGuesses.stream().map(Dictionary::decode).toList());
         }
       }
     }
@@ -88,55 +124,75 @@ public class Wordle {
     return ImmutableList.copyOf(bestGuesses);
   }
 
-  private static ScoreList solve(Dictionary dict, int actual) {
-    int startCode = Dictionary.encode("crate");
-    return solve(dict, actual, ScoreList.EMPTY.plus(startCode, Score.of(startCode, actual)));
+  private static ScoreList solve(Dictionary dict, ScoreFactory scoreFactory, Guesser guesser, int actual) {
+    int startCode = Dictionary.encode("trace");
+    return solve(dict, scoreFactory, guesser, actual, ScoreList.EMPTY.plus(startCode, scoreFactory.score(startCode, actual)));
   }
 
-  private static ScoreList solve(Dictionary dict, int actual, ScoreList scores) {
+  private static ScoreList solve(Dictionary dict, ScoreFactory scoreFactory, Guesser guesser, int actual, ScoreList scores) {
     if (scores.solved()) {
       return scores;
     }
-    ImmutableList<Integer> guesses = new Wordle(dict, scores).guesses();
-    ImmutableSet<Integer> solutionWords = dict.solutionWords();
-    Integer guess =
+    Wordle wordle = new Wordle(dict, scoreFactory, scores);
+    ImmutableList<Integer> guesses = guesser.guesses(wordle);
+    Integer guess;
+    if (false) {
+      ImmutableSet<Integer> solutionWords = dict.solutionWords();
+      guess =
         guesses.stream().filter(solutionWords::contains).findFirst().orElse(guesses.get(0));
+    } else {
+      guess = guesses.get(0);
+    }
     if (scores.containsWord(guess)) {
       throw new IllegalStateException("With scores " + scores + ", guessed " + guess);
     }
-    Score score = Score.of(guess, actual);
-    return solve(dict, actual, scores.plus(guess, score));
+    Score score = scoreFactory.score(guess, actual);
+    return solve(dict, scoreFactory, guesser, actual, scores.plus(guess, score));
   }
 
-  private static void solveAll() {
-    int starting = Dictionary.encode("raise");
+  private static void solveAll(Guesser guesser) {
+    int starting = Dictionary.encode("trace");
     Dictionary dict = Dictionary.create();
     int solutionCount = dict.solutionWords().size();
     long total = 0;
     int max = 0;
     int n = 0;
     long startTime = System.nanoTime();
+    List<Integer> pessimal = new ArrayList<>();
     for (int actual : dict.solutionWords()) {
       ScoreList initial = ScoreList.EMPTY.plus(starting, Score.of(starting, actual));
-      ScoreList solved = solve(dict, actual, initial);
+      ScoreList solved = solve(dict, DEFAULT_SCORE_FACTORY, guesser, actual, initial);
       System.out.println(solved);
       int size = solved.size();
+      if (size == 5) {
+        pessimal.add(actual);
+      }
       total += size;
       max = max(max, size);
       n++;
       long elapsed = System.nanoTime() - startTime;
       double rate = elapsed / 1e9 / n;
       double eta = rate * (solutionCount - n);
-      System.out.printf("\nword %s (%d/%d) length %d average %.3f max %d elapsed %.1fs %.2fs per word ETA %ds\n\n",
-          actual, n, solutionCount, solved.size(), (double) total / n, max, elapsed / 1e9, rate, (long) eta);
+      System.out.printf("\nword %s (%d/%d) length %d average %.3f total %d max %d elapsed %.1fs %.2fs per word ETA %ds\n\n",
+          Dictionary.decode(actual),
+          n,
+          solutionCount,
+          solved.size(),
+          (double) total / n,
+          total,
+          max,
+          elapsed / 1e9,
+          rate,
+          (long) eta);
     }
+    System.out.printf("worst cases: %s\n", pessimal.stream().map(Dictionary::decode).toList());
   }
 
-  private static long solveAllStarting(Dictionary dict, int starting) {
+  private static long solveAllStarting(Dictionary dict, ScoreFactory scoreFactory, Guesser guesser, int starting) {
     long total = 0;
     for (int actual : dict.solutionWords()) {
-      ScoreList initial = ScoreList.EMPTY.plus(starting, Score.of(starting, actual));
-      ScoreList solved = solve(dict, actual, initial);
+      ScoreList initial = ScoreList.EMPTY.plus(starting, scoreFactory.score(starting, actual));
+      ScoreList solved = solve(dict, scoreFactory, guesser, actual, initial);
       total += solved.size();
     }
     return total;
@@ -146,8 +202,9 @@ public class Wordle {
 
   private static final Result SENTINEL_RESULT = new Result(0, 0);
 
-  private static void parallelSolve(Dictionary dict)
+  private static void parallelSolve(Dictionary dict, Guesser guesser)
       throws IOException, InterruptedException, ExecutionException {
+    ScoreFactory scoreFactory = DEFAULT_SCORE_FACTORY; // new ScoreCache(dict);
     Path output = Paths.get(StandardSystemProperty.USER_HOME.value() + "/wordlestart.txt");
     ImmutableSet<Integer> existing;
     if (Files.exists(output)) {
@@ -168,8 +225,13 @@ public class Wordle {
       existing = ImmutableSet.of();
     }
     int nThreads = 10;
-    ImmutableSet<Integer> startWords = dict.solutionWords(); // could also be dict.guessWords()
+    ImmutableSet<Integer> startWords = dict.guessWords();
     startWords = ImmutableSet.copyOf(Sets.difference(startWords, existing));
+    if (true) {
+      List<Integer> reversed = new ArrayList<>(startWords);
+      Collections.reverse(reversed);
+      startWords = ImmutableSet.copyOf(reversed);
+    }
     int count = startWords.size();
     BlockingQueue<Integer> wordsToSolve = new ArrayBlockingQueue<>(count);
     wordsToSolve.addAll(startWords);
@@ -178,7 +240,7 @@ public class Wordle {
     Runnable task = () -> {
       Integer word;
       while ((word = wordsToSolve.poll()) != null) {
-        long total = solveAllStarting(dict, word);
+        long total = solveAllStarting(dict, scoreFactory, guesser, word);
         results.add(new Result(word, total));
       }
       results.add(SENTINEL_RESULT);
@@ -188,7 +250,8 @@ public class Wordle {
       futures.add(executor.submit(task));
     }
     long startTime = System.nanoTime();
-    try (PrintWriter writer = new PrintWriter(Files.newBufferedWriter(output, StandardOpenOption.APPEND))) {
+    try (PrintWriter writer =
+        new PrintWriter(Files.newBufferedWriter(output, StandardOpenOption.CREATE, StandardOpenOption.APPEND))) {
       int remainingThreads = nThreads;
       int done = 0;
       while (remainingThreads > 0) {
@@ -213,17 +276,53 @@ public class Wordle {
     executor.shutdown();
   }
 
+  static void compare() {
+    Guesser knuth = Wordle::knuthGuesses;
+    Guesser irving = Wordle::irvingGuesses;
+    Dictionary dict = Dictionary.create();
+    int knuthBetter = 0;
+    int knuthMuchBetter = 0;
+    int irvingBetter = 0;
+    int irvingMuchBetter = 0;
+    for (int actual : dict.solutionWords()) {
+      ScoreList knuthList = solve(dict, DEFAULT_SCORE_FACTORY, knuth, actual);
+      ScoreList irvingList = solve(dict, DEFAULT_SCORE_FACTORY, irving, actual);
+      int cmp = irvingList.size() - knuthList.size();
+      if (cmp != 0) {
+        System.out.printf("For %s:\n  knuth  %s\n  irving %s\n\n", Dictionary.decode(actual), knuthList, irvingList);
+        if (cmp < 0) {
+          irvingBetter++;
+          if (cmp < -1) {
+            irvingMuchBetter++;
+          }
+        } else {
+          knuthBetter++;
+          if (cmp > 1) {
+            knuthMuchBetter++;
+          }
+        }
+      }
+    }
+    System.out.printf("Of %d words, irving better %d much better %d, knuth better %d much better %d\n",
+        dict.solutionWords().size(), irvingBetter, irvingMuchBetter, knuthBetter, knuthMuchBetter);
+  }
+
   public static void main(String[] args) throws Exception {
+    Guesser guesser = Wordle::irvingGuesses;
     if (false) {
-      parallelSolve(Dictionary.create());
+      parallelSolve(Dictionary.create(), guesser);
+      return;
+    }
+    if (false) {
+      solveAll(guesser);
+      return;
+    }
+    if (false) {
+      System.out.println(solve(Dictionary.create(), DEFAULT_SCORE_FACTORY, guesser, Dictionary.encode("rodeo")));
       return;
     }
     if (true) {
-      solveAll();
-      return;
-    }
-    if (false) {
-      System.out.println(solve(Dictionary.create(), Dictionary.encode("panic")));
+      compare();
       return;
     }
     if (args.length % 2 == 1) {
@@ -244,9 +343,14 @@ public class Wordle {
       scores = scores.plus(guessCode, score);
     }
     System.out.println("starting scores: " + scores);
-    Wordle wordle = new Wordle(dict, scores);
+    ImmutableSet<Integer> possible = scores.possible(dict);
+    System.out.printf("%d possible solution%s %s\n", possible.size(), possible.size() == 1 ? "" : "s",
+        possible.size() < 20 ? possible.stream().map(Dictionary::decode).toList() : "");
+    Wordle wordle = new Wordle(dict, DEFAULT_SCORE_FACTORY, scores);
     System.out.printf(
         "guesses: %s\n",
-        wordle.guesses().stream().map(Dictionary::decode).collect(toImmutableList()));
+        guesser.guesses(wordle).stream()
+            .map(i -> Dictionary.decode(i) + (dict.solutionWords().contains(i) ? "*" : ""))
+            .collect(toImmutableList()));
   }
 }

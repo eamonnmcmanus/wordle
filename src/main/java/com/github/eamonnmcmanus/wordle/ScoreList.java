@@ -78,6 +78,6 @@ abstract class ScoreList {
   abstract boolean containsWord(int word);
 
   ImmutableSet<Integer> possible(Dictionary dict) {
-    return dict.guessWords().stream().filter(this::consistentWith).collect(toImmutableSet());
+    return dict.solutionWords().stream().filter(this::consistentWith).collect(toImmutableSet());
   }
 }
