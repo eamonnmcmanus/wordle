@@ -60,6 +60,51 @@ class Score {
     return new String(chars);
   }
 
+  int matches() {
+    int count = 0;
+    for (int i = 0; i < 5; i++) {
+      int code = (slots >> (i * 2)) & 3;
+      if (code > 0) {
+        count++;
+      }
+    }
+    return count;
+  }
+
+  int exactMatches() {
+    int count = 0;
+    for (int i = 0; i < 5; i++) {
+      int code = (slots >> (i * 2)) & 3;
+      if (code == Colour.GREEN.ordinal()) {
+        count++;
+      }
+    }
+    return count;
+  }
+
+  // TODO: apply techniques from Knuth 4A (p152) here.
+  int greenMask() {
+    int mask = 0;
+    for (int i = 0; i < 5; i++) {
+      int code = (slots >> (i * 2)) & 3;
+      if (code == Colour.GREEN.ordinal()) {
+        mask |= 31 << (i * 5);
+      }
+    }
+    return mask;
+  }
+
+  int ochreMask() {
+    int mask = 0;
+    for (int i = 0; i < 5; i++) {
+      int code = (slots >> (i * 2)) & 3;
+      if (code == Colour.OCHRE.ordinal()) {
+        mask |= 31 << (i * 5);
+      }
+    }
+    return mask;
+  }
+
   static Score of(String attempt, String actual) {
     assert attempt.length() == 5;
     assert actual.length() == 5;

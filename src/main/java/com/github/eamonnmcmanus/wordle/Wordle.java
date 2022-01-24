@@ -20,6 +20,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -34,28 +35,32 @@ import java.util.concurrent.Future;
 public class Wordle {
   private static final ScoreFactory DEFAULT_SCORE_FACTORY = Score::of;
 
+  enum Mode {NORMAL, HARD}
+
+  private static final Mode DEFAULT_MODE = Mode.HARD;
+
   interface Guesser {
     ImmutableList<Integer> guesses(Wordle wordle);
   }
 
-  private final Dictionary dict;
   private final ScoreFactory scoreFactory;
-  private final ScoreList scores;
   private final ImmutableSet<Integer> consistentWords;
+  private final ImmutableSet<Integer> allowedGuesses;
 
-  Wordle(Dictionary dict, ScoreFactory scoreFactory, ScoreList scores) {
-    this.dict = dict;
+  Wordle(Dictionary dict, ScoreFactory scoreFactory, ScoreList scores, Mode mode) {
     this.scoreFactory = scoreFactory;
-    this.scores = scores;
     this.consistentWords =
         dict.solutionWords().stream().filter(scores::consistentWith).collect(toImmutableSet());
+    this.allowedGuesses = (mode == Mode.HARD)
+        ? dict.guessWords().stream().filter(scores::allowedInHardMode).collect(toImmutableSet())
+        : dict.guessWords();
   }
 
   static ImmutableList<Integer> knuthGuesses(Wordle wordle) {
     ArrayList<Integer> bestGuesses = new ArrayList<>();
     int bestMax = Integer.MAX_VALUE;
     boolean bestIsConsistent = false;
-    for (Integer guess : wordle.dict.guessWords()) {
+    for (Integer guess : wordle.allowedGuesses) {
       Multiset<Score> scoreCounts = HashMultiset.create();
       boolean guessIsConsistent = false;
       for (int actual : wordle.consistentWords) {
@@ -89,7 +94,7 @@ public class Wordle {
     ArrayList<Integer> bestGuesses = new ArrayList<>();
     int bestSquareSum = Integer.MAX_VALUE;
     boolean bestIsConsistent = false;
-    for (Integer guess : wordle.dict.guessWords()) {
+    for (Integer guess : wordle.allowedGuesses) {
       Multiset<Score> scoreCounts = HashMultiset.create();
       boolean guessIsConsistent = false;
       for (int actual : wordle.consistentWords) {
@@ -128,7 +133,7 @@ public class Wordle {
     ArrayList<Integer> bestGuesses = new ArrayList<>();
     double bestEntropy = Double.NEGATIVE_INFINITY;
     boolean bestIsConsistent = false;
-    for (Integer guess : wordle.dict.guessWords()) {
+    for (Integer guess : wordle.allowedGuesses) {
       Multiset<Score> scoreCounts = HashMultiset.create();
       boolean guessIsConsistent = false;
       for (int actual : wordle.consistentWords) {
@@ -179,7 +184,7 @@ public class Wordle {
     if (scores.solved()) {
       return scores;
     }
-    Wordle wordle = new Wordle(dict, scoreFactory, scores);
+    Wordle wordle = new Wordle(dict, scoreFactory, scores, DEFAULT_MODE);
     ImmutableList<Integer> guesses = guesser.guesses(wordle);
     Integer guess;
     if (false) {
@@ -197,7 +202,7 @@ public class Wordle {
   }
 
   private static void solveAll(Guesser guesser) {
-    int starting = Dictionary.encode("raise");
+    int starting = Dictionary.encode("leant");
     Dictionary dict = Dictionary.create();
     int solutionCount = dict.solutionWords().size();
     long total = 0;
@@ -211,7 +216,7 @@ public class Wordle {
       ScoreList solved = solve(dict, DEFAULT_SCORE_FACTORY, guesser, actual, initial);
       System.out.println(solved);
       int size = solved.size();
-      if (size == 5) {
+      if (size >= 5) {
         pessimal.add(actual);
       }
       if (size <= 2) {
@@ -239,19 +244,24 @@ public class Wordle {
     System.out.printf("best cases (%d): %s\n", optimal.size(), optimal.stream().map(Dictionary::decode).toList());
   }
 
-  private static long solveAllStarting(Dictionary dict, ScoreFactory scoreFactory, Guesser guesser, int starting) {
+  record TotalAndMax(long total, int max) {}
+
+  private static TotalAndMax solveAllStarting(Dictionary dict, ScoreFactory scoreFactory, Guesser guesser, int starting) {
     long total = 0;
+    int max = 0;
     for (int actual : dict.solutionWords()) {
       ScoreList initial = ScoreList.EMPTY.plus(starting, scoreFactory.score(starting, actual));
       ScoreList solved = solve(dict, scoreFactory, guesser, actual, initial);
-      total += solved.size();
+      int size = solved.size();
+      max = Math.max(max, size);
+      total += size;
     }
-    return total;
+    return new TotalAndMax(total, max);
   }
 
-  private record Result(int starting, long total) {}
+  private record Result(int starting, TotalAndMax totalAndMax) {}
 
-  private static final Result SENTINEL_RESULT = new Result(0, 0);
+  private static final Result SENTINEL_RESULT = new Result(0, new TotalAndMax(0, 0));
 
   // Try every possible solution against every possible starting word. This takes days.
   private static void parallelSolve(Dictionary dict, Guesser guesser)
@@ -292,8 +302,8 @@ public class Wordle {
     Runnable task = () -> {
       Integer word;
       while ((word = wordsToSolve.poll()) != null) {
-        long total = solveAllStarting(dict, scoreFactory, guesser, word);
-        results.add(new Result(word, total));
+        TotalAndMax totalAndMax = solveAllStarting(dict, scoreFactory, guesser, word);
+        results.add(new Result(word, totalAndMax));
       }
       results.add(SENTINEL_RESULT);
     };
@@ -314,9 +324,10 @@ public class Wordle {
           done++;
           long elapsed = System.nanoTime() - startTime;
           writer.printf(
-              "%s %d %ds %.1fs per\n",
+              "%s %d %d %ds %.1fs per\n",
               Dictionary.decode(result.starting),
-              result.total,
+              result.totalAndMax.total,
+              result.totalAndMax.max,
               elapsed / 1_000_000_000, elapsed / 1e9 / done);
           writer.flush();
         }
@@ -359,9 +370,53 @@ public class Wordle {
         dict.solutionWords().size(), irvingBetter, irvingMuchBetter, knuthBetter, knuthMuchBetter);
   }
 
+  record Match(int matches, int exactMatches) {
+    static Match of(Score score) {
+      return new Match(score.matches(), score.exactMatches());
+    }
+
+    Match plus(Match that) {
+      return new Match(this.matches + that.matches, this.exactMatches + that.exactMatches);
+    }
+  }
+
+  // What's the initial guess that gets the most hits on average? Meaning, the most letters that are
+  // at least ochre and ideally green.
+  static void bestHumanGuess() {
+    Comparator<Match> comparator = Comparator.<Match>comparingInt(m -> m.matches).thenComparingInt(m -> m.exactMatches);
+    Dictionary dict = Dictionary.create();
+    Match best = new Match(0, 0);
+    List<String> bestWords = new ArrayList<>();
+    for (int guess : dict.guessWords()) {
+      Match total = new Match(0, 0);
+      for (int actual : dict.solutionWords()) {
+        total = total.plus(Match.of(Score.of(guess, actual)));
+      }
+      int cmp = comparator.compare(total, best);
+      if (cmp >= 0) {
+        if (cmp > 0) {
+          bestWords.clear();
+          best = total;
+        }
+        bestWords.add(Dictionary.decode(guess));
+      }
+    }
+    System.out.printf("best words %s with score %s\n", bestWords, best);
+  }
+
+  static void hardSolve(String actual) {
+    Dictionary dict = Dictionary.create();
+    String initial = "leant";
+    ScoreList initialScore = ScoreList.EMPTY.plus(initial, Score.of(initial, actual));
+    ImmutableList<Integer> consistentSolutions =
+        dict.solutionWords().stream().filter(initialScore::consistentWith).collect(toImmutableList());
+    ImmutableList<Integer> consistentGuesses =
+        dict.guessWords().stream().filter(initialScore::consistentWith).collect(toImmutableList());
+  }
+
   public static void main(String[] args) throws Exception {
     Guesser guesser = Wordle::neuwirthGuesses;
-    if (false) {
+    if (true) {
       parallelSolve(Dictionary.create(), guesser);
       return;
     }
@@ -369,12 +424,16 @@ public class Wordle {
       solveAll(guesser);
       return;
     }
-    if (true) {
+    if (false) {
       System.out.println(solve(Dictionary.create(), DEFAULT_SCORE_FACTORY, guesser, Dictionary.encode("panic")));
       return;
     }
     if (false) {
       compare();
+      return;
+    }
+    if (false) {
+      bestHumanGuess();
       return;
     }
     if (args.length % 2 == 1) {
@@ -398,7 +457,7 @@ public class Wordle {
     ImmutableSet<Integer> possible = scores.possible(dict);
     System.out.printf("%d possible solution%s %s\n", possible.size(), possible.size() == 1 ? "" : "s",
         possible.size() < 20 ? possible.stream().map(Dictionary::decode).toList() : "");
-    Wordle wordle = new Wordle(dict, DEFAULT_SCORE_FACTORY, scores);
+    Wordle wordle = new Wordle(dict, DEFAULT_SCORE_FACTORY, scores, DEFAULT_MODE);
     System.out.printf(
         "guesses: %s\n",
         guesser.guesses(wordle).stream()

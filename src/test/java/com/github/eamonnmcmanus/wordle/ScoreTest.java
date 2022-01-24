@@ -34,6 +34,22 @@ public class ScoreTest {
     expect.that(Score.of("aahed", "drama").toString()).isEqualTo("//--/");
   }
 
+  @Test
+  public void greenMask() {
+    expect.that(Score.of("atone", "atone").greenMask()).isEqualTo(31 | (31 << 5) | (31 << 10) | (31 << 15) | (31 << 20));
+    expect.that(Score.of("atone", "enota").greenMask()).isEqualTo(31 << 10);
+    expect.that(Score.of("atone", "eaton").greenMask()).isEqualTo(0);
+    expect.that(Score.of("natty", "tangy").greenMask()).isEqualTo((31 << 5) | (31 << 20));
+  }
+
+  @Test
+  public void ochreMask() {
+    expect.that(Score.of("atone", "atone").ochreMask()).isEqualTo(0);
+    expect.that(Score.of("atone", "enota").ochreMask()).isEqualTo(31 | (31 << 5) | (31 << 15) | (31 << 20));
+    expect.that(Score.of("atone", "eaton").ochreMask()).isEqualTo(31 | (31 << 5) | (31 << 10) | (31 << 15) | (31 << 20));
+    expect.that(Score.of("natty", "tangy").ochreMask()).isEqualTo(31 | (31 << 10));
+  }
+
   // Experiments for a blog post
   @Test @Ignore
   public void credo() {

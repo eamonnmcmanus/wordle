@@ -34,6 +34,15 @@ public class ScoreListTest {
   }
 
   @Test
+  public void allowedInHardMode() {
+    ScoreList scores = ScoreList.EMPTY
+        .plus(SPRIG_CODE, Score.of(SPRIG_CODE, SHIRT_CODE))
+        .plus(SHIRE_CODE, Score.of(SHIRE_CODE, SHIRT_CODE));
+    assertThat(scores.allowedInHardMode(SHIRT_CODE)).isTrue();
+    assertThat(scores.allowedInHardMode(SPRIG_CODE)).isFalse();
+  }
+
+  @Test
   public void possibleBug() {
     ScoreList scores = ScoreList.EMPTY
         .plus(TRACE_CODE, Score.of(TRACE_CODE, SHIRE_CODE))
