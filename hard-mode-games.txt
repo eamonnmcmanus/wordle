@@ -1,0 +1,2320 @@
+ plaid:+++++
+ plaid:++++- plain:+++++
+ plaid:++++- plain:++++- plait:+++++
+ plaid:+++-- plane:+++++
+ plaid:+++-- plane:++++- plank:+++++
+ plaid:+++-- plane:++++- plank:++++- plant:+++++
+ plaid:+++-- plane:+++-+ place:+++++
+ plaid:+++-- plane:+++-+ place:+++-+ plate:+++++
+ plaid:+++-- plane:+++-- plaza:+++++
+ plaid:++--- plebs:++--- pluck:+++++
+ plaid:++--- plebs:++--- pluck:+++-+ plunk:+++++
+ plaid:++--- plebs:++--- pluck:+++-- plump:+++++
+ plaid:++--- plebs:++--/ plush:+++++
+ plaid:++--- plebs:++-/- plumb:+++++
+ plaid:++--- plebs:++/-- plume:+++++
+ plaid:++-/+ plied:+++++
+ plaid:++-/- plier:+++++
+ plaid:++/-+ plead:+++++
+ plaid:++/-- pleat:+++++
+ plaid:+-+-- phang:+++-- phase:+++++
+ plaid:+-+-- phang:+-++- prank:+++++
+ plaid:+-+-- phang:+-+-- peace:+++++
+ plaid:+-+-- phang:+-+/- prawn:+++++
+ plaid:+-+-- phang:+/+-- peach:+++++
+ plaid:+-+/- piano:+++++
+ plaid:+--+- pedis:+--+- pubic:+++++
+ plaid:+--+- pedis:+--+/ posit:+++++
+ plaid:+--+- pedis:+/-+- pixie:+++++
+ plaid:+---+ pound:+++++
+ plaid:+---+ pound:+//-+ proud:+++++
+ plaid:+---- prone:+++++
+ plaid:+---- prone:++++- prong:+++++
+ plaid:+---- prone:+++-+ probe:+++++
+ plaid:+---- prone:+++-+ probe:+++-+ prose:+++++
+ plaid:+---- prone:+++-+ probe:+++-+ prose:+++-+ prove:+++++
+ plaid:+---- prone:+++-- proof:+++++
+ plaid:+---- prone:+++-- proof:+++-- proxy:+++++
+ plaid:+---- prone:++-++ prune:+++++
+ plaid:+---- prone:++--/ press:+++++
+ plaid:+---- prone:++-// preen:+++++
+ plaid:+---- prone:+-+++ phone:+++++
+ plaid:+---- prone:+-++- phony:+++++
+ plaid:+---- prone:+-+-- photo:+++++
+ plaid:+---- prone:+-+-- photo:+/+-/ pooch:+++++
+ plaid:+---- prone:+--++ penne:+++++
+ plaid:+---- prone:+--+/ penny:+++++
+ plaid:+---- prone:+---- patus:+-+/- putty:+++++
+ plaid:+---- prone:+---- patus:+---- pygmy:+++++
+ plaid:+---- prone:+---- patus:+--/- puffy:+++++
+ plaid:+---- prone:+---- patus:+--/- puffy:++--+ puppy:+++++
+ plaid:+---- prone:+---- patus:+--// pushy:+++++
+ plaid:+---- prone:+---/ pesky:+++++
+ plaid:+---- prone:+---/ pesky:++--+ petty:+++++
+ plaid:+---- prone:+--/+ pence:+++++
+ plaid:+---- prone:+--/- punch:+++++
+ plaid:+---- prone:+-/-+ posse:+++++
+ plaid:+---- prone:+-/-- poppy:+++++
+ plaid:+---- prone:+-/-- poppy:++--+ pouty:+++++
+ plaid:+---- prone:+-/-- poppy:++--- pouch:+++++
+ plaid:+---- prone:+-/-/ pesto:+++++
+ plaid:+---- prone:+-/-/ pesto:+//-/ poesy:+++++
+ plaid:+---- prone:+/--+ perse:+-+++ purse:+++++
+ plaid:+---- prone:+/--+ perse:+-+-+ purge:+++++
+ plaid:+---- prone:+/--+ perse:+/+-+ puree:+++++
+ plaid:+---- prone:+/--/ perch:+++++
+ plaid:+---- prone:+/--/ perch:+++-- perky:+++++
+ plaid:+---- prone:+/--/ perch:+/+-- purer:+++++
+ plaid:+---- prone:+//-- porch:+++++
+ plaid:+---- prone:+//-/ poker:+++++
+ plaid:+---- prone:+//-/ poker:++-++ poser:+++++
+ plaid:+---- prone:+//-/ poker:++-++ poser:++-++ power:+++++
+ plaid:+---/ prude:+++++
+ plaid:+---/ prude:+-//- pudgy:+++++
+ plaid:+--/+ pried:+++++
+ plaid:+--/- piety:+++++
+ plaid:+--/- piety:+++-- piece:+++++
+ plaid:+--/- piety:++-+- pinto:+++++
+ plaid:+--/- piety:++--+ picky:+++++
+ plaid:+--/- piety:++--+ picky:++-++ pinky:+++++
+ plaid:+--/- piety:++--+ picky:++--+ piggy:+++++
+ plaid:+--/- piety:++--- pinch:+++++
+ plaid:+--/- piety:++-/+ pithy:+++++
+ plaid:+--/- piety:++-/- pitch:+++++
+ plaid:+--/- piety:++-/- pitch:++/-- pivot:+++++
+ plaid:+--/- piety:++/-+ piney:+++++
+ plaid:+--/- piety:++/-- piper:+++++
+ plaid:+--/- piety:++/-- piper:++-/- pique:+++++
+ plaid:+--/- piety:+/--+ privy:+++++
+ plaid:+--/- piety:+/--- primo:+++++
+ plaid:+--/- piety:+/--- primo:+++-- prick:+++++
+ plaid:+--/- piety:+/--- primo:+++-/ prior:+++++
+ plaid:+--/- piety:+/--- primo:+++/- prism:+++++
+ plaid:+--/- piety:+/-/- point:+++++
+ plaid:+--/- piety:+/-/- point:+-+++ print:+++++
+ plaid:+--/- piety:+//-- price:+++++
+ plaid:+--/- piety:+//-- price:+++-+ prime:+++++
+ plaid:+--/- piety:+//-- price:+++-+ prime:+++-+ prize:+++++
+ plaid:+--/- piety:+//-- price:+-+-+ poise:+++++
+ plaid:+--// pride:+++++
+ plaid:+-/+- panic:+++++
+ plaid:+-/+- panic:++-+- patio:+++++
+ plaid:+-/-- party:+++++
+ plaid:+-/-- party:+++-+ parry:+++++
+ plaid:+-/-- party:+++-- parer:+++++
+ plaid:+-/-- party:+++-- parer:+++-- parka:+++++
+ plaid:+-/-- party:+++-- parer:+++/- parse:+++++
+ plaid:+-/-- party:++-++ pasty:+++++
+ plaid:+-/-- party:++-++ pasty:++-++ patty:+++++
+ plaid:+-/-- party:++-+- pasta:+++++
+ plaid:+-/-- party:++-+- pasta:++++- paste:+++++
+ plaid:+-/-- party:++--+ pansy:+++++
+ plaid:+-/-- party:++--- pagan:+++++
+ plaid:+-/-- party:++--- pagan:++--- pause:+++++
+ plaid:+-/-- party:++--/ payee:+++++
+ plaid:+-/-- party:++-/+ patsy:+++++
+ plaid:+-/-- party:++-/- patch:+++++
+ plaid:+-/-- party:++/-- paper:+++++
+ plaid:+-/-- party:++/-/ payer:+++++
+ plaid:+-/-- party:+/--- pecan:+++++
+ plaid:+-/-/ paddy:+++++
+ plaid:+-//- paint:+++++
+ plaid:+-//- paint:+//-- pizza:+++++
+ plaid:+/+-- pearl:+++++
+ plaid:+/+-- pearl:+-+-/ psalm:+++++
+ plaid:+/-+- peril:+++++
+ plaid:+/-+- peril:+--++ pupil:+++++
+ plaid:+/--- polyp:+++++
+ plaid:+/--- polyp:+-+-- pulse:+++++
+ plaid:+/--- polyp:+-+// pulpy:+++++
+ plaid:+/--- polyp:+//-- prowl:+++++
+ plaid:+/-/- pilot:+++++
+ plaid:+/-/- pilot:++/-- pixel:+++++
+ plaid:+//-- paler:+++++
+ plaid:+//-- paler:+++-- palsy:+++++
+ plaid:+//-- paler:++/+- panel:+++++
+ plaid:+//-- paler:++/-- papal:+++++
+ plaid:+//-- paler:+/+-+ polar:+++++
+ plaid:+//-- paler:+/+-- polka:+++++
+ plaid:+//-- paler:+//-- pupal:+++++
+ plaid:+//-- paler:+///- penal:+++++
+ plaid:+//-- paler:+///- penal:++-++ petal:+++++
+ plaid:+//-/ pedal:+++++
+ plaid:-+++- flail:+++++
+ plaid:-+++- flail:++++- flair:+++++
+ plaid:-+++- flail:-+++- claim:+++++
+ plaid:-+++- flail:-+++- claim:-+++- slain:+++++
+ plaid:-++-+ bland:+++++
+ plaid:-++-+ bland:-++++ gland:+++++
+ plaid:-++-- slake:+++-+ slate:+++++
+ plaid:-++-- slake:+++-+ slate:+++-+ slave:+++++
+ plaid:-++-- slake:+++-- slang:+++++
+ plaid:-++-- slake:+++-- slang:++++- slant:+++++
+ plaid:-++-- slake:+++-- slang:+++-- slash:+++++
+ plaid:-++-- slake:+++/- slack:+++++
+ plaid:-++-- slake:-++++ flake:+++++
+ plaid:-++-- slake:-+++- flaky:+++++
+ plaid:-++-- slake:-++-+ blare:+++++
+ plaid:-++-- slake:-++-+ blare:+++-+ blame:+++++
+ plaid:-++-- slake:-++-+ blare:+++-+ blame:+++-+ blaze:+++++
+ plaid:-++-- slake:-++-+ blare:-++++ flare:+++++
+ plaid:-++-- slake:-++-+ blare:-++++ flare:-++++ glare:+++++
+ plaid:-++-- slake:-++-+ blare:-++-+ elate:+++++
+ plaid:-++-- slake:-++-+ blare:-++-+ elate:-++-+ flame:+++++
+ plaid:-++-- slake:-++-+ blare:-++-+ elate:-++-+ flame:-++-+ glaze:+++++
+ plaid:-++-- slake:-++-- alarm:+++++
+ plaid:-++-- slake:-++-- alarm:-++-- clang:+++++
+ plaid:-++-- slake:-++-- alarm:/++-/ llama:+++++
+ plaid:-++-- slake:-++/- black:+++++
+ plaid:-++-- slake:-++/- black:+++-+ blank:+++++
+ plaid:-++-- slake:-++/- black:-++++ clack:+++++
+ plaid:-++-- slake:-++/- black:-++++ clack:-++++ flack:+++++
+ plaid:-++-- slake:-++/- black:-++-+ flank:+++++
+ plaid:-++-- slake:-++/- black:-++/+ clank:+++++
+ plaid:-++-- slake:/++-- clats:+++-+ class:+++++
+ plaid:-++-- slake:/++-- clats:+++-/ clash:+++++
+ plaid:-++-- slake:/++-- clats:-++-+ glass:+++++
+ plaid:-++-- slake:/++-- clats:-++-/ flash:+++++
+ plaid:-++-- slake:/++-- clats:-++// blast:+++++
+ plaid:-++-- slake:/++/- flask:+++++
+ plaid:-++-/ blade:+++++
+ plaid:-++-/ blade:-++++ glade:+++++
+ plaid:-+-++ fluid:+++++
+ plaid:-+-+- elfin:+++++
+ plaid:-+--+ blend:+++++
+ plaid:-+--+ blend:+++-+ bleed:+++++
+ plaid:-+--+ blend:++-++ blond:+++++
+ plaid:-+--+ blend:++--+ blood:+++++
+ plaid:-+--+ blend:-+--+ cloud:+++++
+ plaid:-+--+ blend:-+--+ cloud:-++-+ flood:+++++
+ plaid:-+--+ blend:-+/-+ clued:+++++
+ plaid:-+--- clues:+++-- cluck:+++++
+ plaid:-+--- clues:+++-- cluck:+++-- clung:+++++
+ plaid:-+--- clues:++--- clach:++-+- clock:+++++
+ plaid:-+--- clues:++--- clach:++--+ cloth:+++++
+ plaid:-+--- clues:++--- clach:++--- clown:+++++
+ plaid:-+--- clues:++-/- cleft:+++++
+ plaid:-+--- clues:++-/- cleft:+++-- clerk:+++++
+ plaid:-+--- clues:++-/- cleft:++/-- clone:+++++
+ plaid:-+--- clues:++-/- cleft:++/-- clone:+++-+ clove:+++++
+ plaid:-+--- clues:++-// close:+++++
+ plaid:-+--- clues:++/-- clout:+++++
+ plaid:-+--- clues:-+++- bluer:+++++
+ plaid:-+--- clues:-++-- flung:+++++
+ plaid:-+--- clues:-++-- flung:++++- flunk:+++++
+ plaid:-+--- clues:-++-- flung:+++-- fluff:+++++
+ plaid:-+--- clues:-++-- flung:-+++- blunt:+++++
+ plaid:-+--- clues:-++-- flung:-++-- blurb:+++++
+ plaid:-+--- clues:-++-- flung:-++-- blurb:++++- blurt:+++++
+ plaid:-+--- clues:-++-- flung:/++-- bluff:+++++
+ plaid:-+--- clues:-++-/ slung:+++++
+ plaid:-+--- clues:-++-/ slung:++++- slunk:+++++
+ plaid:-+--- clues:-++-/ slung:+++-- slush:+++++
+ plaid:-+--- clues:-++-/ slung:/++-- blush:+++++
+ plaid:-+--- clues:-++-/ slung:/++-- blush:-++++ flush:+++++
+ plaid:-+--- clues:-++/- fluke:+++++
+ plaid:-+--- clues:-++/- fluke:+++-+ flume:+++++
+ plaid:-+--- clues:-++/- fluke:+++-+ flume:+++-+ flute:+++++
+ plaid:-+--- clues:-+-+- fleet:+++++
+ plaid:-+--- clues:-+-+- fleet:++-+- flyer:+++++
+ plaid:-+--- clues:-+-+/ sleek:+++++
+ plaid:-+--- clues:-+-+/ sleek:++++- sleet:+++++
+ plaid:-+--- clues:-+--+ floss:+++++
+ plaid:-+--- clues:-+--+ floss:-++++ gloss:+++++
+ plaid:-+--- clues:-+--- bloom:+++++
+ plaid:-+--- clues:-+--- bloom:+++-- blown:+++++
+ plaid:-+--- clues:-+--- bloom:-++++ gloom:+++++
+ plaid:-+--- clues:-+--- bloom:-+++- floor:+++++
+ plaid:-+--- clues:-+--- bloom:-++-- flown:+++++
+ plaid:-+--- clues:-+--- bloom:-++-- flown:-++-- glory:+++++
+ plaid:-+--- clues:-+--/ slosh:+++++
+ plaid:-+--- clues:-+--/ slosh:+++-+ sloth:+++++
+ plaid:-+--- clues:-+--/ slosh:++--- slyly:+++++
+ plaid:-+--- clues:-+-/+ bless:+++++
+ plaid:-+--- clues:-+-/- bloke:+++++
+ plaid:-+--- clues:-+-/- bloke:-++-+ glove:+++++
+ plaid:-+--- clues:-+-/- bloke:-+--/ elegy:+++++
+ plaid:-+--- clues:-+-/- bloke:/++-+ globe:+++++
+ plaid:-+--- clues:-+-/- bloke:/+/-/ elbow:+++++
+ plaid:-+--- clues:-+-// flesh:+++++
+ plaid:-+--- clues:-+/-- flour:+++++
+ plaid:-+--- clues:-+/-- flour:++++- flout:+++++
+ plaid:-+--- clues:/+--- block:+++++
+ plaid:-+--- clues:/+--- block:-++++ flock:+++++
+ plaid:-+--- clues:/+-/- elect:+++++
+ plaid:-+--- clues:/+-/- elect:-+++- fleck:+++++
+ plaid:-+--- clues:/+/+- ulcer:+++++
+ plaid:-+--/ elder:+++++
+ plaid:-+--/ elder:++//- elude:+++++
+ plaid:-+--/ elder:-++++ older:+++++
+ plaid:-+--/ elder:-+++- olden:+++++
+ plaid:-+-/+ blind:+++++
+ plaid:-+-/- clint:++++- cling:+++++
+ plaid:-+-/- clint:++++- cling:++++- clink:+++++
+ plaid:-+-/- clint:+++-- click:+++++
+ plaid:-+-/- clint:+++-- click:+++-- cliff:+++++
+ plaid:-+-/- clint:+++-- click:+++-- cliff:+++-- climb:+++++
+ plaid:-+-/- clint:-++++ flint:+++++
+ plaid:-+-/- clint:-++++ flint:-++++ glint:+++++
+ plaid:-+-/- clint:-+++- sling:+++++
+ plaid:-+-/- clint:-+++- sling:++++- slink:+++++
+ plaid:-+-/- clint:-+++- sling:-++++ fling:+++++
+ plaid:-+-/- clint:-+++- sling:-+++- blink:+++++
+ plaid:-+-/- clint:-++-+ flirt:+++++
+ plaid:-+-/- clint:-++-- slime:+++++
+ plaid:-+-/- clint:-++-- slime:++++- slimy:+++++
+ plaid:-+-/- clint:-++-- slime:-++-+ olive:+++++
+ plaid:-+-/- clint:-++-- slime:-++-/ flier:+++++
+ plaid:-+-/- clint:-++-- slime:/++-- bliss:+++++
+ plaid:-+-/- clint:-++-/ blitz:+++++
+ plaid:-+-/- clint:-++-/ blitz:-+++- elite:+++++
+ plaid:-+-/- clint:/++-- flick:+++++
+ plaid:-+-/- clint:/++-- flick:-++++ slick:+++++
+ plaid:-+-/- clint:/++-- flick:-+++- slice:+++++
+ plaid:-+-// elide:+++++
+ plaid:-+-// elide:-++++ glide:+++++
+ plaid:-+-// elide:-++++ glide:-++++ slide:+++++
+ plaid:-+/-+ aloud:+++++
+ plaid:-+/-- gloat:+++++
+ plaid:-+/-- gloat:++-+- gleam:+++++
+ plaid:-+/-- gloat:++-+- gleam:++++- glean:+++++
+ plaid:-+/-- gloat:-++++ bloat:+++++
+ plaid:-+/-- gloat:-++++ bloat:-++++ float:+++++
+ plaid:-+/-- gloat:-+++- cloak:+++++
+ plaid:-+/-- gloat:-++/+ aloft:+++++
+ plaid:-+/-- gloat:-++/- alone:+++++
+ plaid:-+/-- gloat:-++/- alone:+++-- aloof:+++++
+ plaid:-+/-- gloat:-++/- alone:/++-- flora:+++++
+ plaid:-+/-- gloat:-+-++ bleat:+++++
+ plaid:-+/-- gloat:-+-++ bleat:-++++ cleat:+++++
+ plaid:-+/-- gloat:-+-+- clean:+++++
+ plaid:-+/-- gloat:-+-+- clean:++++- clear:+++++
+ plaid:-+/-- gloat:-+-+- clean:-+++- bleak:+++++
+ plaid:-+/-- gloat:-+-+- clean:-+-+- allay:+++++
+ plaid:-+/-- gloat:-+-+/ altar:+++++
+ plaid:-+/-- gloat:-+-/+ alert:+++++
+ plaid:-+/-- gloat:-+-/- album:+++++
+ plaid:-+/-- gloat:-+-/- album:++--- alley:+++++
+ plaid:-+/-- gloat:-+-// alter:+++++
+ plaid:-+/-- gloat:-+-// alter:/++-/ ultra:+++++
+ plaid:-+/-- gloat:-+//+ allot:+++++
+ plaid:-+/-- gloat:-+//- allow:+++++
+ plaid:-+/-- gloat:-+//- allow:++++- alloy:+++++
+ plaid:-+/-- gloat:/++/- along:+++++
+ plaid:-+/-- gloat:/+-+- algae:+++++
+ plaid:-+//- alien:+++++
+ plaid:-+//- alien:+++-+ align:+++++
+ plaid:-+//- alien:+++-- alibi:+++++
+ plaid:-+//- alien:+++/- alike:+++++
+ plaid:-+//- alien:+++/- alike:+++-+ alive:+++++
+ plaid:-+//- alien:/++-- iliac:+++++
+ plaid:--+++ braid:+++++
+ plaid:--+++ braid:--+++ staid:+++++
+ plaid:--++- train:+++++
+ plaid:--++- train:++++- trait:+++++
+ plaid:--++- train:-++++ brain:+++++
+ plaid:--++- train:-++++ brain:-++++ grain:+++++
+ plaid:--++- train:--+++ again:+++++
+ plaid:--++- train:--+++ again:--+++ chain:+++++
+ plaid:--++- train:-/++- chair:+++++
+ plaid:--++- train:/-+++ stain:+++++
+ plaid:--++- train:/-++- await:+++++
+ plaid:--++- train://++- stair:+++++
+ plaid:--++/ drain:+++++
+ plaid:--+-+ heard:+++++
+ plaid:--+-+ heard:+-+++ hoard:+++++
+ plaid:--+-+ heard:-++++ beard:+++++
+ plaid:--+-+ heard:--+++ award:+++++
+ plaid:--+-+ heard:--+++ award:--+++ board:+++++
+ plaid:--+-+ heard:--+++ award:--+++ board:--+++ guard:+++++
+ plaid:--+-+ heard:--+-+ stand:+++++
+ plaid:--+-+ heard:--+/+ brand:+++++
+ plaid:--+-+ heard:--+/+ brand:-++++ grand:+++++
+ plaid:--+-+ heard:--+/+ brand:-++-+ fraud:+++++
+ plaid:--+-+ heard:/-+++ chard:+++++
+ plaid:--+-+ heard:/-+++ chard:-++++ shard:+++++
+ plaid:--+-- stare:+++++
+ plaid:--+-- stare:++++- stark:+++++
+ plaid:--+-- stare:++++- stark:++++- start:+++++
+ plaid:--+-- stare:+++-+ stage:+++++
+ plaid:--+-- stare:+++-+ stage:+++-+ stake:+++++
+ plaid:--+-- stare:+++-+ stage:+++-+ stake:+++-+ state:+++++
+ plaid:--+-- stare:+++-+ stage:+++-+ stake:+++-+ state:+++-+ stave:+++++
+ plaid:--+-- stare:+++-- stack:+++++
+ plaid:--+-- stare:+++-- stack:+++-+ stank:+++++
+ plaid:--+-- stare:+++-- stack:+++-- staff:+++++
+ plaid:--+-- stare:+++-- stack:+++-- staff:+++-- stash:+++++
+ plaid:--+-- stare:+-+++ scare:+++++
+ plaid:--+-- stare:+-+++ scare:+-+++ share:+++++
+ plaid:--+-- stare:+-+++ scare:+-+++ share:+-+++ snare:+++++
+ plaid:--+-- stare:+-++- scarf:+++++
+ plaid:--+-- stare:+-++- scarf:++++- scary:+++++
+ plaid:--+-- stare:+-++- scarf:+-++- shark:+++++
+ plaid:--+-- stare:+-++- scarf:+-++- shark:+-++- swarm:+++++
+ plaid:--+-- stare:+-+-+ shake:+++++
+ plaid:--+-- stare:+-+-+ shake:+++-+ shame:+++++
+ plaid:--+-- stare:+-+-+ shake:+++-+ shame:+++-+ shave:+++++
+ plaid:--+-- stare:+-+-+ shake:+-+++ snake:+++++
+ plaid:--+-- stare:+-+-+ shake:+-+-+ suave:+++++
+ plaid:--+-- stare:+-+-- shank:+++++
+ plaid:--+-- stare:+-+-- shank:+++-+ shack:+++++
+ plaid:--+-- stare:+-+-- shank:+++-/ shaky:+++++
+ plaid:--+-- stare:+-+-- shank:+-+-+ smack:+++++
+ plaid:--+-- stare:+-+-- shank:+-+/+ snack:+++++
+ plaid:--+-- stare:+-+-- shank:+-+// snaky:+++++
+ plaid:--+-- stare:+-+-- shank:+/+-- smash:+++++
+ plaid:--+-- stare:+-+-- shank:+/+-- smash:+-+++ swash:+++++
+ plaid:--+-- stare:+/++- smart:+++++
+ plaid:--+-- stare:+/+-+ skate:+++++
+ plaid:--+-- stare:+/+-- scant:+++++
+ plaid:--+-- stare:+/+-- scant:+-+-+ shaft:+++++
+ plaid:--+-- stare:+/+-- scant:+-+-/ swath:+++++
+ plaid:--+-- stare:--+++ aware:+++++
+ plaid:--+-- stare:--++- chark:++++- charm:+++++
+ plaid:--+-- stare:--++- chark:-+++- wharf:+++++
+ plaid:--+-- stare:--++- chark:--+++ quark:+++++
+ plaid:--+-- stare:--++- chark:--++- ovary:+++++
+ plaid:--+-- stare:--++/ weary:+++++
+ plaid:--+-- stare:--++/ weary:-+++- rearm:+++++
+ plaid:--+-- stare:--++/ weary:-+++/ yearn:+++++
+ plaid:--+-- stare:--+-+ awake:+++++
+ plaid:--+-- stare:--+-+ awake:+-+-+ amaze:+++++
+ plaid:--+-- stare:--+-+ awake:--+++ quake:+++++
+ plaid:--+-- stare:--+-+ awake:--+-+ chafe:+++++
+ plaid:--+-- stare:--+-+ awake:--+-+ chafe:-/+-+ heave:+++++
+ plaid:--+-- stare:--+-+ awake:--+/+ knave:+++++
+ plaid:--+-- stare:--+-+ awake:-/+-+ weave:+++++
+ plaid:--+-- stare:--+-- chana:+++-- chaff:+++++
+ plaid:--+-- stare:--+-- chana:+/+-- coach:+++++
+ plaid:--+-- stare:--+-- chana:--+-+ guava:+++++
+ plaid:--+-- stare:--+-- chana:--+-- foamy:+++++
+ plaid:--+-- stare:--+-- chana:/++-- whack:+++++
+ plaid:--+-- stare:--+-- chana:/-+-- quack:+++++
+ plaid:--+-- stare:--+-- chana:/-+-/ aback:+++++
+ plaid:--+-- stare:--+-- chana:/-+/- knack:+++++
+ plaid:--+-- stare:--+-/ beach:+++++
+ plaid:--+-- stare:--+-/ beach:-++-/ heavy:+++++
+ plaid:--+-- stare:--+/+ crave:+++++
+ plaid:--+-- stare:--+/+ crave:+++-+ crane:+++++
+ plaid:--+-- stare:--+/+ crave:+++-+ crane:+++-+ craze:+++++
+ plaid:--+-- stare:--+/+ crave:-++++ brave:+++++
+ plaid:--+-- stare:--+/+ crave:-++++ brave:-++++ grave:+++++
+ plaid:--+-- stare:--+/+ crave:-++-+ brame:+++-+ brake:+++++
+ plaid:--+-- stare:--+/+ crave:-++-+ brame:-++++ frame:+++++
+ plaid:--+-- stare:--+/+ crave:-++-+ brame:-++-+ graze:+++++
+ plaid:--+-- stare:--+/+ crave:/++-+ brace:+++++
+ plaid:--+-- stare:--+/+ crave:/++-+ brace:-++++ grace:+++++
+ plaid:--+-- stare:--+/- crank:+++++
+ plaid:--+-- stare:--+/- crank:+++-+ crack:+++++
+ plaid:--+-- stare:--+/- crank:+++-- crazy:+++++
+ plaid:--+-- stare:--+/- crank:-++++ frank:+++++
+ plaid:--+-- stare:--+/- crank:-++-- bravo:+++++
+ plaid:--+-- stare:--+/- crank:-++-- bravo:-+++- gravy:+++++
+ plaid:--+-- stare:--+/- crank:-++/- brawn:+++++
+ plaid:--+-- stare:--+/- crank:/++-+ wrack:+++++
+ plaid:--+-- stare:--+/- crank://+-- roach:+++++
+ plaid:--+-- stare:--+// reach:+++++
+ plaid:--+-- stare:-/++- chart:+++++
+ plaid:--+-- stare:-/++- chart:--+++ quart:+++++
+ plaid:--+-- stare:-/++/ heart:+++++
+ plaid:--+-- stare:-/++/ heart:-+++/ teary:+++++
+ plaid:--+-- stare:-/+-+ abate:+++++
+ plaid:--+-- stare:-/+-+ abate:+-+++ agate:+++++
+ plaid:--+-- stare:-/+-+ abate:--+++ ovate:+++++
+ plaid:--+-- stare:-/+-- chant:+++++
+ plaid:--+-- stare:-/+-- chant:-+++/ thank:+++++
+ plaid:--+-- stare:-/+-- chant:--++/ twang:+++++
+ plaid:--+-- stare:-/+-/ neath:-++++ heath:+++++
+ plaid:--+-- stare:-/+-/ neath:-+++- meaty:+++++
+ plaid:--+-- stare:-/+-/ neath:-++/+ teach:+++++
+ plaid:--+-- stare:-/+-/ neath:-/+/- exact:+++++
+ plaid:--+-- stare:-/+-/ neath:/++/- meant:+++++
+ plaid:--+-- stare:-/+-/ neath://+/- enact:+++++
+ plaid:--+-- stare:-/+/+ crate:+++++
+ plaid:--+-- stare:-/+/+ crate:-++++ grate:+++++
+ plaid:--+-- stare:-/+/+ crate:/++/+ trace:+++++
+ plaid:--+-- stare:-/+/- craft:+++++
+ plaid:--+-- stare:-/+/- craft:-++++ graft:+++++
+ plaid:--+-- stare:-/+/- craft:-++-+ grant:+++++
+ plaid:--+-- stare:-/+/- craft:-++-/ wrath:+++++
+ plaid:--+-- stare:-/+/- craft:/++-+ tract:+++++
+ plaid:--+-- stare:-/+/- craft:/++-/ track:+++++
+ plaid:--+-- stare:-/+// react:+++++
+ plaid:--+-- stare:/-+-+ cease:+++++
+ plaid:--+-- stare:/-+-+ cease:+-+++ chase:+++++
+ plaid:--+-- stare:/-+-+ cease:--+++ abase:+++++
+ plaid:--+-- stare:/-+-+ cease:--+/+ usage:+++++
+ plaid:--+-- stare:/-+-- naams:--+-+ chaos:+++++
+ plaid:--+-- stare:/-+-- naams:--+-/ quash:+++++
+ plaid:--+-- stare:/-+-- naams:--+// chasm:+++++
+ plaid:--+-- stare:/-+-- naams:-/+-/ awash:+++++
+ plaid:--+-- stare:/-+-- naams:-/+/+ amass:+++++
+ plaid:--+-- stare:/-+-- naams:/-+-/ gnash:+++++
+ plaid:--+-- stare:/-+/+ erase:+++++
+ plaid:--+-- stare:/-+/- brags:+++-+ brass:+++++
+ plaid:--+-- stare:/-+/- brags:+++-/ brash:+++++
+ plaid:--+-- stare:/-+/- brags:-++-+ crass:+++++
+ plaid:--+-- stare:/-+/- brags:-++-/ crash:+++++
+ plaid:--+-- stare:/-+/- brags:-++/+ grass:+++++
+ plaid:--+-- stare://+-+ tease:+++++
+ plaid:--+-- stare://+-- scatt:/-+-+ boast:+++++
+ plaid:--+-- stare://+-- scatt:/-+/+ toast:+++++
+ plaid:--+-- stare://+-- scatt://+-+ coast:+++++
+ plaid:--+-- stare://+-/ beast:+++++
+ plaid:--+-- stare://+-/ beast:-++++ feast:+++++
+ plaid:--+-- stare://+-/ beast:-++++ feast:-++++ yeast:+++++
+ plaid:--+-- stare://+/- roast:+++++
+ plaid:--+-- stare://+/- roast:/-++/ trash:+++++
+ plaid:--+-/ trade:+++++
+ plaid:--+-/ trade:-++++ grade:+++++
+ plaid:--+-/ trade:-++/+ drake:+++++
+ plaid:--+-/ trade:-++/- drank:+++++
+ plaid:--+-/ trade:-++/- drank:+++-- drama:+++++
+ plaid:--+-/ trade:-++/- drank:+++/- drawn:+++++
+ plaid:--+-/ trade:--+++ evade:+++++
+ plaid:--+-/ trade:--+++ evade:--+++ shade:+++++
+ plaid:--+-/ trade:--++- shady:+++++
+ plaid:--+-/ trade:--++/ beady:+++++
+ plaid:--+-/ trade:--++/ beady:-++++ heady:+++++
+ plaid:--+-/ trade:--+/+ adage:+++++
+ plaid:--+-/ trade:-/++/ ready:+++++
+ plaid:--+-/ trade:-/+/- dwarf:+++++
+ plaid:--+-/ trade:/++/- draft:+++++
+ plaid:--+-/ trade:/-+// death:+++++
+ plaid:--+/- imari:+++-- image:+++++
+ plaid:--+/- imari:+-+-- inane:+++++
+ plaid:--+/- imari:+-+/- irate:+++++
+ plaid:--+/- imari:--+-+ khaki:+++++
+ plaid:--+/- imari:--+-+ khaki:--+-+ quasi:+++++
+ plaid:--+/- imari:-/+-+ swami:+++++
+ plaid:--+/- imari:/-++- tiara:+++++
+ plaid:--+/- imari:/-+-- giant:+++++
+ plaid:--+// diary:+++++
+ plaid:---++ mirid:-+-++ vivid:+++++
+ plaid:---++ mirid:-+/++ rigid:+++++
+ plaid:---++ mirid:---++ droid:--+++ ovoid:+++++
+ plaid:---++ mirid:---++ droid:---++ fetid:+++++
+ plaid:---++ mirid:---++ droid:/--++ undid:+++++
+ plaid:---++ mirid:--/++ druid:+++++
+ plaid:---++ mirid:/+-++ timid:+++++
+ plaid:---++ mirid:/--++ humid:+++++
+ plaid:---+- tonic:+++++
+ plaid:---+- tonic:++-++ toxic:+++++
+ plaid:---+- tonic:++/+- toxin:+++++
+ plaid:---+- tonic:+-+++ tunic:+++++
+ plaid:---+- tonic:+--+- their:+++++
+ plaid:---+- tonic:-++++ conic:+++++
+ plaid:---+- tonic:-++++ conic:-++++ ionic:+++++
+ plaid:---+- tonic:-++++ conic:-++++ ionic:-++++ sonic:+++++
+ plaid:---+- tonic:-+-++ comic:+++++
+ plaid:---+- tonic:-+-+- movie:+++++
+ plaid:---+- tonic:-+/+- robin:+++++
+ plaid:---+- tonic:--+++ cynic:+++++
+ plaid:---+- tonic:--++- genie:+++++
+ plaid:---+- tonic:--++- genie:--++- minim:+++++
+ plaid:---+- tonic:---++ civic:+++++
+ plaid:---+- tonic:---++ civic:+--++ cubic:+++++
+ plaid:---+- tonic:---++ civic:-+-++ mimic:+++++
+ plaid:---+- tonic:---++ civic:---++ music:+++++
+ plaid:---+- tonic:---+- eerie:+++++
+ plaid:---+- tonic:---+- eerie:-+++- serif:+++++
+ plaid:---+- tonic:---+- eerie:---+- squib:+++++
+ plaid:---+- tonic:---+- eerie:/--+- sheik:+++++
+ plaid:---+- tonic:--/+- begin:+++++
+ plaid:---+- tonic:--/+- begin:-+-++ resin:+++++
+ plaid:---+- tonic:--/+/ cumin:+++++
+ plaid:---+- tonic:-/-+/ choir:+++++
+ plaid:---+- tonic:-/-+/ choir:+-/+/ curio:+++++
+ plaid:---+- tonic:-//+- groin:+++++
+ plaid:---+- tonic:/+-+- motif:+++++
+ plaid:---+- tonic:/+-+- motif:/+/+- vomit:+++++
+ plaid:---+- tonic:/--++ ethic:+++++
+ plaid:---+- tonic:/--+- merit:+++++
+ plaid:---+- tonic:/--+- merit:-+-++ befit:+++++
+ plaid:---+- tonic:/--+- merit:-+/++ refit:+++++
+ plaid:---+- tonic:/--+- merit:---++ visit:+++++
+ plaid:---+- tonic:/--+- merit:--/++ fruit:+++++
+ plaid:---+- tonic:/--+- merit:/+/++ remit:+++++
+ plaid:---+- tonic:/--+/ cutie:+++++
+ plaid:---+- tonic:/-/+- stein:+++++
+ plaid:---+- tonic:/-/+- stein:-/-+/ unfit:+++++
+ plaid:---+- tonic:/-/+- stein:-//+/ untie:+++++
+ plaid:---+- tonic://-++ stoic:+++++
+ plaid:---+- tonic://-+- orbit:+++++
+ plaid:---+/ dobie:+-++/ debit:+++++
+ plaid:---+/ dobie:+--+- digit:+++++
+ plaid:---+/ dobie:+--+/ denim:+++++
+ plaid:---+/ dobie:+/-+- droit:+++++
+ plaid:---+/ dobie:/--+/ medic:+++++
+ plaid:----+ brond:+++-+ brood:+++++
+ plaid:----+ brond:++--+ breed:+++++
+ plaid:----+ brond:+---+ bused:+++++
+ plaid:----+ brond:+-/++ bound:+++++
+ plaid:----+ brond:-++++ frond:+++++
+ plaid:----+ brond:-++-+ crowd:+++++
+ plaid:----+ brond:-+-++ trend:+++++
+ plaid:----+ brond:-+--+ creed:+++++
+ plaid:----+ brond:-+--+ creed:-++++ freed:+++++
+ plaid:----+ brond:-+--+ creed:-++++ freed:-++++ greed:+++++
+ plaid:----+ brond:--+-+ stood:+++++
+ plaid:----+ brond:----+ steed:+++++
+ plaid:----+ brond:----+ steed:-/+++ tweed:+++++
+ plaid:----+ brond:---/+ unfed:+++++
+ plaid:----+ brond:---/+ unfed:++-++ unwed:+++++
+ plaid:----+ brond:---/+ unfed:-+-++ kneed:+++++
+ plaid:----+ brond:--/++ sownd:++-++ sound:+++++
+ plaid:----+ brond:--/++ sownd:-+-++ found:+++++
+ plaid:----+ brond:--/++ sownd:-+-++ found:-++++ hound:+++++
+ plaid:----+ brond:--/++ sownd:-+-++ found:-++++ hound:-++++ mound:+++++
+ plaid:----+ brond:--/++ sownd:-+/++ wound:+++++
+ plaid:----+ brond:--//+ synod:+++++
+ plaid:----+ brond:-/+-+ crowd:+/+-+ chord:+++++
+ plaid:----+ brond:-/+-+ crowd:-/+-+ fjord:+++++
+ plaid:----+ brond:-/+-+ crowd:-/+/+ sword:+++++
+ plaid:----+ brond:-//++ round:+++++
+ plaid:----+ brond:-//-+ gourd:+++++
+ plaid:----+ brond:/---+ embed:+++++
+ plaid:----- torse:++++- torso:+++++
+ plaid:----- torse:+++-- torch:+++++
+ plaid:----- torse:+++/- torus:+++++
+ plaid:----- torse:++--- touch:+++++
+ plaid:----- torse:++--- touch:+++-+ tough:+++++
+ plaid:----- torse:++--- touch:++--+ tooth:+++++
+ plaid:----- torse:++--/ token:+++++
+ plaid:----- torse:++--/ token:++-+- totem:+++++
+ plaid:----- torse:++/-/ tower:+++++
+ plaid:----- torse:+-+++ terse:+++++
+ plaid:----- torse:+-+-+ three:+++++
+ plaid:----- torse:+-+-- thrum:+++++
+ plaid:----- torse:+-+-/ threw:+++++
+ plaid:----- torse:+--++ tense:+++++
+ plaid:----- torse:+--++ tense:+/-++ these:+++++
+ plaid:----- torse:+---+ theme:+++++
+ plaid:----- torse:+---+ theme:++-++ thyme:+++++
+ plaid:----- torse:+---- thumb:+++++
+ plaid:----- torse:+---/ teeth:+++++
+ plaid:----- torse:+---/ teeth:++-++ tenth:+++++
+ plaid:----- torse:+---/ teeth:++//- tenet:+++++
+ plaid:----- torse:+---/ teeth:+-+// theft:+++++
+ plaid:----- torse:+---/ teeth:+/+/- tweet:+++++
+ plaid:----- torse:+--// testy:+++++
+ plaid:----- torse:+-/+- truss:+++++
+ plaid:----- torse:+-/+- truss:++++- trust:+++++
+ plaid:----- torse:+-/+- truss:++-+- tryst:+++++
+ plaid:----- torse:+-/-+ there:+++++
+ plaid:----- torse:+-/-+ there:+--/+ truce:+++++
+ plaid:----- torse:+-/-- truck:+++++
+ plaid:----- torse:+-/-- truck:+++-+ trunk:+++++
+ plaid:----- torse:+-/-- truck:+++-- truth:+++++
+ plaid:----- torse:+-/-/ truer:+++++
+ plaid:----- torse:+-/-/ truer:+-/++ tuber:+++++
+ plaid:----- torse:+/+-- throb:+++++
+ plaid:----- torse:+/+-- throb:++++- throw:+++++
+ plaid:----- torse:+/+-- throb:+-+// turbo:+++++
+ plaid:----- torse:+/-++ those:+++++
+ plaid:----- torse:+/--- thong:+++++
+ plaid:----- torse:+//-+ trove:+++++
+ plaid:----- torse:+//-- trout:+++++
+ plaid:----- torse:+//-- trout:+/+-- thorn:+++++
+ plaid:----- torse:+//-- trout:+///- tumor:+++++
+ plaid:----- torse:+//-- trout:+//// tutor:+++++
+ plaid:----- torse:+//-/ tenor:+++++
+ plaid:----- torse:-++++ horse:+++++
+ plaid:----- torse:-++++ horse:-++++ worse:+++++
+ plaid:----- torse:-++-+ forge:+++++
+ plaid:----- torse:-++-+ forge:+++-+ force:+++++
+ plaid:----- torse:-++-+ forge:-++++ gorge:+++++
+ plaid:----- torse:-++-+ forge:-++-+ borne:+++++
+ plaid:----- torse:-++-- corny:+++++
+ plaid:----- torse:-++-- corny:-++++ horny:+++++
+ plaid:----- torse:-++-- corny:-++-+ worry:+++++
+ plaid:----- torse:-++-- corny:-++-- forgo:+++++
+ plaid:----- torse:-++-- corny:-++-- forgo:+++-- forum:+++++
+ plaid:----- torse:-++-- corny:-++/- moron:+++++
+ plaid:----- torse:-++-/ corer:+++++
+ plaid:----- torse:-++/- sorry:+++++
+ plaid:----- torse:-+-++ moose:+++++
+ plaid:----- torse:-+-++ moose:++-++ mouse:+++++
+ plaid:----- torse:-+-++ moose:-++++ goose:+++++
+ plaid:----- torse:-+-++ moose:-++++ goose:-++++ noose:+++++
+ plaid:----- torse:-+-++ moose:-+-++ house:+++++
+ plaid:----- torse:-+-+- bossy:+++++
+ plaid:----- torse:-+-+- bossy:-++++ mossy:+++++
+ plaid:----- torse:-+--+ gouge:+++++
+ plaid:----- torse:-+--+ gouge:-+--+ booze:+++++
+ plaid:----- torse:-+--+ gouge:/+/-+ vogue:+++++
+ plaid:----- torse:-+--- boogy:+++-+ booby:+++++
+ plaid:----- torse:-+--- boogy:+++-+ booby:+++-+ boozy:+++++
+ plaid:----- torse:-+--- boogy:++-+- bough:+++++
+ plaid:----- torse:-+--- boogy:++--+ bobby:+++++
+ plaid:----- torse:-+--- boogy:++/+- bongo:+++++
+ plaid:----- torse:-+--- boogy:-++-+ woozy:+++++
+ plaid:----- torse:-+--- boogy:-++/+ goofy:+++++
+ plaid:----- torse:-+--- boogy:-+-++ foggy:+++++
+ plaid:----- torse:-+--- boogy:-+-+- cough:+++++
+ plaid:----- torse:-+--- boogy:-+--+ comfy:+++++
+ plaid:----- torse:-+--- boogy:-+--- conch:+++++
+ plaid:----- torse:-+--- boogy:-+--- conch:++-++ couch:+++++
+ plaid:----- torse:-+--- boogy:-+--- conch:-+-++ vouch:+++++
+ plaid:----- torse:-+--- boogy:-+-// young:+++++
+ plaid:----- torse:-+--- boogy:/+--+ hobby:+++++
+ plaid:----- torse:-+--/ women:+++++
+ plaid:----- torse:-+--/ women:++-++ woken:+++++
+ plaid:----- torse:-+--/ women:++-++ woken:++-++ woven:+++++
+ plaid:----- torse:-+--/ women:-+-++ coven:+++++
+ plaid:----- torse:-+--/ women:-+-+- covey:+++++
+ plaid:----- torse:-+--/ women:-+-+- covey:-+-++ gooey:+++++
+ plaid:----- torse:-+--/ women:-+-+/ boney:+++++
+ plaid:----- torse:-+--/ women:-+-+/ boney:-++++ honey:+++++
+ plaid:----- torse:-+--/ women:-+/+/ money:+++++
+ plaid:----- torse:-+-/- bonus:+++++
+ plaid:----- torse:-+-/- bonus:++--/ bosom:+++++
+ plaid:----- torse:-+-/- bonus:-+-++ focus:+++++
+ plaid:----- torse:-+-/- bonus:-+--/ soggy:+++++
+ plaid:----- torse:-+-// nosey:+++++
+ plaid:----- torse:-+/++ rouse:+++++
+ plaid:----- torse:-+/-+ rogue:+++++
+ plaid:----- torse:-+/-+ rogue:++//+ rouge:+++++
+ plaid:----- torse:-+/-- honor:+++++
+ plaid:----- torse:-+/-- honor:-+--/ rocky:+++++
+ plaid:----- torse:-+/-- honor:-+-// roomy:+++++
+ plaid:----- torse:-+/-- honor:-+/-/ mourn:+++++
+ plaid:----- torse:-+/-- honor:/+--/ rough:+++++
+ plaid:----- torse:-+/-/ rowme:+++-/ rower:+++++
+ plaid:----- torse:-+/-/ rowme:++--/ roger:+++++
+ plaid:----- torse:-+/-/ rowme:++--/ roger:++-++ rover:+++++
+ plaid:----- torse:-+/-/ rowme:/++-/ cower:+++++
+ plaid:----- torse:-+/-/ rowme:/++// mower:+++++
+ plaid:----- torse:-+/-/ rowme:/+--/ roven:/+++- cover:+++++
+ plaid:----- torse:-+/-/ rowme:/+--/ roven:/+++- cover:-++++ hover:+++++
+ plaid:----- torse:-+/-/ rowme:/+--/ roven:/+-+- forex:++/+- foyer:+++++
+ plaid:----- torse:-+/-/ rowme:/+--/ roven:/+-+- forex:-+/+- joker:+++++
+ plaid:----- torse:-+/-/ rowme:/+--/ roven:/+-+- forex:-+/+/ boxer:+++++
+ plaid:----- torse:-+/-/ rowme:/+--/ roven:/+-+/ goner:+++++
+ plaid:----- torse:-+/-/ rowme:/+-// homer:+++++
+ plaid:----- torse:-+/-/ rowme:/+-// homer:-+/++ mover:+++++
+ plaid:----- torse:-+/-/ rowme:/+/-/ wooer:+++++
+ plaid:----- torse:-+/// sober:+++++
+ plaid:----- torse:-+/// sober:++-++ sower:+++++
+ plaid:----- torse:--+++ curse:+++++
+ plaid:----- torse:--+++ curse:-++++ nurse:+++++
+ plaid:----- torse:--+++ curse:--+++ verse:+++++
+ plaid:----- torse:--+-+ nerve:+++++
+ plaid:----- torse:--+-+ nerve:-++++ verve:+++++
+ plaid:----- torse:--+-+ nerve:-++-+ merge:+++++
+ plaid:----- torse:--+-+ nerve:-++/+ verge:+++++
+ plaid:----- torse:--+-+ nerve:--+++ curve:+++++
+ plaid:----- torse:--+-- curry:+++++
+ plaid:----- torse:--+-- curry:+++-+ curvy:+++++
+ plaid:----- torse:--+-- curry:-++++ furry:+++++
+ plaid:----- torse:--+-- curry:-++++ furry:-++++ hurry:+++++
+ plaid:----- torse:--+-- curry:-++-+ murky:+++++
+ plaid:----- torse:--+-- curry:--++/ myrrh:+++++
+ plaid:----- torse:--+-/ merry:+++++
+ plaid:----- torse:--+-/ merry:+++-+ mercy:+++++
+ plaid:----- torse:--+-/ merry:-++++ berry:+++++
+ plaid:----- torse:--+-/ merry:-++++ berry:-++++ ferry:+++++
+ plaid:----- torse:--+-/ merry:-++-+ jerky:+++++
+ plaid:----- torse:--+-/ merry:-++/- rerun:+++++
+ plaid:----- torse:--+/+ scree:+++++
+ plaid:----- torse:--+/+ scree:+-+-+ surge:+++++
+ plaid:----- torse:--+/+ scree:+-+/+ serve:+++++
+ plaid:----- torse:--+/- scrub:+++++
+ plaid:----- torse:--+/- scrub:++++- scrum:+++++
+ plaid:----- torse:--+/- scrub:+-+++ shrub:+++++
+ plaid:----- torse:--+/- scrub:+-++- shrug:+++++
+ plaid:----- torse:--+// screw:+++++
+ plaid:----- torse:--+// screw:+-+++ shrew:+++++
+ plaid:----- torse:--+// screw:+-++- surer:+++++
+ plaid:----- torse:--+// screw:+-+/- serum:+++++
+ plaid:----- torse:---++ geese:+++++
+ plaid:----- torse:---++ geese:-+-++ sense:+++++
+ plaid:----- torse:---+- fussy:+++++
+ plaid:----- torse:---+- fussy:-++++ hussy:+++++
+ plaid:----- torse:---+- fussy:-//+- shush:+++++
+ plaid:----- torse:---+/ chess:+++++
+ plaid:----- torse:---+/ chess:--+++ guess:+++++
+ plaid:----- torse:----+ fence:+++++
+ plaid:----- torse:----+ fence:++--+ femme:+++++
+ plaid:----- torse:----+ fence:+---+ fugue:+++++
+ plaid:----- torse:----+ fence:-++++ hence:+++++
+ plaid:----- torse:----+ fence:-++-+ venue:+++++
+ plaid:----- torse:----+ fence:-/--+ queue:+++++
+ plaid:----- torse:----+ fence:-/-/+ emcee:+++++
+ plaid:----- torse:----- hymns:+--/- hunch:+++++
+ plaid:----- torse:----- hymns:+/-/- hunky:+++++
+ plaid:----- torse:----- hymns:-/+-- gummy:+++++
+ plaid:----- torse:----- hymns:-/+-- gummy:-++++ mummy:+++++
+ plaid:----- torse:----- hymns:-/-+- bunny:+++++
+ plaid:----- torse:----- hymns:-/-+- bunny:-++++ funny:+++++
+ plaid:----- torse:----- hymns:-/--- buggy:+++++
+ plaid:----- torse:----- hymns:-/--- buggy:-+--+ fuzzy:+++++
+ plaid:----- torse:----- hymns:-/-/- funky:+++++
+ plaid:----- torse:----- hymns:-//-- mucky:+++++
+ plaid:----- torse:----- hymns:/--+- chunk:+++++
+ plaid:----- torse:----- hymns:/---- chuck:+++++
+ plaid:----- torse:----- hymns:/--/- bunch:+++++
+ plaid:----- torse:----- hymns:/-//- munch:+++++
+ plaid:----- torse:----/ boney:+-+/- bench:+++++
+ plaid:----- torse:----/ boney:+--/+ beefy:+++++
+ plaid:----- torse:----/ boney:+--/- beech:+++++
+ plaid:----- torse:----/ boney:+-//- begun:+++++
+ plaid:----- torse:----/ boney:--+/- wench:+++++
+ plaid:----- torse:----/ boney:---+- cheek:+++++
+ plaid:----- torse:----/ boney:---/+ geeky:+++++
+ plaid:----- torse:----/ boney:---/- check:+++++
+ plaid:----- torse:----/ boney:--/+- queen:+++++
+ plaid:----- torse:----/ boney:--/+/ hymen:+++++
+ plaid:----- torse:----/ boney:--//+ enemy:+++++
+ plaid:----- torse:---/+ ensue:+++++
+ plaid:----- torse:---/+ ensue:/-/++ segue:+++++
+ plaid:----- torse:---/+ ensue:///-+ scene:+++++
+ plaid:----- torse:---/- hucks:++-+/ husky:+++++
+ plaid:----- torse:---/- hucks:++--+ humus:+++++
+ plaid:----- torse:---/- hucks:-++-+ mucus:+++++
+ plaid:----- torse:---/- hucks:-+-+/ musky:+++++
+ plaid:----- torse:---/- hucks:-+--/ sunny:+++++
+ plaid:----- torse:---/- hucks:-/--/ snuff:+++++
+ plaid:----- torse:---/- hucks:-/--/ snuff:+/+-- swung:+++++
+ plaid:----- torse:---/- hucks:-/-// skunk:+++++
+ plaid:----- torse:---/- hucks:-//// snuck:+++++
+ plaid:----- torse:---/- hucks:/+--/ bushy:+++++
+ plaid:----- torse:---/- hucks:/+--/ bushy:-++++ mushy:+++++
+ plaid:----- torse:---/- hucks:///// shuck:+++++
+ plaid:----- torse:---// semen:+++++
+ plaid:----- torse:---// semen:++-++ seven:+++++
+ plaid:----- torse:---// semen:+/-++ sheen:+++++
+ plaid:----- torse:--/++ reuse:+++++
+ plaid:----- torse:--/+- brush:+++++
+ plaid:----- torse:--/+- brush:-++++ crush:+++++
+ plaid:----- torse:--/+/ cress:+++++
+ plaid:----- torse:--/+/ cress:-+++- fresh:+++++
+ plaid:----- torse:--/-+ genre:+++++
+ plaid:----- torse:--/-+ genre:-+-/+ revue:+++++
+ plaid:----- torse:--/-+ genre:---/+ rhyme:+++++
+ plaid:----- torse:--/-+ genre:-/-++ where:+++++
+ plaid:----- torse:--/-+ genre:-/-/+ creme:+++++
+ plaid:----- torse:--/-- churn:+++++
+ plaid:----- torse:--/-- churn:+-+/- crumb:+++++
+ plaid:----- torse:--/-- churn:--+/- gruff:+++++
+ plaid:----- torse:--/-- churn:--+// wrung:+++++
+ plaid:----- torse:--/-- churn:--//- rugby:+++++
+ plaid:----- torse:--/-/ fewer:+++++
+ plaid:----- torse:--/-/ fewer:++-++ fever:+++++
+ plaid:----- torse:--/-/ fewer:++--+ femur:+++++
+ plaid:----- torse:--/-/ fewer:+/-++ freer:+++++
+ plaid:----- torse:--/-/ fewer:-++++ newer:+++++
+ plaid:----- torse:--/-/ fewer:-+-++ never:+++++
+ plaid:----- torse:--/-/ fewer:-+--+ recur:+++++
+ plaid:----- torse:--/-/ fewer:-+/+/ renew:+++++
+ plaid:----- torse:--/-/ fewer:---++ buyer:+++++
+ plaid:----- torse:--/-/ fewer:---++ buyer:/-/++ cyber:+++++
+ plaid:----- torse:--/-/ fewer:-/-++ cheer:+++++
+ plaid:----- torse:--/-/ fewer:-/-++ cheer:--+++ queer:+++++
+ plaid:----- torse:--/-/ fewer:-/-++ cheer:--/++ ember:+++++
+ plaid:----- torse:--/-/ fewer:-/-+/ creek:+++++
+ plaid:----- torse:--/-/ fewer:-/-+/ creek:-+++- green:+++++
+ plaid:----- torse:--/-/ fewer:-/--/ query:+++++
+ plaid:----- torse:--/-/ fewer:-/-// every:+++++
+ plaid:----- torse:--/-/ fewer:-//-/ wreck:+++++
+ plaid:----- torse:--/-/ fewer:/+-++ refer:+++++
+ plaid:----- torse:--/// sever:+++++
+ plaid:----- torse:--/// sever:++-++ sewer:+++++
+ plaid:----- torse:--/// sever:+/-++ sheer:+++++
+ plaid:----- torse:--/// sever:+/-++ sheer:+-+++ sneer:+++++
+ plaid:----- torse:--/// sever:/+--/ rebus:+++++
+ plaid:----- torse:--/// sever:/--++ usher:+++++
+ plaid:----- torse:-/++/ verso:+++++
+ plaid:----- torse:-/+-- furor:+++++
+ plaid:----- torse:-/+-- furor:-++++ juror:+++++
+ plaid:----- torse:-/+-/ error:+++++
+ plaid:----- torse:-/+-/ error:/-++- heron:+++++
+ plaid:----- torse:-/-++ chose:+++++
+ plaid:----- torse:-/-++ chose:-++++ whose:+++++
+ plaid:----- torse:-/-++ chose:--/++ obese:+++++
+ plaid:----- torse:-/--+ ounce:+++++
+ plaid:----- torse:-/--+ ounce:+-/-+ ozone:+++++
+ plaid:----- torse:-/--+ ounce:/---+ evoke:+++++
+ plaid:----- torse:-/--+ ounce:/--/+ choke:+++++
+ plaid:----- torse:-/--+ ounce:/-/-+ gnome:+++++
+ plaid:----- torse:-/--- bogan:+/--- buxom:+++++
+ plaid:----- torse:-/--- bogan:-/--+ known:+++++
+ plaid:----- torse:-/--- bogan:-/--- chock:+++++
+ plaid:----- torse:-/--- bogan:-/--/ knock:+++++
+ plaid:----- torse:-/--- bogan://--- jumbo:+++++
+ plaid:----- torse:-/--- bogan:///-- gumbo:+++++
+ plaid:----- torse:-/--/ enjoy:+++++
+ plaid:----- torse:-/--/ enjoy:++-++ envoy:+++++
+ plaid:----- torse:-/--/ enjoy:+/-/+ ebony:+++++
+ plaid:----- torse:-/--/ enjoy:/--/- gecko:+++++
+ plaid:----- torse:-/--/ enjoy://-+- venom:+++++
+ plaid:----- torse:-/-/+ shone:+++++
+ plaid:----- torse:-/-/+ shone:+++-+ shove:+++++
+ plaid:----- torse:-/-/+ shone:+-+++ scone:+++++
+ plaid:----- torse:-/-/+ shone:+-+-+ smoke:+++++
+ plaid:----- torse:-/-/- hyson:--/++ swoon:+++++
+ plaid:----- torse:-/-/- hyson:--//- scoff:+++++
+ plaid:----- torse:-/-/- hyson:--//- scoff:+/+-- smock:+++++
+ plaid:----- torse:-/-/- hyson:-///- smoky:+++++
+ plaid:----- torse:-/-/- hyson:-//// snowy:+++++
+ plaid:----- torse:-/-/- hyson:/-/+- shook:+++++
+ plaid:----- torse:-/-/- hyson:/-//+ shown:+++++
+ plaid:----- torse:-/-/- hyson:/-//- shock:+++++
+ plaid:----- torse:-/-/- hyson:////- showy:+++++
+ plaid:----- torse:-//+- cross:+++++
+ plaid:----- torse:-//+- cross:-++++ gross:+++++
+ plaid:----- torse:-//-+ croze:+++-+ crone:+++++
+ plaid:----- torse:-//-+ croze:+/+-+ chore:+++++
+ plaid:----- torse:-//-+ croze:-++++ froze:+++++
+ plaid:----- torse:-//-+ croze:-++-+ broke:+++++
+ plaid:----- torse:-//-+ croze:-++-+ broke:-++-+ grove:+++++
+ plaid:----- torse:-//-+ croze:-//-+ ombre:+++++
+ plaid:----- torse:-//-- bronc:+++-- brook:+++++
+ plaid:----- torse:-//-- bronc:+++-- brook:++++- broom:+++++
+ plaid:----- torse:-//-- bronc:+++/- brown:+++++
+ plaid:----- torse:-//-- bronc:-+++- wrong:+++++
+ plaid:----- torse:-//-- bronc:-+++/ crony:+++++
+ plaid:----- torse:-//-- bronc:-++-- groom:+++++
+ plaid:----- torse:-//-- bronc:-++-/ crock:+++++
+ plaid:----- torse:-//-- bronc:-++-/ crock:+++-+ crook:+++++
+ plaid:----- torse:-//-- bronc:-++-/ crock:-++++ frock:+++++
+ plaid:----- torse:-//-- bronc:-++/- frown:+++++
+ plaid:----- torse:-//-- bronc:-++/- frown:-++++ grown:+++++
+ plaid:----- torse:-//-- bronc:-++// crown:+++++
+ plaid:----- torse:-//-- bronc:-//-- humor:+++++
+ plaid:----- torse:-//-- bronc:-//-- humor:-++++ rumor:+++++
+ plaid:----- torse:-//-- bronc:-//-/ occur:+++++
+ plaid:----- torse:-//-/ offer:+++++
+ plaid:----- torse:-//-/ offer:+--++ owner:+++++
+ plaid:----- torse:-///+ score:+++++
+ plaid:----- torse:-///+ score:+-+++ shore:+++++
+ plaid:----- torse:-///+ score:+-+++ shore:+-+++ snore:+++++
+ plaid:----- torse:-///+ score:+-+++ shore:+-+++ snore:+-+++ swore:+++++
+ plaid:----- torse:-///- scorn:+++++
+ plaid:----- torse:-///- scorn:+++/- scour:+++++
+ plaid:----- torse:-///- scorn:+-+++ shorn:+++++
+ plaid:----- torse:-///- scorn:+-+++ shorn:+-+++ sworn:+++++
+ plaid:----- torse:/+++- worst:+++++
+ plaid:----- torse:/++-+ forte:+++++
+ plaid:----- torse:/++-- forth:+++++
+ plaid:----- torse:/++-- forth:++++- forty:+++++
+ plaid:----- torse:/++-- forth:-++++ north:+++++
+ plaid:----- torse:/++-- forth:-++++ north:-++++ worth:+++++
+ plaid:----- torse:/+-+- boost:+++++
+ plaid:----- torse:/+-+- boost:-+-++ joust:+++++
+ plaid:----- torse:/+--- month:+++++
+ plaid:----- torse:/+--- month:++-++ mouth:+++++
+ plaid:----- torse:/+--- month:++-+- motto:+++++
+ plaid:----- torse:/+--- month:++//- mount:+++++
+ plaid:----- torse:/+--- month:-+-++ booth:+++++
+ plaid:----- torse:/+--- month:-+-++ booth:-+-++ youth:+++++
+ plaid:----- torse:/+--- month:-+-+- booty:+++++
+ plaid:----- torse:/+--- month:-+-/+ botch:+++++
+ plaid:----- torse:/+--- month:-+//+ notch:+++++
+ plaid:----- torse:/+--- month:-+//- count:+++++
+ plaid:----- torse:/+--/ comet:+++++
+ plaid:----- torse:/+--/ comet:++-++ covet:+++++
+ plaid:----- torse:/+-/- sooth:+++++
+ plaid:----- torse:/+-/- sooth:++++- sooty:+++++
+ plaid:----- torse:/+-/- sooth:++-++ south:+++++
+ plaid:----- torse:/+/+- roost:+++++
+ plaid:----- torse:/+/-+ route:+++++
+ plaid:----- torse:/+/-- motor:+++++
+ plaid:----- torse:/+/-- motor:-++++ rotor:+++++
+ plaid:----- torse:/+/-- motor:-+/+/ robot:+++++
+ plaid:----- torse:/+/-- motor:-+/-/ court:+++++
+ plaid:----- torse:/+/-/ voter:+++++
+ plaid:----- torse:/-++- burst:+++++
+ plaid:----- torse:/-+-- burnt:+++++
+ plaid:----- torse:/-+-/ beret:+++++
+ plaid:----- torse:/-+-/ beret:+++-/ berth:+++++
+ plaid:----- torse:/-+-/ beret:-/+++ egret:+++++
+ plaid:----- torse:/-+/- strut:+++++
+ plaid:----- torse:/--+/ guest:+++++
+ plaid:----- torse:/--+/ guest:-++++ quest:+++++
+ plaid:----- torse:/--+/ guest:--+++ chest:+++++
+ plaid:----- torse:/---+ butte:+++++
+ plaid:----- torse:/---+ butte:-/-++ chute:+++++
+ plaid:----- torse:/---- butch:+++++
+ plaid:----- torse:/---- butch:-++++ hutch:+++++
+ plaid:----- torse:/---- butch:-++-- nutty:+++++
+ plaid:----- torse:/---- butch:-///- uncut:+++++
+ plaid:----- torse:/---/ eject:+++++
+ plaid:----- torse:/---/ eject:+-+-+ event:+++++
+ plaid:----- torse:/---/ eject:/--+/ fetch:+++++
+ plaid:----- torse:/---/ eject:/---+ unmet:+++++
+ plaid:----- torse:/---/ eject:/---/ hefty:+++++
+ plaid:----- torse:/---/ eject:/-/-+ beget:+++++
+ plaid:----- torse:/---/ eject://--/ jetty:+++++
+ plaid:----- torse:/--/- stung:+++++
+ plaid:----- torse:/--/- stung:++++- stunk:+++++
+ plaid:----- torse:/--/- stung:++++- stunk:++++- stunt:+++++
+ plaid:----- torse:/--/- stung:+++-- stuck:+++++
+ plaid:----- torse:/--/- stung:+++-- stuck:+++-- stuff:+++++
+ plaid:----- torse:/--/- stung:+/++- shunt:+++++
+ plaid:----- torse:/--/- stung:///-- musty:+++++
+ plaid:----- torse:/--/- stung:///-/ gusty:+++++
+ plaid:----- torse:/--// hetes:-++-+ fetus:+++++
+ plaid:----- torse:/--// hetes:-+/+/ beset:+++++
+ plaid:----- torse:/--// hetes:-+/-/ zesty:+++++
+ plaid:----- torse:/--// hetes:--/+/ unset:+++++
+ plaid:----- torse:/--// hetes:-//+/ sweet:+++++
+ plaid:----- torse:/--// hetes:-//-/ scent:+++++
+ plaid:----- torse:/--// hetes:///+/ sheet:+++++
+ plaid:----- torse:/-/+- crust:+++++
+ plaid:----- torse:/-/+/ crest:+++++
+ plaid:----- torse:/-/+/ crest:-++++ wrest:+++++
+ plaid:----- torse:/-/-+ brute:+++++
+ plaid:----- torse:/-/-- brunt:+++++
+ plaid:----- torse:/-/-- brunt:-++++ grunt:+++++
+ plaid:----- torse:/-/-/ erect:+++++
+ plaid:----- torse:/-/-/ erect:+/+-+ exert:+++++
+ plaid:----- torse:/-/-/ erect:+/--/ entry:+++++
+ plaid:----- torse:/-/-/ erect:+//-/ enter:+++++
+ plaid:----- torse:/-/-/ erect:+//-/ enter:+-/++ ether:+++++
+ plaid:----- torse:/-/-/ erect:/++-+ greet:+++++
+ plaid:----- torse:/-/-/ erect://-+/ retch:+++++
+ plaid:----- torse:/-/-/ erect://--+ rebut:+++++
+ plaid:----- torse:/-/-/ erect://--/ retry:+++++
+ plaid:----- torse:/-/-/ erect://--/ retry://+-- utter:+++++
+ plaid:----- torse:/-/-/ erect://-/+ recut:+++++
+ plaid:----- torse:/-/-/ erect:///-/ meter:+++++
+ plaid:----- torse:/-//- rusty:+++++
+ plaid:----- torse:/-/// ester:+++++
+ plaid:----- torse:/-/// ester:///++ steer:+++++
+ plaid:----- torse:/-/// ester:///+/ reset:+++++
+ plaid:----- torse:/-/// ester:///-/ stern:+++++
+ plaid:----- torse://-+- ghost:+++++
+ plaid:----- torse://--+ quote:+++++
+ plaid:----- torse://--- junto:+++++
+ plaid:----- torse://--- junto:-+-+/ quoth:+++++
+ plaid:----- torse://--- junto:-+-/+ outgo:+++++
+ plaid:----- torse://--- junto:-+-// ought:+++++
+ plaid:----- torse://--/ octet:+++++
+ plaid:----- torse://--/ octet:+-++- often:+++++
+ plaid:----- torse://-/+ stoke:+++++
+ plaid:----- torse://-/+ stoke:+++-+ stone:+++++
+ plaid:----- torse://-/+ stoke:+++-+ stone:+++-+ stove:+++++
+ plaid:----- torse://-/+ stoke:+/+-+ smote:+++++
+ plaid:----- torse://-/- stoun:++++- stout:+++++
+ plaid:----- torse://-/- stoun:+++-- stock:+++++
+ plaid:----- torse://-/- stoun:+++-/ stony:+++++
+ plaid:----- torse://-/- stoun:+/++- scout:+++++
+ plaid:----- torse://-/- stoun:+/++- scout:+-+++ shout:+++++
+ plaid:----- torse://-/- stoun:+/++/ snout:+++++
+ plaid:----- torse://-/- stoun:+/+-- shoot:+++++
+ plaid:----- torse://-/- stoun:////- gusto:+++++
+ plaid:----- torse://-// ethos:+++++
+ plaid:----- torse://-// ethos://-// onset:+++++
+ plaid:----- torse:///+- frost:+++++
+ plaid:----- torse:///-+ wrote:+++++
+ plaid:----- torse:///-- front:+++++
+ plaid:----- torse:///-- front:+++-/ froth:+++++
+ plaid:----- torse:///-- front:-++-+ grout:+++++
+ plaid:----- torse:///-- front:-++-/ broth:+++++
+ plaid:----- torse:///-/ metro:+++++
+ plaid:----- torse:///-/ metro:-++++ retro:+++++
+ plaid:----- torse:///-/ metro:-/+// otter:+++++
+ plaid:----- torse:///-/ metro:-/+// otter:+-+++ outer:+++++
+ plaid:----- torse:///-/ metro:-//+/ overt:+++++
+ plaid:----- torse:///-/ metro:-//// other:+++++
+ plaid:----- torse:////+ store:+++++
+ plaid:----- torse:////- stork:+++++
+ plaid:----- torse:////- stork:++++- storm:+++++
+ plaid:----- torse:////- stork:++++- storm:++++- story:+++++
+ plaid:----- torse:////- stork:+/++- short:+++++
+ plaid:----- torse:////- stork:+/++- short:+-+++ snort:+++++
+ plaid:----/ drone:+++++
+ plaid:----/ drone:+++-+ drove:+++++
+ plaid:----/ drone:+++-- dross:+++++
+ plaid:----/ drone:+++/- drown:+++++
+ plaid:----/ drone:++-+- drunk:+++++
+ plaid:----/ drone:++--/ dress:+++++
+ plaid:----/ drone:++--/ dress:++/-- dryer:+++++
+ plaid:----/ drone:+---+ deuce:+++++
+ plaid:----/ drone:+---- dacks:+-+-- duchy:+++++
+ plaid:----/ drone:+---- dacks:+--+/ dusky:+++++
+ plaid:----/ drone:+---- dacks:+---- dummy:+++++
+ plaid:----/ drone:+---- dacks:+---/ dusty:+++++
+ plaid:----/ drone:+---- dacks:+-/-- dutch:+++++
+ plaid:----/ drone:+---/ debug:+++++
+ plaid:----/ drone:+---/ debug:++++- debut:+++++
+ plaid:----/ drone:+---/ debug:+/-/- duvet:+++++
+ plaid:----/ drone:+--/+ dense:+++++
+ plaid:----/ drone:+--/+ dense:+-+-+ dunce:+++++
+ plaid:----/ drone:+-/+- downy:+++++
+ plaid:----/ drone:+-/-+ dodge:+++++
+ plaid:----/ drone:+-/-- dodgy:+++++
+ plaid:----/ drone:+-/-- dodgy:++-+- dough:+++++
+ plaid:----/ drone:+-/-- dodgy:++--- doubt:+++++
+ plaid:----/ drone:+-/-- dodgy:++/-+ dowdy:+++++
+ plaid:----/ drone:+-/-/ decoy:+++++
+ plaid:----/ drone:+-/-/ decoy:++-+- detox:+++++
+ plaid:----/ drone:+-//- donut:+++++
+ plaid:----/ drone:+-/// demon:+++++
+ plaid:----/ drone:+-/// demon:+/-/+ dozen:+++++
+ plaid:----/ drone:+/--/ defer:+++++
+ plaid:----/ drone:+/--/ defer:++-++ deter:+++++
+ plaid:----/ drone:+/--/ defer:++--+ demur:+++++
+ plaid:----/ drone:+/--/ defer:++--/ decry:+++++
+ plaid:----/ drone:+/--/ defer:++--/ decry:++-/+ derby:+++++
+ plaid:----/ drone:+//-- dowry:+++++
+ plaid:----/ drone:+//-/ decor:+++++
+ plaid:----/ drone:+///- donor:+++++
+ plaid:----/ drone:/++-+ erode:+++++
+ plaid:----/ drone:/+--+ crude:+++++
+ plaid:----/ drone:/+/-/ credo:+++++
+ plaid:----/ drone:/+/-/ credo:-+/// order:+++++
+ plaid:----/ drone:/-+-- goody:+++++
+ plaid:----/ drone:/-+-- goody:-++++ moody:+++++
+ plaid:----/ drone:/-+-- goody:-++++ moody:-++++ woody:+++++
+ plaid:----/ drone:/---+ budge:+++++
+ plaid:----/ drone:/---+ budge:-++++ fudge:+++++
+ plaid:----/ drone:/---+ budge:-++++ fudge:-++++ judge:+++++
+ plaid:----/ drone:/---+ budge:--+++ hedge:+++++
+ plaid:----/ drone:/---+ budge:--+++ hedge:-++++ wedge:+++++
+ plaid:----/ drone:/---+ budge:-//-+ etude:+++++
+ plaid:----/ drone:/---- buddy:+++++
+ plaid:----/ drone:/---- buddy:-++++ muddy:+++++
+ plaid:----/ drone:/---- buddy:-/-++ study:+++++
+ plaid:----/ drone:/---/ seedy:+++++
+ plaid:----/ drone:/---/ seedy:-++++ weedy:+++++
+ plaid:----/ drone:/---/ seedy:-+-++ teddy:+++++
+ plaid:----/ drone:/--/+ nudge:+++++
+ plaid:----/ drone:/--/+ nudge://+-+ undue:+++++
+ plaid:----/ drone:/--// needy:+++++
+ plaid:----/ drone:/-/-- howdy:+++++
+ plaid:----/ drone:/-/-- howdy:-+-++ toddy:+++++
+ plaid:----/ drone:/-/-- howdy:-/-+- outdo:+++++
+ plaid:----/ drone:/-/-/ modem:+++++
+ plaid:----/ drone:/-//- condo:+++++
+ plaid:----/ drone:/-/// endow:+++++
+ plaid:----/ drone://--- ruddy:+++++
+ plaid:----/ drone://--/ reedy:+++++
+ plaid:----/ drone://--/ reedy:+/-/- ruder:+++++
+ plaid:----/ drone://--/ reedy://-/- udder:+++++
+ plaid:----/ drone://-// nerdy:+++++
+ plaid:----/ drone://-// nerdy:////- under:+++++
+ plaid:----/ drone:///-+ horde:+++++
+ plaid:----/ drone:///-- rowdy:+++++
+ plaid:----/ drone:///-- rowdy:/+/++ wordy:+++++
+ plaid:----/ drone:///-- rowdy://-// hydro:+++++
+ plaid:----/ drone:///-/ odder:+++++
+ plaid:----/ drone:///-/ odder:/-++/ rodeo:+++++
+ plaid:---/+ cried:+++++
+ plaid:---/+ cried:-++++ dried:+++++
+ plaid:---/+ cried:-++++ dried:-++++ fried:+++++
+ plaid:---/+ cried:-++++ dried:-++++ fried:-++++ tried:+++++
+ plaid:---/+ cried:-++-+ grind:+++++
+ plaid:---/+ cried:--+++ shied:+++++
+ plaid:---/+ cried:--//+ fiend:+++++
+ plaid:---/+ cried:-/+-+ third:+++++
+ plaid:---/+ cried:-/+/+ weird:+++++
+ plaid:---/- trine:+++-+ tribe:+++++
+ plaid:---/- trine:+++-+ tribe:+++-+ trice:+++++
+ plaid:---/- trine:+++-+ tribe:+++-+ trice:+++-+ trite:+++++
+ plaid:---/- trine:+++-- trick:+++++
+ plaid:---/- trine:+-+++ twine:+++++
+ plaid:---/- trine:+-++- thing:+++++
+ plaid:---/- trine:+-++- thing:++++- think:+++++
+ plaid:---/- trine:+-++- thing:+-+++ tying:+++++
+ plaid:---/- trine:+-+-+ twice:+++++
+ plaid:---/- trine:+-+-- taish:+-++- twist:+++++
+ plaid:---/- trine:+-+-- taish:+-+-+ thigh:+++++
+ plaid:---/- trine:+-+-- taish:+-+-- twixt:+++++
+ plaid:---/- trine:+-+-- taish:+-+-/ thick:+++++
+ plaid:---/- trine:+-+-/ thief:+++++
+ plaid:---/- trine:+-/-+ tithe:+++++
+ plaid:---/- trine:+-/-- tight:+++++
+ plaid:---/- trine:+//-/ tiger:+++++
+ plaid:---/- trine:+//-/ tiger:++-++ timer:+++++
+ plaid:---/- trine:-++++ brine:+++++
+ plaid:---/- trine:-++++ brine:-++++ urine:+++++
+ plaid:---/- trine:-+++- bring:+++++
+ plaid:---/- trine:-+++- bring:++++- brink:+++++
+ plaid:---/- trine:-+++- bring:++++- brink:++++- briny:+++++
+ plaid:---/- trine:-+++- bring:-++++ wring:+++++
+ plaid:---/- trine:-++-+ crime:+++++
+ plaid:---/- trine:-++-+ crime:-++++ grime:+++++
+ plaid:---/- trine:-++-+ crime:-++-+ bribe:+++++
+ plaid:---/- trine:-++-- brick:+++++
+ plaid:---/- trine:-++-- brick:+++-+ brisk:+++++
+ plaid:---/- trine:-++-- brick:-++++ crick:+++++
+ plaid:---/- trine:-++-- brick:-++-+ frisk:+++++
+ plaid:---/- trine:-++-- brick:-++-- grimy:+++++
+ plaid:---/- trine:-++-/ brief:+++++
+ plaid:---/- trine:-++-/ brief:-++++ grief:+++++
+ plaid:---/- trine:-++-/ brief:-+++- crier:+++++
+ plaid:---/- trine:-+/+- irony:+++++
+ plaid:---/- trine:--+++ shine:+++++
+ plaid:---/- trine:--+++ shine:+-+++ swine:+++++
+ plaid:---/- trine:--+++ shine:-++++ whine:+++++
+ plaid:---/- trine:--+++ shine:--+++ ovine:+++++
+ plaid:---/- trine:--++- swing:+++++
+ plaid:---/- trine:--++- swing:+-+++ suing:+++++
+ plaid:---/- trine:--++- swing:+-++- shiny:+++++
+ plaid:---/- trine:--++- swing:-++++ owing:+++++
+ plaid:---/- trine:--++- swing:--+++ going:+++++
+ plaid:---/- trine:--++- swing:--+++ going:--+++ icing:+++++
+ plaid:---/- trine:--++- swing:--+++ going:--+++ icing:--+++ vying:+++++
+ plaid:---/- trine:--++- swing:-/++- whiny:+++++
+ plaid:---/- trine:--++- swing:/-+++ using:+++++
+ plaid:---/- trine:--++/ eking:+++++
+ plaid:---/- trine:--++/ eking:+-+++ eying:+++++
+ plaid:---/- trine:--++/ eking:/-+++ being:+++++
+ plaid:---/- trine:--+-+ juice:+++++
+ plaid:---/- trine:--+-+ juice:-++-+ guise:+++++
+ plaid:---/- trine:--+-+ juice:--+++ voice:+++++
+ plaid:---/- trine:--+-+ juice:--+-+ seize:+++++
+ plaid:---/- trine:--+-+ juice:--+/+ chime:+++++
+ plaid:---/- trine:--+-- chick:+++++
+ plaid:---/- trine:--+-- chick:-+++- which:+++++
+ plaid:---/- trine:--+-- chick:-++-+ whisk:+++++
+ plaid:---/- trine:--+-- chick:-++-- whiff:+++++
+ plaid:---/- trine:--+-- chick:--+++ quick:+++++
+ plaid:---/- trine:--+-- chick:--++- juicy:+++++
+ plaid:---/- trine:--+-- chick:--+-/ skiff:+++++
+ plaid:---/- trine:--+-- chick:-/+-- swish:+++++
+ plaid:---/- trine:--+-/ chief:+++++
+ plaid:---/- trine:--+-/ chief:-/+/- weigh:+++++
+ plaid:---/- trine:--+/+ knife:+++++
+ plaid:---/- trine:--+/+ knife:-/+-+ noise:+++++
+ plaid:---/- trine:--+/- unify:+++++
+ plaid:---/- trine:--+/- unify:+++-- union:+++++
+ plaid:---/- trine:--+/- unify:-+++- sniff:+++++
+ plaid:---/- trine:--+/- unify:-++-- onion:+++++
+ plaid:---/- trine:--+/- unify:-/+-+ noisy:+++++
+ plaid:---/- trine:--+/- unify:-/+-- scion:+++++
+ plaid:---/- trine:--+// feign:+++++
+ plaid:---/- trine:--+// feign:-+++/ neigh:+++++
+ plaid:---/- trine:--/+- ninny:+++++
+ plaid:---/- trine:--/-+ siege:+++++
+ plaid:---/- trine:--/-+ siege:+++-+ sieve:+++++
+ plaid:---/- trine:--/-+ siege:-+--+ biome:+++++
+ plaid:---/- trine:--/-+ siege:-/--+ imbue:+++++
+ plaid:---/- trine:--/-+ siege://--+ issue:+++++
+ plaid:---/- trine:--/-- jisms:++--- jiffy:+++++
+ plaid:---/- trine:--/-- jisms:-++-- fishy:+++++
+ plaid:---/- trine:--/-- jisms:-++-/ sissy:+++++
+ plaid:---/- trine:--/-- jisms:-++// missy:+++++
+ plaid:---/- trine:--/-- jisms:-+--+ ficus:+++++
+ plaid:---/- trine:--/-- jisms:-+--- fizzy:+++++
+ plaid:---/- trine:--/-- jisms:-+/-- kiosk:+++++
+ plaid:---/- trine:--/-- jisms:-/+-/ sushi:+++++
+ plaid:---/- trine:--//+ since:+++++
+ plaid:---/- trine:--//+ since:+++-+ singe:+++++
+ plaid:---/- trine:--//+ since:-++++ mince:+++++
+ plaid:---/- trine:--//+ since:-++++ mince:-++++ wince:+++++
+ plaid:---/- trine:--//+ since:-++-+ binge:+++++
+ plaid:---/- trine:--//+ since:-++-+ binge:-++++ hinge:+++++
+ plaid:---/- trine:--//+ since:-+/++ niece:+++++
+ plaid:---/- trine:--//+ since:-+//+ niche:+++++
+ plaid:---/- trine:--//- cions:++-/- cinch:+++++
+ plaid:---/- trine:--//- cions:-+-/+ minus:+++++
+ plaid:---/- trine:--//- cions:-+-/- kinky:+++++
+ plaid:---/- trine:--//- cions:-+//- bingo:+++++
+ plaid:---/- trine:--//- cions:-+/// bison:+++++
+ plaid:---/- trine:--//- cions:-/-/- fungi:+++++
+ plaid:---/- trine:--//- cions:-///- inbox:+++++
+ plaid:---/- trine:--//- cions:/+-/- finch:+++++
+ plaid:---/- trine:--//- cions:/+-/- finch:-++++ winch:+++++
+ plaid:---/- trine:--/// given:+++++
+ plaid:---/- trine:--/// given:-+-+/ sinew:+++++
+ plaid:---/- trine:--/// given:-+/++ vixen:+++++
+ plaid:---/- trine:--/// given:-/-// ennui:+++++
+ plaid:---/- trine:-/++- rhino:+++++
+ plaid:---/- trine:-/+-+ shire:+++++
+ plaid:---/- trine:-/+-- shirk:+++++
+ plaid:---/- trine:-/+-- shirk:+-+++ smirk:+++++
+ plaid:---/- trine:-/+-- shirk:--+++ quirk:+++++
+ plaid:---/- trine:-/+-/ skier:+++++
+ plaid:---/- trine:-/+// reign:+++++
+ plaid:---/- trine:-//-+ fibre:+++++
+ plaid:---/- trine:-//-- visor:+++++
+ plaid:---/- trine:-//-- visor:++-++ vigor:+++++
+ plaid:---/- trine:-//-- visor:++/-/ virus:+++++
+ plaid:---/- trine:-//-- visor:-++-/ risky:+++++
+ plaid:---/- trine:-//-- visor:-+-++ rigor:+++++
+ plaid:---/- trine:-//-- visor:-+--/ birch:+++++
+ plaid:---/- trine:-//-- visor:-+-// micro:+++++
+ plaid:---/- trine:-//-- visor://-// ivory:+++++
+ plaid:---/- trine:-//-/ ribes:++-+- river:+++++
+ plaid:---/- trine:-//-/ ribes:++-+/ riser:+++++
+ plaid:---/- trine:-//-/ ribes:/+++- fiber:+++++
+ plaid:---/- trine:-//-/ ribes:/+-+- fixer:+++++
+ plaid:---/- trine:-//-/ ribes:/+-+- fixer:-+-++ giver:+++++
+ plaid:---/- trine:-//-/ ribes:/+-+/ miser:+++++
+ plaid:---/- trine:-//-/ ribes:/+-+/ miser:-++++ wiser:+++++
+ plaid:---/- trine:-//-/ ribes:/+-/- fiery:+++++
+ plaid:---/- trine:-///+ rinse:+++++
+ plaid:---/- trine:-///- incur:+++++
+ plaid:---/- trine:-///- incur://--+ minor:+++++
+ plaid:---/- trine:-//// finer:+++++
+ plaid:---/- trine:-//// finer:-++++ miner:+++++
+ plaid:---/- trine:-//// finer:-+/++ nicer:+++++
+ plaid:---/- trine:-//// finer:-+/+/ risen:+++++
+ plaid:---/- trine:-//// finer:-+/+/ risen:/+/++ siren:+++++
+ plaid:---/- trine:-//// finer:-/+++ inner:+++++
+ plaid:---/- trine:-//// finer:///++ infer:+++++
+ plaid:---/- trine:/++-+ write:+++++
+ plaid:---/- trine:/++-- fritz:+++++
+ plaid:---/- trine:/++-- fritz:-++/- wrist:+++++
+ plaid:---/- trine:/-++- skint:+-+++ stint:+++++
+ plaid:---/- trine:/-++- skint:+-++/ sting:+++++
+ plaid:---/- trine:/-++- skint:+/++/ stink:+++++
+ plaid:---/- trine:/-++- skint:--+++ joint:+++++
+ plaid:---/- trine:/-+-+ suite:+++++
+ plaid:---/- trine:/-+-+ suite:+-+++ smite:+++++
+ plaid:---/- trine:/-+-+ suite:-++++ quite:+++++
+ plaid:---/- trine:/-+-+ suite:--+++ white:+++++
+ plaid:---/- trine:/-+-- shift:+++++
+ plaid:---/- trine:/-+-- shift:+-+++ swift:+++++
+ plaid:---/- trine:/-+-- shift:+-++/ stiff:+++++
+ plaid:---/- trine:/-+-- shift:+-+-/ stick:+++++
+ plaid:---/- trine:/-+-- shift:+/+-/ smith:+++++
+ plaid:---/- trine:/-+-- shift:/-+-+ joist:+++++
+ plaid:---/- trine:/-+-- shift:/-+-+ joist:-++++ moist:+++++
+ plaid:---/- trine:/-+-- shift:/-+/+ foist:+++++
+ plaid:---/- trine:/-+-- shift://+-+ hoist:+++++
+ plaid:---/- trine:/-+-/ exist:+++++
+ plaid:---/- trine:/-+-/ exist:+-+-+ evict:+++++
+ plaid:---/- trine:/-+-/ exist:/-+++ heist:+++++
+ plaid:---/- trine:/-+-/ exist:/-+-+ quiet:+++++
+ plaid:---/- trine:/-+/+ unite:+++++
+ plaid:---/- trine:/-+/- unity:+++++
+ plaid:---/- trine:/-/-- withs:+++-- witty:+++++
+ plaid:---/- trine:/-/-- withs:+++/- witch:+++++
+ plaid:---/- trine:/-/-- withs:++/+- wight:+++++
+ plaid:---/- trine:/-/-- withs:-++-- bitty:+++++
+ plaid:---/- trine:/-/-- withs:-++-- bitty:-++++ kitty:+++++
+ plaid:---/- trine:/-/-- withs:-++/- hitch:+++++
+ plaid:---/- trine:/-/-- withs:-+/+- fight:+++++
+ plaid:---/- trine:/-/-- withs:-+/+- fight:-++++ might:+++++
+ plaid:---/- trine:/-/-- withs:-+/+/ sight:+++++
+ plaid:---/- trine:/-/-- withs:-+/-- bigot:+++++
+ plaid:---/- trine:/-/-- withs:-+/-- bigot:-+--/ fifty:+++++
+ plaid:---/- trine:/-/-- withs:-+/-/ sixty:+++++
+ plaid:---/- trine:/-/-- withs:-+//- fifth:+++++
+ plaid:---/- trine:/-/-- withs:-+/// sixth:+++++
+ plaid:---/- trine:/-/-- withs:-//+- itchy:+++++
+ plaid:---/- trine:/-/-/ eight:+++++
+ plaid:---/- trine:/-//- minty:+++++
+ plaid:---/- trine:/-//- minty:-+++- ninth:+++++
+ plaid:---/- trine:/-//- minty:-+//- night:+++++
+ plaid:---/- trine:/-//- minty:-///- ingot:+++++
+ plaid:---/- trine://+-- shirt:+++++
+ plaid:---/- trine://+-- shirt:+-+++ skirt:+++++
+ plaid:---/- trine:///-- birth:+++++
+ plaid:---/- trine:///-- birth:-++++ girth:+++++
+ plaid:---/- trine:///-- birth:-++++ girth:-++++ mirth:+++++
+ plaid:---/- trine:///-- birth:-++/- first:+++++
+ plaid:---/- trine:///-- birth:-+/// right:+++++
+ plaid:---/- trine:///-/ rivet:+++++
+ plaid:---/- trine:////- intro:+++++
+ plaid:---/- trine:///// inert:+++++
+ plaid:---/- trine:///// inert:++/// inter:+++++
+ plaid:---// dicey:+++++
+ plaid:---// dicey:++-+- diner:+++++
+ plaid:---// dicey:++-+- diner:++-++ diver:+++++
+ plaid:---// dicey:++--+ ditzy:+++-+ ditty:+++++
+ plaid:---// dicey:++--+ ditzy:++-++ dizzy:+++++
+ plaid:---// dicey:++--+ ditzy:++--+ dingy:+++++
+ plaid:---// dicey:++--+ ditzy:++/-+ dirty:+++++
+ plaid:---// dicey:++--- dingo:+++++
+ plaid:---// dicey:++--- dingo:++--+ ditto:+++++
+ plaid:---// dicey:++-/- diode:+++++
+ plaid:---// dicey:++-/- diode:++--+ dirge:+++++
+ plaid:---// dicey:++/-- disco:+++++
+ plaid:---// dicey:++/-- disco:++-+- ditch:+++++
+ plaid:---// dicey:+/-+- drier:+++++
+ plaid:---// dicey:+/--- doing:+++++
+ plaid:---// dicey:+/--- doing:+-++- drink:+++++
+ plaid:---// dicey:+/--- doing:+-+-- drift:+++++
+ plaid:---// dicey:+/--/ dying:+++++
+ plaid:---// dicey:+/-/+ deity:+++++
+ plaid:---// dicey:+/-/- deign:+++++
+ plaid:---// dicey:+/-/- deign:+/+-- drive:+++++
+ plaid:---// dicey:/+-+- wider:+++++
+ plaid:---// dicey:/+-+- wider:++++- widen:+++++
+ plaid:---// dicey:/+-+- wider:-++++ rider:+++++
+ plaid:---// dicey:/+-+- wider:-+++- video:+++++
+ plaid:---// dicey:/+--+ biddy:+++++
+ plaid:---// dicey:/+--+ biddy:-++++ giddy:+++++
+ plaid:---// dicey:/+--+ biddy:-+-++ windy:+++++
+ plaid:---// dicey:/+--- midst:+++++
+ plaid:---// dicey:/+--- midst:-++-- widow:+++++
+ plaid:---// dicey:/+--- midst:-++-/ width:+++++
+ plaid:---// dicey:/+-/- midge:+++++
+ plaid:---// dicey:/+-/- midge:-++++ ridge:+++++
+ plaid:---// dicey:/+/+- cider:+++++
+ plaid:---// dicey://-+- index:+++++
+ plaid:---// dicey://--- idiom:+++++
+ plaid:---// dicey://--- idiom:++++- idiot:+++++
+ plaid:---// dicey://-/+ edify:+++++
+ plaid:---// dicey://-/- bides:+///- bride:+++++
+ plaid:---// dicey://-/- bides:-///- guide:+++++
+ plaid:---// dicey://-/- bides:-///- guide:--+++ oxide:+++++
+ plaid:---// dicey://-/- bides:-//// snide:+++++
+ plaid:---// dicey:////- chide:+++++
+ plaid:---// dicey:////- chide:/-+// edict:+++++
+ plaid:--/++ acrid:+++++
+ plaid:--/++ acrid:+--++ avoid:+++++
+ plaid:--/++ acrid:/-/++ rabid:+++++
+ plaid:--/+- cabin:+++++
+ plaid:--/+- cabin:-+++- habit:+++++
+ plaid:--/+- cabin:-+-++ satin:+++++
+ plaid:--/+- cabin:-+-+- mafia:+++++
+ plaid:--/+- cabin:-+-+- mafia:++-+- maxim:+++++
+ plaid:--/+- cabin:-+-+- mafia:-+-+- ratio:+++++
+ plaid:--/+- cabin:-+-+/ mania:+++++
+ plaid:--/+- cabin:-+/++ basin:+++++
+ plaid:--/+- cabin:-+/+- basis:+++++
+ plaid:--/+- cabin:-/++- tibia:+++++
+ plaid:--/+- cabin:-/-+- affix:+++++
+ plaid:--/+- cabin:/+-+- magic:+++++
+ plaid:--/+- cabin:/+-+- magic:-+-+/ tacit:+++++
+ plaid:--/+- cabin:/+-+/ manic:+++++
+ plaid:--/+- cabin:/+/+- basic:+++++
+ plaid:--/+- cabin://-+- attic:+++++
+ plaid:--/+- cabin://-+/ antic:+++++
+ plaid:--/+/ admin:+++++
+ plaid:--/+/ admin:++++- admit:+++++
+ plaid:--/+/ admin:+/-+- audio:+++++
+ plaid:--/+/ admin:+/-+- audio:++++- audit:+++++
+ plaid:--/+/ admin://-+- radii:+++++
+ plaid:--/+/ admin://-+- radii:++++- radio:+++++
+ plaid:--/+/ admin://-+/ nadir:+++++
+ plaid:--/+/ admin:///+- media:+++++
+ plaid:--/-+ anted:+--/+ ahead:+++++
+ plaid:--/-+ anted:+/-/+ amend:+++++
+ plaid:--/-+ anted:/+-/+ knead:+++++
+ plaid:--/-+ anted:/---+ broad:+++++
+ plaid:--/-+ anted:/---+ broad:---++ squad:+++++
+ plaid:--/-+ anted:/--/+ bread:+++++
+ plaid:--/-+ anted:/--/+ bread:-++++ dread:+++++
+ plaid:--/-+ anted:/-//+ stead:+++++
+ plaid:--/-+ anted:/-//+ stead:-/+++ tread:+++++
+ plaid:--/-+ anted://--+ gonad:+++++
+ plaid:--/-+ anted://--+ gonad:-+/++ nomad:+++++
+ plaid:--/-- cater:+++++
+ plaid:--/-- cater:+++-- catch:+++++
+ plaid:--/-- cater:+++-- catch:+++-- catty:+++++
+ plaid:--/-- cater:++-+- cagey:+++++
+ plaid:--/-- cater:++-+- cagey:++-+- cameo:+++++
+ plaid:--/-- cater:++--- canny:+++++
+ plaid:--/-- cater:++--- canny:+++/- canon:+++++
+ plaid:--/-- cater:++--- canny:++--+ cabby:+++++
+ plaid:--/-- cater:++--- canny:++--- cacao:+++++
+ plaid:--/-- cater:++--/ cargo:+++++
+ plaid:--/-- cater:++--/ cargo:+++-- carry:+++++
+ plaid:--/-- cater:++-/- caneh:+++/- canoe:+++++
+ plaid:--/-- cater:++-/- caneh:++-/- cause:+++++
+ plaid:--/-- cater:++-/- caneh:++-// cache:+++++
+ plaid:--/-- cater:++-// carve:+++++
+ plaid:--/-- cater:++/-/ carat:+++++
+ plaid:--/-- cater:++//- caste:+++++
+ plaid:--/-- cater:+/--- cocoa:+++++
+ plaid:--/-- cater:+/--- cocoa:++--+ comma:+++++
+ plaid:--/-- cater:+/--/ cobra:+++++
+ plaid:--/-- cater:+/--/ cobra:+/-// croak:+++++
+ plaid:--/-- cater:+/-// creak:+++++
+ plaid:--/-- cater:+/-// creak:++++- cream:+++++
+ plaid:--/-- cater:+///- cheat:+++++
+ plaid:--/-- cater:-++++ eater:+++++
+ plaid:--/-- cater:-++++ eater:-++++ hater:+++++
+ plaid:--/-- cater:-++++ eater:-++++ hater:-++++ water:+++++
+ plaid:--/-- cater:-+++- eaten:+++++
+ plaid:--/-- cater:-+++- eaten:-+++- matey:+++++
+ plaid:--/-- cater:-++-+ satyr:+++++
+ plaid:--/-- cater:-++-- baton:+++++
+ plaid:--/-- cater:-++-- baton:+++-- batty:+++++
+ plaid:--/-- cater:-++-- baton:-++-- fatty:+++++
+ plaid:--/-- cater:-++-- baton:-++-- fatty:-++++ tatty:+++++
+ plaid:--/-- cater:-++-/ ratty:+++++
+ plaid:--/-- cater:-++/- bathe:+++++
+ plaid:--/-- cater:-+-++ wager:+++++
+ plaid:--/-- cater:-+-++ wager:++-++ wafer:+++++
+ plaid:--/-- cater:-+-++ wager:++-++ wafer:++-++ waver:+++++
+ plaid:--/-- cater:-+-++ wager:-++++ eager:+++++
+ plaid:--/-- cater:-+-++ wager:-+-++ baser:++-++ baker:+++++
+ plaid:--/-- cater:-+-++ wager:-+-++ baser:-+-++ maker:+++++
+ plaid:--/-- cater:-+-++ wager:-+-++ baser:-+-++ maker:-+-++ rarer:+++++
+ plaid:--/-- cater:-+-++ wager:-+-++ baser:-+/++ safer:+++++
+ plaid:--/-- cater:-+-++ wager:-+-++ baser:-+/++ safer:++-++ saner:+++++
+ plaid:--/-- cater:-+-++ wager:-+/++ gamer:+++++
+ plaid:--/-- cater:-+-++ wager:-+/++ gamer:++-++ gayer:+++++
+ plaid:--/-- cater:-+-++ wager:-+/++ gamer:++-++ gayer:++-++ gazer:+++++
+ plaid:--/-- cater:-+-+- hacek:++-+- haven:+++++
+ plaid:--/-- cater:-+-+- hacek:-+-+- waxen:+++++
+ plaid:--/-- cater:-+-+- hacek:-+-+/ oaken:+++++
+ plaid:--/-- cater:-+-+/ harem:+++++
+ plaid:--/-- cater:-+-+/ harem:-+/+- raven:+++++
+ plaid:--/-- cater:-+-+/ harem:-+/+/ ramen:+++++
+ plaid:--/-- cater:-+--+ major:+++++
+ plaid:--/-- cater:-+--+ major:++-++ manor:+++++
+ plaid:--/-- cater:-+--+ major:++-++ manor:++-++ mayor:+++++
+ plaid:--/-- cater:-+--+ major:-+-++ favor:+++++
+ plaid:--/-- cater:-+--+ major:-+-++ favor:-++++ savor:+++++
+ plaid:--/-- cater:-+--+ major:-+-++ favor:-+-++ razor:+++++
+ plaid:--/-- cater:-+--- nagas:++--- nanny:+++++
+ plaid:--/-- cater:-+--- nagas:-++-- baggy:+++++
+ plaid:--/-- cater:-+--- nagas:-++/- magma:+++++
+ plaid:--/-- cater:-+--- nagas:-+-+- kayak:+++++
+ plaid:--/-- cater:-+--- nagas:-+--- jazzy:+++++
+ plaid:--/-- cater:-+--- nagas:-+--- jazzy:-+--+ mammy:+++++
+ plaid:--/-- cater:-+--- nagas:-+--- jazzy:-+--- mambo:+++++
+ plaid:--/-- cater:-+--- nagas:-+--- jazzy:-+--/ bayou:+++++
+ plaid:--/-- cater:-+--- nagas:-+--/ savoy:+++++
+ plaid:--/-- cater:-+--- nagas:-+--/ savoy:+++-+ savvy:+++++
+ plaid:--/-- cater:-+--- nagas:-+--/ savoy:++--+ sassy:+++++
+ plaid:--/-- cater:-+--- nagas:-+-/- mamma:+++++
+ plaid:--/-- cater:-+--- nagas:-+/-- gawky:+++++
+ plaid:--/-- cater:-+--- nagas:-+/-/ gassy:+++++
+ plaid:--/-- cater:-+--- nagas:-+//- gamma:+++++
+ plaid:--/-- cater:-+--- nagas:/++-- wagon:+++++
+ plaid:--/-- cater:-+--- nagas:/+--- banjo:+++++
+ plaid:--/-- cater:-+--- nagas:/+--- banjo:-++-- fanny:+++++
+ plaid:--/-- cater:-+--- nagas:/+--/ mason:+++++
+ plaid:--/-- cater:-+--- nagas:/+-/- fauna:+++++
+ plaid:--/-- cater:-+--- nagas:/+-// sauna:+++++
+ plaid:--/-- cater:-+--- nagas:/+/-- mango:+++++
+ plaid:--/-- cater:-+--- nagas:/+/-- mango:++++- mangy:+++++
+ plaid:--/-- cater:-+--- nagas:/+//- manga:+++++
+ plaid:--/-- cater:-+--/ marsh:+++++
+ plaid:--/-- cater:-+--/ marsh:+++-- marry:+++++
+ plaid:--/-- cater:-+--/ marsh:-++++ harsh:+++++
+ plaid:--/-- cater:-+--/ marsh:-++-- baron:+++++
+ plaid:--/-- cater:-+--/ marsh:-++-/ harry:+++++
+ plaid:--/-- cater:-+--/ marsh:-+/-+ rajah:+++++
+ plaid:--/-- cater:-+--/ marsh:-+/-- rayon:+++++
+ plaid:--/-- cater:-+--/ marsh:/++-- karma:+++++
+ plaid:--/-- cater:-+-/- gauge:+++++
+ plaid:--/-- cater:-+-/- gauge:+++-+ gauze:+++++
+ plaid:--/-- cater:-+-/- gauge:++--+ gaffe:+++++
+ plaid:--/-- cater:-+-/- gauge:-++-+ mauve:+++++
+ plaid:--/-- cater:-+-/- gauge:-+-++ mange:+++++
+ plaid:--/-- cater:-+-/- gauge:-+--+ masse:+++++
+ plaid:--/-- cater:-+-/- gauge:-+--+ masse:++--+ maybe:+++++
+ plaid:--/-- cater:-+-/- gauge:/+/-+ vague:+++++
+ plaid:--/-- cater:-+-// barge:+++++
+ plaid:--/-- cater:-+-// barge:-+/++ range:+++++
+ plaid:--/-- cater:-+/++ taker:+++++
+ plaid:--/-- cater:-+/++ taker:++-++ tamer:+++++
+ plaid:--/-- cater:-+/+- taken:+++++
+ plaid:--/-- cater:-+/-- tangy:+++++
+ plaid:--/-- cater:-+/-- tangy:++++- tango:+++++
+ plaid:--/-- cater:-+/-- tangy:++--+ tabby:+++++
+ plaid:--/-- cater:-+/-- tangy:++--+ tabby:++--+ taffy:+++++
+ plaid:--/-- cater:-+/-- tangy:++--+ tabby:++--+ taffy:++--+ tasty:+++++
+ plaid:--/-- cater:-+/-- tangy:++--- taboo:+++++
+ plaid:--/-- cater:-+/-- tangy:++/-+ tawny:+++++
+ plaid:--/-- cater:-+/-- tangy:++/-- taunt:+++++
+ plaid:--/-- cater:-+/-- tangy:/+--+ hasty:+++++
+ plaid:--/-- cater:-+/-- tangy:/+-/- gamut:+++++
+ plaid:--/-- cater:-+/-- tangy:/+/-+ nasty:+++++
+ plaid:--/-- cater:-+/-- tangy:/+/-- haunt:+++++
+ plaid:--/-- cater:-+/-- tangy:/+/-- haunt:-++++ jaunt:+++++
+ plaid:--/-- cater:-+/-- tangy:/+/-- haunt:-++++ jaunt:-++++ vaunt:+++++
+ plaid:--/-- cater:-+/-- tangy:/+//- gaunt:+++++
+ plaid:--/-- cater:-+/-/ tarot:+++++
+ plaid:--/-- cater:-+/-/ tarot:/++-- warty:+++++
+ plaid:--/-- cater:-+//- taube:++--+ taste:+++++
+ plaid:--/-- cater:-+//- taube:/++-+ haute:+++++
+ plaid:--/-- cater:-+//- taube:/++-+ haute:-++++ saute:+++++
+ plaid:--/-- cater:-+//- taube:/+--+ haste:+++++
+ plaid:--/-- cater:-+//- taube:/+--+ haste:-++++ waste:+++++
+ plaid:--/-- cater:-+//- taube:/+-/+ baste:+++++
+ plaid:--/-- cater:-+/// earth:+++++
+ plaid:--/-- cater:-/+++ after:+++++
+ plaid:--/-- cater:-/+-/ artsy:+++++
+ plaid:--/-- cater:-/+// extra:+++++
+ plaid:--/-- cater:-/-++ amber:+++++
+ plaid:--/-- cater:-/-++ amber:+--++ anger:+++++
+ plaid:--/-- cater:-/-+- ashen:+++++
+ plaid:--/-- cater:-/-+- ashen:++-+- askew:+++++
+ plaid:--/-- cater:-/-+- ashen:+--+- abbey:+++++
+ plaid:--/-- cater:-/-+- ashen:+--+/ annex:+++++
+ plaid:--/-- cater:-/-+/ agree:+++++
+ plaid:--/-- cater:-/--+ abhor:+++++
+ plaid:--/-- cater:-/--+ abhor:+--++ armor:+++++
+ plaid:--/-- cater:-/--+ abhor:+---+ augur:+++++
+ plaid:--/-- cater:-/--+ abhor:+/-++ arbor:+++++
+ plaid:--/-- cater:-/--+ abhor:/---+ sugar:+++++
+ plaid:--/-- cater:-/--+ abhor:/--/+ sonar:+++++
+ plaid:--/-- cater:-/--- agony:+++++
+ plaid:--/-- cater:-/--- agony:+---+ assay:+++++
+ plaid:--/-- cater:-/--- agony:+---/ abyss:+++++
+ plaid:--/-- cater:-/--- agony:+-//+ annoy:+++++
+ plaid:--/-- cater:-/--- agony:+/++- among:+++++
+ plaid:--/-- cater:-/--- agony:/--/- human:+++++
+ plaid:--/-- cater:-/--- agony:/-//- woman:+++++
+ plaid:--/-- cater:-/--/ acorn:+-++- agora:+++++
+ plaid:--/-- cater:-/--/ acorn:+-+/- aroma:+++++
+ plaid:--/-- cater:-/--/ acorn:+--+/ angry:+++++
+ plaid:--/-- cater:-/--/ acorn:+--/- array:+++++
+ plaid:--/-- cater:-/--/ acorn:+-//+ arson:+++++
+ plaid:--/-- cater:-/--/ acorn:+-//- arrow:+++++
+ plaid:--/-- cater:-/--/ acorn:/-+/+ groan:+++++
+ plaid:--/-- cater:-/--/ acorn:/--+- umbra:+++++
+ plaid:--/-- cater:-/--/ acorn:/--/+ urban:+++++
+ plaid:--/-- cater:-/--/ acorn:/--/- rumba:+++++
+ plaid:--/-- cater:-/--/ acorn:/-//+ organ:+++++
+ plaid:--/-- cater:-/--/ acorn:/-//- borax:+++++
+ plaid:--/-- cater:-/--/ acorn:/-//- borax:-+++- foray:+++++
+ plaid:--/-- cater:-/-/+ whear:-++++ shear:+++++
+ plaid:--/-- cater:-/-/+ whear:--+++ smear:+++++
+ plaid:--/-- cater:-/-/+ whear:--/++ rebar:+++++
+ plaid:--/-- cater:-/-/+ whear:/-+++ swear:+++++
+ plaid:--/-- cater:-/-/- avens:+-/-- awoke:+++++
+ plaid:--/-- cater:-/-/- avens:+-/-/ abuse:+++++
+ plaid:--/-- cater:-/-/- avens:+-/-/ abuse:+-+++ amuse:+++++
+ plaid:--/-- cater:-/-/- avens:+//-- above:+++++
+ plaid:--/-- cater:-/-/- avens:/-++- hyena:+++++
+ plaid:--/-- cater:-/-/- avens:/-+-- omega:+++++
+ plaid:--/-- cater:-/-/- avens:/-+/- enema:+++++
+ plaid:--/-- cater:-/-/- avens:/-+// sneak:+++++
+ plaid:--/-- cater:-/-/- avens:/-/-- kebab:+++++
+ plaid:--/-- cater:-/-/- avens:/-/-/ essay:+++++
+ plaid:--/-- cater:-/-/- avens:/-//- began:+++++
+ plaid:--/-- cater:-/-/- avens:////- vegan:+++++
+ plaid:--/-- cater:-/-// abers:+-+/- arena:+++++
+ plaid:--/-- cater:-/-// abers:+-/+- azure:+++++
+ plaid:--/-- cater:-/-// abers:+-//- argue:+++++
+ plaid:--/-- cater:-/-// abers:+-/// arose:+++++
+ plaid:--/-- cater:-/-// abers:/-+/- freak:+++++
+ plaid:--/-- cater:-/-// abers:/-+/- freak:-++++ wreak:+++++
+ plaid:--/-- cater:-/-// abers://+/- break:+++++
+ plaid:--/-- cater:-/-// abers:///+- zebra:+++++
+ plaid:--/-- cater:-/-// abers:////- rehab:+++++
+ plaid:--/-- cater:-//+- asset:+++++
+ plaid:--/-- cater:-//-- about:+++++
+ plaid:--/-- cater:-//-- about:++/-+ abbot:+++++
+ plaid:--/-- cater:-//-- about:+-+-+ afoot:+++++
+ plaid:--/-- cater:-//-- about:+---+ angst:+++++
+ plaid:--/-- cater:-//-- about:+--// aunty:+++++
+ plaid:--/-- cater:-//-- about:/-+// quota:+++++
+ plaid:--/-- cater:-//-- about:/--/+ squat:+++++
+ plaid:--/-- cater:-//-- about:/--// junta:+++++
+ plaid:--/-- cater:-//-- about:/-/-/ tonga:+++++
+ plaid:--/-- cater:-//-/ straw:+++++
+ plaid:--/-- cater:-//-/ straw:++++- stray:+++++
+ plaid:--/-- cater:-//-/ straw:-/+/- aorta:+++++
+ plaid:--/-- cater:-//-/ straw:-///- abort:+++++
+ plaid:--/-- cater:-///- tweak:+++++
+ plaid:--/-- cater:-///- tweak:+-+/- theta:+++++
+ plaid:--/-- cater:-///- tweak:/+++- sweat:+++++
+ plaid:--/-- cater:-///- tweak:/-+++ steak:+++++
+ plaid:--/-- cater:-///- tweak:/-++- steam:+++++
+ plaid:--/-- cater:-///- tweak:/-+/- agent:+++++
+ plaid:--/-- cater:-///- tweak:/-/+- begat:+++++
+ plaid:--/-- cater:-///- tweak:/-//- atone:+++++
+ plaid:--/-- cater:-///- tweak://++- wheat:+++++
+ plaid:--/-- cater:-//// great:+++++
+ plaid:--/-- cater:-//// great:-++++ treat:+++++
+ plaid:--/-- cater:-//// great:-/+/+ avert:+++++
+ plaid:--/-- cater:-//// great:-//// terra:+++++
+ plaid:--/-- cater:/++-- batch:+++++
+ plaid:--/-- cater:/++-- batch:-++++ hatch:+++++
+ plaid:--/-- cater:/++-- batch:-++++ hatch:-++++ match:+++++
+ plaid:--/-- cater:/++-- batch:-++++ hatch:-++++ match:-++++ watch:+++++
+ plaid:--/-- cater:/+-++ racer:+++++
+ plaid:--/-- cater:/+--- macon:+++-- macaw:+++++
+ plaid:--/-- cater:/+--- macon:+++/- macho:+++++
+ plaid:--/-- cater:/+--- macon:-++++ bacon:+++++
+ plaid:--/-- cater:/+--- macon:-++-- wacky:+++++
+ plaid:--/-- cater:/+--- macon:-+/+- havoc:+++++
+ plaid:--/-- cater:/+--- macon:-+/-- saucy:+++++
+ plaid:--/-- cater:/+--- macon:-+/-/ fancy:+++++
+ plaid:--/-- cater:/+--/ macro:+++++
+ plaid:--/-- cater:/+--/ macro:++//- march:+++++
+ plaid:--/-- cater:/+--/ macro:-+//- ranch:+++++
+ plaid:--/-- cater:/+-/- sauce:+++++
+ plaid:--/-- cater:/+-// farce:+++++
+ plaid:--/-- cater:/+/+- facet:+++++
+ plaid:--/-- cater:/+/-- tacky:+++++
+ plaid:--/-- cater:/+/-- tacky:/++-/ yacht:+++++
+ plaid:--/-- cater://+-+ actor:+++++
+ plaid:--/-- cater://--- mocha:+++++
+ plaid:--/-- cater://--- mocha:--/-+ scuba:+++++
+ plaid:--/-- cater://--- mocha:/-/-/ sumac:+++++
+ plaid:--/-- cater://--/ acorn:+++++
+ plaid:--/-- cater://--/ acorn:/+-/- scram:+++++
+ plaid:--/-- cater://-/- mecca:+++++
+ plaid:--/-- cater://-/- mecca:-//-/ ocean:+++++
+ plaid:--/-- cater:///-- ascot:+++++
+ plaid:--/-- cater:////- acute:+++++
+ plaid:--/-/ denar:++-++ debar:+++++
+ plaid:--/-/ denar:++-+- decay:+++++
+ plaid:--/-/ denar:+-+/- dandy:+++++
+ plaid:--/-/ denar:+--/- daddy:+++++
+ plaid:--/-/ denar:+--/- daddy:++--- datum:+++++
+ plaid:--/-/ denar:+--/- daddy:+/--- dogma:+++++
+ plaid:--/-/ denar:+-//- daunt:+++++
+ plaid:--/-/ denar:+/+/- dance:+++++
+ plaid:--/-/ denar:+/-+/ dream:+++++
+ plaid:--/-/ denar:/+-++ cedar:+++++
+ plaid:--/-/ denar:/+/+- sedan:+++++
+ plaid:--/-/ denar:/-+/- hands:++++- handy:+++++
+ plaid:--/-/ denar:/-+/- hands:-+++- candy:+++++
+ plaid:--/-/ denar:/-+/- hands:-+++/ sandy:+++++
+ plaid:--/-/ denar:/-+// randy:+++++
+ plaid:--/-/ denar:/--++ radar:+++++
+ plaid:--/-/ denar:/--+- madam:+++++
+ plaid:--/-/ denar:/--+- madam:--++- today:+++++
+ plaid:--/-/ denar:/--/+ ardor:+++++
+ plaid:--/-/ denar:/--/- audad:/-+-- vodka:+++++
+ plaid:--/-/ denar:/--/- audad:/-+-/ caddy:+++++
+ plaid:--/-/ denar:/--/- audad:/-/-- bawdy:+++++
+ plaid:--/-/ denar:/--/- audad:///-- gaudy:+++++
+ plaid:--/-/ denar:/--// hardy:+++++
+ plaid:--/-/ denar:/--// hardy:-++++ tardy:+++++
+ plaid:--/-/ denar:/-/// adorn:+++++
+ plaid:--/-/ denar://-/- abode:+++++
+ plaid:--/-/ denar://-/- abode:+/+/+ adobe:+++++
+ plaid:--/-/ denar://-/- abode:/--// cadet:+++++
+ plaid:--/-/ denar://-/- abode://-/+ badge:+++++
+ plaid:--/-/ denar://-// adore:+++++
+ plaid:--/-/ denar:////- anode:+++++
+ plaid:--//+ triad:+++++
+ plaid:--//- raine:++++- rainy:+++++
+ plaid:--//- raine:+++-+ raise:+++++
+ plaid:--//- raine:++/-- rabbi:+++++
+ plaid:--//- raine:-+++- fains:++++- faint:+++++
+ plaid:--//- raine:-+++- fains:-+++- taint:+++++
+ plaid:--//- raine:-+++- fains:-+++/ saint:+++++
+ plaid:--//- raine:-++-+ maize:+++++
+ plaid:--//- raine:-++-+ maize:-++-+ waive:+++++
+ plaid:--//- raine:-++-- faith:+++++
+ plaid:--//- raine:-++-- faith:-++/- waist:+++++
+ plaid:--//- raine:-++/+ naive:+++++
+ plaid:--//- raine:-+/-- cacti:+++++
+ plaid:--//- raine:-/++- aging:+++++
+ plaid:--//- raine:-/++- aging:/-++- china:+++++
+ plaid:--//- raine:-/+-- amiss:+++++
+ plaid:--//- raine:-/+-- amiss:+++-- amity:+++++
+ plaid:--//- raine:-/+-- amiss:+/+-- axiom:+++++
+ plaid:--//- raine:-/+/+ anime:+++++
+ plaid:--//- raine:-/+/- avian:+++++
+ plaid:--//- raine:-/+/- avian:+-+-+ axion:+++++
+ plaid:--//- raine:-//-- sigma:+++++
+ plaid:--//- raine:-//-- sigma:/+--+ vista:+++++
+ plaid:--//- raine:-///- ninja:+++++
+ plaid:--//- raine:-///- ninja:/+--/ titan:+++++
+ plaid:--//- raine:/++-- fairy:+++++
+ plaid:--//- raine:/++-- fairy:-++++ hairy:+++++
+ plaid:--//- raine:/++/- cairn:+++++
+ plaid:--//- raine://+-+ afire:+++++
+ plaid:--//- raine://+-+ afire:+-+/+ arise:+++++
+ plaid:--//- raine://+-- briar:+++++
+ plaid:--//- raine://+-- briar:-++++ friar:+++++
+ plaid:--//- raine:///-- cigar:+++++
+ plaid:--//- raine:///-- cigar:++-// circa:+++++
+ plaid:--//- raine:///-- cigar:/+-++ vicar:+++++
+ plaid:--/// aside:+++++
+ plaid:--/// aside:+-+++ abide:+++++
+ plaid:--/// aside:+-/// aider:+++++
+ plaid:--/// aside:/-+/- dairy:+++++
+ plaid:--/// aside://+/- daisy:+++++
+ plaid:-/++- frail:+++++
+ plaid:-/++- frail:-++++ grail:+++++
+ plaid:-/++- frail:-++++ grail:-++++ trail:+++++
+ plaid:-/++- frail:--+++ avail:+++++
+ plaid:-/++- frail:--+++ avail:--+++ email:+++++
+ plaid:-/++- frail:--+++ avail:--+++ email:--+++ quail:+++++
+ plaid:-/++- frail:--+++ avail:--+++ email:--+++ quail:--+++ snail:+++++
+ plaid:-/+-+ scald:+++++
+ plaid:-/+-- stale:+++++
+ plaid:-/+-- stale:++++- stalk:+++++
+ plaid:-/+-- stale:++++- stalk:++++- stall:+++++
+ plaid:-/+-- stale:+-+++ scale:+++++
+ plaid:-/+-- stale:+-+++ scale:+-+++ shale:+++++
+ plaid:-/+-- stale:+-++- shall:+++++
+ plaid:-/+-- stale:+-++- shall:+-+++ small:+++++
+ plaid:-/+-- stale:+-++- shall:+-++- scaly:+++++
+ plaid:-/+-- stale:+-+/- shawl:+++++
+ plaid:-/+-- stale:+-+/- shawl:+-+-+ snarl:+++++
+ plaid:-/+-- stale:+/++- shalt:+++++
+ plaid:-/+-- stale:--+++ whale:+++++
+ plaid:-/+-- stale:--++- chalk:+++++
+ plaid:-/+-- stale:--++- chalk:--++- qualm:+++++
+ plaid:-/+-- stale:--++- chalk:--++/ koala:+++++
+ plaid:-/+-- stale:--++/ mealy:+++++
+ plaid:-/+-- stale:--++/ mealy:/+++- realm:+++++
+ plaid:-/+-- stale:--+/+ leave:+++++
+ plaid:-/+-- stale:--+/- brawl:+++++
+ plaid:-/+-- stale:--+/- brawl:-++++ crawl:+++++
+ plaid:-/+-- stale:--+/- brawl:--+-/ loamy:+++++
+ plaid:-/+-- stale:--+// leafy:+++++
+ plaid:-/+-- stale:--+// leafy:+++-+ leaky:+++++
+ plaid:-/+-- stale:--+// leafy:+++-- leach:+++++
+ plaid:-/+-- stale:--+// leafy:+++-- leach:+++-- learn:+++++
+ plaid:-/+-- stale:-/++/ exalt:+++++
+ plaid:-/+-- stale:-/+/- loath:+++++
+ plaid:-/+-- stale:-/+/- loath:/-+/- trawl:+++++
+ plaid:-/+-- stale:-/+// leant:+++++
+ plaid:-/+-- stale:/-+/+ lease:+++++
+ plaid:-/+-- stale:/-+// leash:+++++
+ plaid:-/+-- stale://+// least:+++++
+ plaid:-/+-/ dealt:+++++
+ plaid:-/+-/ dealt:+-+/- drawl:+++++
+ plaid:-/-++ lucid:+++++
+ plaid:-/-++ lucid:++-++ lurid:+++++
+ plaid:-/-++ lucid:+--++ livid:+++++
+ plaid:-/-++ lucid:/--++ solid:+++++
+ plaid:-/-+- colin:+-/+- civil:+++++
+ plaid:-/-+- colin:-+++- folio:+++++
+ plaid:-/-+- colin:-+/++ login:+++++
+ plaid:-/-+- colin:--++- belie:+++++
+ plaid:-/-+- colin:--++- belie:-+++- helix:+++++
+ plaid:-/-+- colin:--++/ unlit:+++++
+ plaid:-/-+- colin:--/+- limit:+++++
+ plaid:-/-+- colin:--/+- limit:/+-+- vigil:+++++
+ plaid:-/-+- colin:--/+/ until:+++++
+ plaid:-/-+- colin:-//+- broil:+++++
+ plaid:-/-+- colin:/+/+- logic:+++++
+ plaid:-/-+- colin:/-++- relic:+++++
+ plaid:-/-+- colin:/-/+- lyric:+++++
+ plaid:-/-+/ devil:+++++
+ plaid:-/--+ could:+++++
+ plaid:-/--+ could:-++++ would:+++++
+ plaid:-/--+ could:-+-++ world:+++++
+ plaid:-/--+ could://-++ scold:+++++
+ plaid:-/--- rello:++/-- rebel:+++++
+ plaid:-/--- rello:++/-- rebel:++-++ revel:+++++
+ plaid:-/--- rello:+/+-- ruler:+++++
+ plaid:-/--- rello:-++++ cello:+++++
+ plaid:-/--- rello:-++++ cello:-++++ hello:+++++
+ plaid:-/--- rello:-+++- belle:+++++
+ plaid:-/--- rello:-+++- belle:++++- belly:+++++
+ plaid:-/--- rello:-+++- belle:-+++- jelly:+++++
+ plaid:-/--- rello:-++-- belch:+++++
+ plaid:-/--- rello:-++-- belch:-++++ welch:+++++
+ plaid:-/--- rello:-++-- belch:-++-+ welsh:+++++
+ plaid:-/--- rello:-++-- belch:-++-- melee:+++++
+ plaid:-/--- rello:-++-/ felon:+++++
+ plaid:-/--- rello:-++-/ felon:-++++ melon:+++++
+ plaid:-/--- rello:-++-/ felon:-+++- below:+++++
+ plaid:-/--- rello:-+-+- newly:+++++
+ plaid:-/--- rello:-+/-- betel:+++++
+ plaid:-/--- rello:-+/-- betel:++-++ bevel:+++++
+ plaid:-/--- rello:-+/-- betel:++-++ bevel:++-++ bezel:+++++
+ plaid:-/--- rello:-+/-- betel:-+-++ jewel:+++++
+ plaid:-/--- rello:-+/-- betel:-+--/ leggy:+++++
+ plaid:-/--- rello:-+/-- betel:-+-// leech:+++++
+ plaid:-/--- rello:-+/-- betel:-+/-/ lefty:+++++
+ plaid:-/--- rello:-+/-/ lemon:+++++
+ plaid:-/--- rello:-+//- level:+++++
+ plaid:-/--- rello:--++- balls:+-++- bully:+++++
+ plaid:-/--- rello:--++- balls:--++- fully:+++++
+ plaid:-/--- rello:--++- balls:--++- fully:-++++ gully:+++++
+ plaid:-/--- rello:--++- balls:--++/ sully:+++++
+ plaid:-/--- rello:--++/ folly:+++++
+ plaid:-/--- rello:--++/ folly:-++++ golly:+++++
+ plaid:-/--- rello:--++/ folly:-++++ golly:-++++ holly:+++++
+ plaid:-/--- rello:--++/ folly:-++++ golly:-++++ holly:-++++ jolly:+++++
+ plaid:-/--- rello:--+-- balms:+-+-- bulky:+++++
+ plaid:-/--- rello:--+-- balms:--+-- gulch:+++++
+ plaid:-/--- rello:--+-- balms:--+-/ sulky:+++++
+ plaid:-/--- rello:--+-- balms:--+/- mulch:+++++
+ plaid:-/--- rello:--+-/ colon:+++++
+ plaid:-/--- rello:--+-/ colon:--+++ nylon:+++++
+ plaid:-/--- rello:---+- shyly:+++++
+ plaid:-/--- rello:---+- shyly:+--+- skulk:+++++
+ plaid:-/--- rello:---+/ boult:-++++ moult:+++++
+ plaid:-/--- rello:---+/ boult:-+-+- coyly:+++++
+ plaid:-/--- rello:---+/ boult:-+-+- coyly:-+-++ wooly:+++++
+ plaid:-/--- rello:---+/ boult:-+-+/ hotly:+++++
+ plaid:-/--- rello:---+/ boult:/+-+- nobly:+++++
+ plaid:-/--- rello:--/+- skull:+++++
+ plaid:-/--- rello:--/+/ knoll:+++++
+ plaid:-/--- rello:--/+/ knoll:--/+/ lowly:+++++
+ plaid:-/--- rello:--/-- lucky:+++++
+ plaid:-/--- rello:--/-- lucky:++--+ lusty:+++++
+ plaid:-/--- rello:--/-- lucky:++/-- lunch:+++++
+ plaid:-/--- rello:--/-- lucky:+-/-/ lynch:+++++
+ plaid:-/--- rello:--/-/ blots:-/+-- ghoul:+++++
+ plaid:-/--- rello:--/-/ blots:-/+-/ scowl:+++++
+ plaid:-/--- rello:--/-/ blots:-/+// stool:+++++
+ plaid:-/--- rello:--/-/ blots:-//+- lofty:+++++
+ plaid:-/--- rello:--/-/ blots:-//-+ locus:+++++
+ plaid:-/--- rello:--/-/ blots:-//-- mogul:+++++
+ plaid:-/--- rello:--/-/ blots:-//-/ lousy:+++++
+ plaid:-/--- rello:--/-/ blots:///-- lobby:+++++
+ plaid:-/--- rello:-/++- tulle:+++++
+ plaid:-/--- rello:-/+-- bulge:+++++
+ plaid:-/--- rello:-/+-/ golem:+++++
+ plaid:-/--- rello:-/+-/ golem:-++/- solve:+++++
+ plaid:-/--- rello:-/-+- knelt:+++++
+ plaid:-/--- rello:-/-+- knelt:-+/+- uncle:+++++
+ plaid:-/--- rello:-/-+- knelt:--+++ smelt:+++++
+ plaid:-/--- rello:-/-+- knelt:--++- shelf:+++++
+ plaid:-/--- rello:-/-+- knelt:--/++ exult:+++++
+ plaid:-/--- rello:-/-+- knelt:--/+- bugle:+++++
+ plaid:-/--- rello:-/-+- knelt:--/+- bugle:---++ cycle:+++++
+ plaid:-/--- rello:-/-+- knelt:--/+/ style:+++++
+ plaid:-/--- rello:-/-+/ enols:/-++- whole:+++++
+ plaid:-/--- rello:-/-+/ enols:/-++/ stole:+++++
+ plaid:-/--- rello:-/-+/ enols:/-/+- boule:+++++
+ plaid:-/--- rello:-/-+/ enols:///+- noble:+++++
+ plaid:-/--- rello:-//+- shell:+++++
+ plaid:-/--- rello:-//+- shell:+-+++ smell:+++++
+ plaid:-/--- rello:-//+- shell:+-+++ smell:+-+++ swell:+++++
+ plaid:-/--- rello:-//+- shell:--+++ quell:+++++
+ plaid:-/--- rello:-//-- glens:-/+-- wheel:+++++
+ plaid:-/--- rello:-//-- glens:-/+-/ steel:+++++
+ plaid:-/--- rello:-//-- glens:-/+/- kneel:+++++
+ plaid:-/--- rello:-//-- glens:-//-- excel:+++++
+ plaid:-/--- rello:-//-- glens:-///- lumen:+++++
+ plaid:-/--- rello:-//-- glens:////- lunge:+++++
+ plaid:-/--- rello:-//-/ hotel:+++++
+ plaid:-/--- rello:-//-/ hotel:++-++ hovel:+++++
+ plaid:-/--- rello:-//-/ hotel:-++++ motel:+++++
+ plaid:-/--- rello:-//-/ hotel:-+-++ bowel:+++++
+ plaid:-/--- rello:-//-/ hotel:-+-++ bowel:-++++ vowel:+++++
+ plaid:-/--- rello:-//-/ hotel:-+-++ bowel:-+-++ novel:+++++
+ plaid:-/--- rello:-//-/ hotel:-+-// loose:+++++
+ plaid:-/--- rello:-//-/ hotel:-+-// loose:++-++ louse:+++++
+ plaid:-/--- rello:-//-/ hotel:-+/++ towel:+++++
+ plaid:-/--- rello:-//-/ hotel:-/+/+ extol:+++++
+ plaid:-/--- rello:/+/-- leery:+++++
+ plaid:-/--- rello:/+/-- leery:++-/- lemur:+++++
+ plaid:-/--- rello:/+/-- leery:++//- lever:+++++
+ plaid:-/--- rello:/-+-/ color:+++++
+ plaid:-/--- rello:/--+- burls:++++- burly:+++++
+ plaid:-/--- rello:/--+- burls:-+++- curly:+++++
+ plaid:-/--- rello:/--+- burls:-+++/ surly:+++++
+ plaid:-/--- rello:/--+- burls:--/+- wryly:+++++
+ plaid:-/--- rello:/--+- burls:-//+- truly:+++++
+ plaid:-/--- rello:/-/+/ troll:+++++
+ plaid:-/--- rello:/-/-- lurch:+++++
+ plaid:-/--- rello:/-/-/ growl:+++++
+ plaid:-/--- rello:/-/-/ growl:-//-/ lorry:+++++
+ plaid:-/--- rello:///-- cruel:+++++
+ plaid:-/--- rello:///-- cruel:-++++ gruel:+++++
+ plaid:-/--- rello:///-/ loser:+++++
+ plaid:-/--- rello:///-/ loser:++-++ lover:+++++
+ plaid:-/--- rello:///-/ loser:++-++ lover:++-++ lower:+++++
+ plaid:-/--/ dolly:+++++
+ plaid:-/--/ dolly:++/-- dowel:+++++
+ plaid:-/--/ dolly:+-+++ dully:+++++
+ plaid:-/--/ dolly:+-+-- delve:+++++
+ plaid:-/--/ dolly:+--++ dryly:+++++
+ plaid:-/--/ dolly:+--+- dwelt:+++++
+ plaid:-/--/ dolly:+-/+- dwell:+++++
+ plaid:-/--/ dolly:+//+- droll:+++++
+ plaid:-/--/ dolly:+//-- drool:+++++
+ plaid:-/--/ dolly:/++-+ moldy:+++++
+ plaid:-/--/ dolly:/+-++ godly:+++++
+ plaid:-/--/ dolly:/+/-- lodge:+++++
+ plaid:-/--/ dolly:/+/-- lodge:/++-/ model:+++++
+ plaid:-/--/ dolly:/-/-- ledge:+++++
+ plaid:-/--/ dolly://-++ oddly:+++++
+ plaid:-/-/+ build:+++++
+ plaid:-/-/+ build:-++++ guild:+++++
+ plaid:-/-/+ build:--+++ child:+++++
+ plaid:-/-/+ build:--/++ field:+++++
+ plaid:-/-/+ build:--/++ field:-++++ wield:+++++
+ plaid:-/-/+ build:--/++ field:-++++ wield:-++++ yield:+++++
+ plaid:-/-/- lisle:++--+ liege:+++++
+ plaid:-/-/- lisle:++--+ liege:++--+ lithe:+++++
+ plaid:-/-/- lisle:++--- light:+++++
+ plaid:-/-/- lisle:++--- light:++--- limbo:+++++
+ plaid:-/-/- lisle:++--- light:++/-- lingo:+++++
+ plaid:-/-/- lisle:++--/ liken:+++++
+ plaid:-/-/- lisle:++--/ liken:++-++ linen:+++++
+ plaid:-/-/- lisle:++--/ liken:++-+- liver:+++++
+ plaid:-/-/- lisle:++--/ liken:++-+/ liner:+++++
+ plaid:-/-/- lisle:++-// libel:+++++
+ plaid:-/-/- lisle:+/--- lying:+++++
+ plaid:-/-/- lisle:-+-++ birle:++-++ bible:+++++
+ plaid:-/-/- lisle:-+-++ birle:-+-++ title:+++++
+ plaid:-/-/- lisle:-+-++ birle:-+/++ rifle:+++++
+ plaid:-/-/- lisle:-+-+- girly:+++++
+ plaid:-/-/- lisle:-/-++ guile:+++++
+ plaid:-/-/- lisle:-/-++ guile:--+++ exile:+++++
+ plaid:-/-/- lisle:-/-++ guile:--+++ exile:--+++ while:+++++
+ plaid:-/-/- lisle:-/-++ guile:-/+++ utile:+++++
+ plaid:-/-/- lisle:-/-+- gibli:+/-+- guilt:+++++
+ plaid:-/-/- lisle:-/-+- gibli:-/-++ chili:+++++
+ plaid:-/-/- lisle:-/-+- gibli:-/-+- quilt:+++++
+ plaid:-/-/- lisle:-/-+- gibli:-/-+/ icily:+++++
+ plaid:-/-/- lisle:-/-+- gibli:-//+- built:+++++
+ plaid:-/-/- lisle:-//++ smile:+++++
+ plaid:-/-/- lisle:-//+- stilt:+++++
+ plaid:-/-/- lisle:/+-+- billy:+++++
+ plaid:-/-/- lisle:/+-+- billy:-++++ filly:+++++
+ plaid:-/-/- lisle:/+-+- billy:-++++ filly:-++++ hilly:+++++
+ plaid:-/-/- lisle:/+-+- billy:-++++ filly:-++++ hilly:-++++ willy:+++++
+ plaid:-/-/- lisle:/+--+ bilge:+++++
+ plaid:-/-/- lisle:/+--- filmy:+++++
+ plaid:-/-/- lisle:/+--- filmy:+++-- filth:+++++
+ plaid:-/-/- lisle:/+--- filmy:-++/+ milky:+++++
+ plaid:-/-/- lisle:/+--- filmy:-+/-/ vinyl:+++++
+ plaid:-/-/- lisle:/+--/ filer:+++++
+ plaid:-/-/- lisle:/+--/ filer:++++- filet:+++++
+ plaid:-/-/- lisle:/+/+- silly:+++++
+ plaid:-/-/- lisle:/+/-- silky:+++++
+ plaid:-/-/- lisle://-+- frill:+++++
+ plaid:-/-/- lisle://-+- frill:-++++ grill:+++++
+ plaid:-/-/- lisle://-+- frill:-++++ grill:-++++ krill:+++++
+ plaid:-/-/- lisle://-+- frill:--+++ chill:+++++
+ plaid:-/-/- lisle://-+- frill:--+++ chill:--+++ quill:+++++
+ plaid:-/-/- lisle://--- twirl:+++++
+ plaid:-/-/- lisle://--- twirl:--/-/ igloo:+++++
+ plaid:-/-/- lisle://--- twirl:-/+++ whirl:+++++
+ plaid:-/-/- lisle://--/ inlet:+++++
+ plaid:-/-/- lisle:///+- skill:+++++
+ plaid:-/-/- lisle:///+- skill:+-+++ still:+++++
+ plaid:-/-/- lisle:///+- skill:+-+++ still:+-+++ swill:+++++
+ plaid:-/-/- lisle:///-- swirl:+++++
+ plaid:-/-/- lisle:///-/ islet:+++++
+ plaid:-/-// dilly:+++++
+ plaid:-/-// dilly:++-++ dimly:+++++
+ plaid:-/-// dilly:+//+- drill:+++++
+ plaid:-/-// dilly:/++-- tilde:+++++
+ plaid:-/-// dilly://+-- idler:+++++
+ plaid:-/-// dilly:///+/ idyll:+++++
+ plaid:-//++ valid:+++++
+ plaid:-//+- anvil:+++++
+ plaid:-//+- anvil:/-+++ cavil:+++++
+ plaid:-//+- anvil:/--++ basil:+++++
+ plaid:-//-+ abled:+++++
+ plaid:-//-+ abled:/-+-+ salad:+++++
+ plaid:-//-- taler:+++-- tally:+++++
+ plaid:-//-- taler:+++-- tally:+++-- talon:+++++
+ plaid:-//-- taler:++//- table:+++++
+ plaid:-//-- taler:+//-- tonal:+++++
+ plaid:-//-- taler:+//-- tonal:++-++ total:+++++
+ plaid:-//-- taler:+//-- tonal:+--++ tubal:+++++
+ plaid:-//-- taler:-++++ baler:+++++
+ plaid:-//-- taler:-++-+ valor:+++++
+ plaid:-//-- taler:-++-- salol:++++- salon:+++++
+ plaid:-//-- taler:-++-- salol:+++-- salsa:+++++
+ plaid:-//-- taler:-++-- salol:+++-/ sally:+++++
+ plaid:-//-- taler:-++-- salol:+++/- salvo:+++++
+ plaid:-//-- taler:-++-- salol:-++-- balmy:+++++
+ plaid:-//-- taler:-++-/ rally:+++++
+ plaid:-//-- taler:-++/- halve:+++++
+ plaid:-//-- taler:-++/- halve:-++++ salve:+++++
+ plaid:-//-- taler:-++/- halve:-++++ salve:-++++ valve:+++++
+ plaid:-//-- taler:-++/- halve:-++-+ false:+++++
+ plaid:-//-- taler:-++/- halve:-++/+ value:+++++
+ plaid:-//-- taler:-+/++ lager:+++++
+ plaid:-//-- taler:-+/++ lager:++-++ layer:+++++
+ plaid:-//-- taler:-+/+- laves:++-+- label:+++++
+ plaid:-//-- taler:-+/+- laves:/+++- gavel:+++++
+ plaid:-//-- taler:-+/+- laves:/+++- gavel:-++++ navel:+++++
+ plaid:-//-- taler:-+/+- laves:/+-+- bagel:+++++
+ plaid:-//-- taler:-+/+- laves:/+-+- bagel:-+-++ camel:+++++
+ plaid:-//-- taler:-+/+- laves:/+-+- bagel:-+-++ camel:-+-++ hazel:+++++
+ plaid:-//-- taler:-+/+- laves:/+-+/ easel:+++++
+ plaid:-//-- taler:-+/-+ labor:+++++
+ plaid:-//-- taler:-+/-- lanas:+++-- lanky:+++++
+ plaid:-//-- taler:-+/-- lanas:++--- laugh:+++++
+ plaid:-//-- taler:-+/-- lanas:++--/ lasso:+++++
+ plaid:-//-- taler:-+/-- lanas:/+++- banal:+++++
+ plaid:-//-- taler:-+/-- lanas:/+++- banal:-++++ canal:+++++
+ plaid:-//-- taler:-+/-- lanas:/++-- manly:+++++
+ plaid:-//-- taler:-+/-- lanas:/+-+- cabal:+++++
+ plaid:-//-- taler:-+/-- lanas:/+-+/ basal:+++++
+ plaid:-//-- taler:-+/-- lanas:/+--- caulk:+++++
+ plaid:-//-- taler:-+/-- lanas:/+--- caulk:-+-+- gayly:+++++
+ plaid:-//-- taler:-+/-- lanas:/+/+- naval:+++++
+ plaid:-//-- taler:-+/-- lanas:/+/+/ nasal:+++++
+ plaid:-//-- taler:-+/-/ carol:+++++
+ plaid:-//-- taler:-+/-/ carol:-++-/ larva:+++++
+ plaid:-//-- taler:-+//- cable:+++++
+ plaid:-//-- taler:-+//- cable:-++++ fable:+++++
+ plaid:-//-- taler:-+//- cable:-+-++ eagle:+++++
+ plaid:-//-- taler:-+//- cable:/+-/+ lance:+++++
+ plaid:-//-- taler:-+/// early:+++++
+ plaid:-//-- taler:-+/// early:/++/- large:+++++
+ plaid:-//-- taler:-/+-+ molar:+++++
+ plaid:-//-- taler:-/+-+ molar:-++++ solar:+++++
+ plaid:-//-- taler:-/+-- aglow:+++++
+ plaid:-//-- taler:-/+-- aglow:/-+-+ bylaw:+++++
+ plaid:-//-- taler:-/+/- fella:+++++
+ plaid:-//-- taler:-/+// relax:+++++
+ plaid:-//-- taler:-/+// relax:++++- relay:+++++
+ plaid:-//-- taler:-//+- angel:+++++
+ plaid:-//-- taler:-//-+ lunar:+++++
+ plaid:-//-- taler:-//-- focal:+++++
+ plaid:-//-- taler:-//-- focal:-++++ local:+++++
+ plaid:-//-- taler:-//-- focal:-++++ local:-++++ vocal:+++++
+ plaid:-//-- taler:-//-- focal:-+-++ loyal:+++++
+ plaid:-//-- taler:-//-- focal:-+-++ loyal:-+-++ zonal:+++++
+ plaid:-//-- taler:-//-- focal:---++ usual:+++++
+ plaid:-//-- taler:-//-- focal:---/+ annul:+++++
+ plaid:-//-- taler:-//-- focal:-/-++ shoal:+++++
+ plaid:-//-- taler:-//-- focal:/--/+ awful:+++++
+ plaid:-//-- taler:-//-- focal://-++ offal:+++++
+ plaid:-//-- taler:-//-- focal://-/+ afoul:+++++
+ plaid:-//-- taler:-//-/ moral:+++++
+ plaid:-//-- taler:-//-/ moral:+-+++ mural:+++++
+ plaid:-//-- taler:-//-/ moral:-++++ coral:+++++
+ plaid:-//-- taler:-//-/ moral:-+/++ royal:+++++
+ plaid:-//-- taler:-//-/ moral:--+++ rural:+++++
+ plaid:-//-- taler:-///- genal:-+-++ fecal:+++++
+ plaid:-//-- taler:-///- genal:-/-++ equal:+++++
+ plaid:-//-- taler:-///- genal:-/-// amble:+++++
+ plaid:-//-- taler:-///- genal:-//// ankle:+++++
+ plaid:-//-- taler:-///- genal:/+-++ legal:+++++
+ plaid:-//-- taler:-///- genal:///// angle:+++++
+ plaid:-//-- taler:-//// regal:+++++
+ plaid:-//-- taler:-//// regal:++-++ renal:+++++
+ plaid:-//-- taler:-//// regal:/+-++ feral:+++++
+ plaid:-//-- taler:/+++- valet:+++++
+ plaid:-//-- taler:/++-- salty:+++++
+ plaid:-//-- taler:/++-- salty:-+++- waltz:+++++
+ plaid:-//-- taler:/+/++ later:+++++
+ plaid:-//-- taler:/+/-- fatal:+++++
+ plaid:-//-- taler:/+/-- fatal:++/-/ fault:+++++
+ plaid:-//-- taler:/+/-- fatal:-++++ natal:+++++
+ plaid:-//-- taler:/+/-- fatal:-++-/ latch:+++++
+ plaid:-//-- taler:/+/-- fatal:-+/-/ vault:+++++
+ plaid:-//-- taler:/+//- lathe:+++++
+ plaid:-//-- taler:/+//- lathe:+++-+ latte:+++++
+ plaid:-//-- taler://+/- eclat:+++++
+ plaid:-//-- taler:///-- atoll:+++++
+ plaid:-//-- taler:///-- atoll:///-+ octal:+++++
+ plaid:-//-- taler:////- fetal:+++++
+ plaid:-//-- taler:////- fetal:-++++ metal:+++++
+ plaid:-//-- taler:////- fetal:-//++ steal:+++++
+ plaid:-//-/ badly:+++++
+ plaid:-//-/ badly:-++++ madly:+++++
+ plaid:-//-/ badly:-++++ madly:-++++ sadly:+++++
+ plaid:-//-/ badly:-+++- ladle:+++++
+ plaid:-//-/ badly:-++/- laden:+++++
+ plaid:-//-/ badly:-+/++ dally:+++++
+ plaid:-//-/ badly:-/+/- medal:+++++
+ plaid:-//-/ badly:-/+/- medal:+-+++ modal:+++++
+ plaid:-//-/ badly:-//+- adult:+++++
+ plaid:-//-/ badly:-///+ delay:+++++
+ plaid:-//-/ badly:-///- decal:+++++
+ plaid:-//-/ badly:-///- decal:++-// delta:+++++
+ plaid:-///- rival:+++++
+ plaid:-///- rival:-+-++ final:+++++
+ plaid:-///- rival:-+-+/ lilac:+++++
+ plaid:-///- rival:-+-// aisle:+++++
+ plaid:-///- rival:-+/++ vital:+++++
+ plaid:-///- rival:-+/// villa:+++++
+ plaid:-///- rival:-+/// villa:++-++ viola:+++++
+ plaid:-///- rival:-/-++ axial:+++++
+ plaid:-///- rival:-/-+/ inlay:+++++
+ plaid:-///- rival:-/-// agile:+++++
+ plaid:-///- rival:-/-// agile://++- gaily:+++++
+ plaid:-///- rival:-//// voila:+++++
+ plaid:-///- rival:/+/++ viral:+++++
+ plaid:-///- rival://-++ trial:+++++
+ plaid:-//// ideal:+++++
+ plaid:-//// ideal://-++ tidal:+++++
+ plaid:-//// ideal://-// daily:+++++
+ plaid:/++-- clamp:+++++
+ plaid:/++-- clamp:+++-+ clasp:+++++
+ plaid:/+--- slope:+++++
+ plaid:/+--- slope:+++/- sloop:+++++
+ plaid:/+--- slope:++-+/ slept:+++++
+ plaid:/+--- slope:++-/- slump:+++++
+ plaid:/+--- slope:++-/- slump:+++-+ slurp:+++++
+ plaid:/+--- slope:++-// sleep:+++++
+ plaid:/+--- slope:-++++ elope:+++++
+ plaid:/+--- slope:-+-+- glyph:+++++
+ plaid:/+--- slope:-+-/- clump:+++++
+ plaid:/+--- slope:-+-// bleep:+++++
+ plaid:/+-/- blimp:+++++
+ plaid:/+/-- alpha:+++++
+ plaid:/-+-- spare:+++++
+ plaid:/-+-- spare:++++- spark:+++++
+ plaid:/-+-- spare:+++-+ space:+++++
+ plaid:/-+-- spare:+++-- spank:+++++
+ plaid:/-+-- spare:+++-- spank:+++-- spasm:+++++
+ plaid:/-+-- spare:+++-- spank:+++/- spawn:+++++
+ plaid:/-+-- spare:+/++- sharp:+++++
+ plaid:/-+-- spare:+/+-+ shape:+++++
+ plaid:/-+-- spare:+/+-- swapt:+++/- swamp:+++++
+ plaid:/-+-- spare:+/+-- swapt:+-++- soapy:+++++
+ plaid:/-+-- spare:+/+-- swapt:+-+/- scamp:+++++
+ plaid:/-+-- spare:+/+-- swapt:+-+// stamp:+++++
+ plaid:/-+-- spare:-+++- apart:+++++
+ plaid:/-+-- spare:-/+-+ agape:+++++
+ plaid:/-+-- spare:-/+-- champ:+++++
+ plaid:/-+-- spare:-/+/+ grape:+++++
+ plaid:/-+-- spare:-/+/- cramp:+++++
+ plaid:/-+-- spare:-/+/- cramp:-++++ tramp:+++++
+ plaid:/-+-- spare:-/+/- cramp:-++-/ graph:+++++
+ plaid:/-+-- spare://+/- grasp:+++++
+ plaid:/-+-/ adapt:+++++
+ plaid:/-+-/ adapt:-/++- drape:+++++
+ plaid:/-+-/ adapt:-/+/- spade:+++++
+ plaid:/--++ tepid:+++++
+ plaid:/--+- opsin:++-+- optic:+++++
+ plaid:/--+- opsin:-+/+- sprig:+++++
+ plaid:/--+- opsin:-/-+- equip:+++++
+ plaid:/--+- opsin:-/-+/ unzip:+++++
+ plaid:/--+- opsin:-//+- strip:+++++
+ plaid:/--+- opsin://-+- topic:+++++
+ plaid:/---+ speed:+++++
+ plaid:/---+ speed:+++-+ spend:+++++
+ plaid:/---- strop:++-++ stoop:+++++
+ plaid:/---- strop:++--+ steep:+++++
+ plaid:/---- strop:++--+ steep:++--+ stump:+++++
+ plaid:/---- strop:++-/+ stomp:+++++
+ plaid:/---- strop:+-+-+ syrup:+++++
+ plaid:/---- strop:+-+-/ spree:+++++
+ plaid:/---- strop:+--++ scoop:+++++
+ plaid:/---- strop:+--++ scoop:+-+++ snoop:+++++
+ plaid:/---- strop:+--++ scoop:+-+++ snoop:+-+++ swoop:+++++
+ plaid:/---- strop:+--+/ spoof:+++++
+ plaid:/---- strop:+--+/ spoof:++++- spook:+++++
+ plaid:/---- strop:+--+/ spoof:++++- spook:++++- spoon:+++++
+ plaid:/---- strop:+---+ sheep:+++++
+ plaid:/---- strop:+---+ sheep:+-+++ sweep:+++++
+ plaid:/---- strop:+---/ speck:+++++
+ plaid:/---- strop:+---/ speck:++--+ spunk:+++++
+ plaid:/---- strop:+--// scope:+++++
+ plaid:/---- strop:+--// scope:+-+/+ spoke:+++++
+ plaid:/---- strop:+-/-/ sperm:+++++
+ plaid:/---- strop:+-/-/ sperm:++-+- spurn:+++++
+ plaid:/---- strop:+-/-/ sperm:+///- super:+++++
+ plaid:/---- strop:+-/// spore:+++++
+ plaid:/---- strop:+/--+ setup:+++++
+ plaid:/---- strop:+/--/ spent:+++++
+ plaid:/---- strop:+/--/ spent:+/+-+ swept:+++++
+ plaid:/---- strop:+/-// spout:+++++
+ plaid:/---- strop:+//-/ spurt:+++++
+ plaid:/---- strop:+//// sport:+++++
+ plaid:/---- strop:--+// morph:+++++
+ plaid:/---- strop:---++ whoop:+++++
+ plaid:/---- strop:----+ chump:+++++
+ plaid:/---- strop:----/ guppy:+++++
+ plaid:/---- strop:----/ guppy:-+-++ jumpy:+++++
+ plaid:/---- strop:----/ guppy:-+-+- humph:+++++
+ plaid:/---- strop:----/ guppy:---+/ nymph:+++++
+ plaid:/---- strop:---// coupe:+++++
+ plaid:/---- strop:---// coupe:-/-// epoxy:+++++
+ plaid:/---- strop:---// coupe://-// epoch:+++++
+ plaid:/---- strop:--/-+ creep:+++++
+ plaid:/---- strop:--/-+ creep:++--+ crump:+++++
+ plaid:/---- strop:--/-/ hyper:+++++
+ plaid:/---- strop:--/-/ hyper:--+++ upper:+++++
+ plaid:/---- strop:--/-/ hyper:--++/ rupee:+++++
+ plaid:/---- strop:--/-/ hyper:--/// crepe:+++++
+ plaid:/---- strop:--//+ croup:+++++
+ plaid:/---- strop:--//+ croup:-++++ group:+++++
+ plaid:/---- strop:--/// grope:+++++
+ plaid:/---- strop:-/--+ thump:+++++
+ plaid:/---- strop:-/--/ empty:+++++
+ plaid:/---- strop:-/--/ empty:/-+/- tepee:+++++
+ plaid:/---- strop:-/-// tempo:+++++
+ plaid:/---- strop:-//++ troop:+++++
+ plaid:/---- strop:-//-+ trump:+++++
+ plaid:/---- strop:-//-/ crept:+++++
+ plaid:/---- strop:-//-/ crept:++-++ crypt:+++++
+ plaid:/---- strop:-//-/ crept:-+/++ erupt:+++++
+ plaid:/---- strop:-//// trope:+++++
+ plaid:/---- strop:/---/ gypsy:+++++
+ plaid:/---- strop:/--// copse:+++++
+ plaid:/---- strop:/-/-+ usurp:+++++
+ plaid:/---- strop://--/ upset:+++++
+ plaid:/---/ depot:+++++
+ plaid:/---/ depot:+++-/ depth:+++++
+ plaid:/---/ depot:+-/+- droop:+++++
+ plaid:/---/ depot:+-/-- dumpy:+++++
+ plaid:/---/ depot:+/+/- dopey:+++++
+ plaid:/--/+ spied:+++++
+ plaid:/--/- spine:+++++
+ plaid:/--/- spine:++++- spiny:+++++
+ plaid:/--/- spine:+++-+ spice:+++++
+ plaid:/--/- spine:+++-+ spice:+++-+ spike:+++++
+ plaid:/--/- spine:+++-+ spice:+++-+ spike:+++-+ spire:+++++
+ plaid:/--/- spine:+++-+ spice:+++-+ spike:+++-+ spire:+++-+ spite:+++++
+ plaid:/--/- spine:+++-- spicy:+++++
+ plaid:/--/- spine:+++-- spicy:+++-+ spiky:+++++
+ plaid:/--/- spine:+/+-- skimp:+++++
+ plaid:/--/- spine:+/+/+ snipe:+++++
+ plaid:/--/- spine:-++++ opine:+++++
+ plaid:/--/- spine:-++-- opium:+++++
+ plaid:/--/- spine:-/+-+ gripe:+++++
+ plaid:/--/- spine:-/+-+ gripe:-++++ tripe:+++++
+ plaid:/--/- spine:-/+-- chirp:+++++
+ plaid:/--/- spine:-/+-- chirp:+-+/+ crimp:+++++
+ plaid:/--/- spine:-//-- hippo:+++++
+ plaid:/--/- spine:-//-- hippo:++++- hippy:+++++
+ plaid:/--/- spine:-//-- hippo:-+-+- wimpy:+++++
+ plaid:/--/- spine:-//-/ riper:+++++
+ plaid:/--/- spine:-//-/ riper:-++++ viper:+++++
+ plaid:/--/- spine:-//-/ riper:-+/+- bicep:+++++
+ plaid:/--/- spine:-///- input:+++++
+ plaid:/--/- spine:-//// inept:+++++
+ plaid:/--/- spine:-//// inept:////- ripen:+++++
+ plaid:/--/- spine://+-- crisp:+++++
+ plaid:/--/- spine:///-- gipsy:+++++
+ plaid:/--/- spine:///-- gipsy:-++++ tipsy:+++++
+ plaid:/--/- spine:///-- gipsy:-+//+ wispy:+++++
+ plaid:/-/++ rapid:+++++
+ plaid:/-/++ rapid:-++++ vapid:+++++
+ plaid:/-/++ rapid:-//++ aphid:+++++
+ plaid:/-/+- sepia:+++++
+ plaid:/-/+- sepia:--++/ tapir:+++++
+ plaid:/-/-- sprat:++++- spray:+++++
+ plaid:/-/-- sprat:++-+- speak:+++++
+ plaid:/-/-- sprat:++/+- spear:+++++
+ plaid:/-/-- sprat:+/++- scrap:+++++
+ plaid:/-/-- sprat:+/++/ strap:+++++
+ plaid:/-/-- sprat:+/-/- sappy:+++++
+ plaid:/-/-- sprat:-++/- apron:+++++
+ plaid:/-/-- sprat:-+-/- apnea:+++++
+ plaid:/-/-- sprat:-+//- opera:+++++
+ plaid:/-/-- sprat:-/+/- harpy:+++++
+ plaid:/-/-- sprat:-/-+- cheap:+++++
+ plaid:/-/-- sprat:-/-+/ topaz:+++++
+ plaid:/-/-- sprat:-/-/+ caput:+++++
+ plaid:/-/-- sprat:-/-/- happy:+++++
+ plaid:/-/-- sprat:-/-/- happy:-+++- kappa:+++++
+ plaid:/-/-- sprat:-//+- recap:+++++
+ plaid:/-/-- sprat:-//+- recap:++-+/ repay:+++++
+ plaid:/-/-- sprat:-///- caper:+++++
+ plaid:/-/-- sprat:-///- caper:-++-+ vapor:+++++
+ plaid:/-/-- sprat:-//// taper:+++++
+ plaid:/-/-- sprat:////- raspy:+++++
+ plaid:/-/-/ adept:+++++
+ plaid:/-/-/ adept:++-++ adopt:+++++
+ plaid:/-//- aping:+++++
+ plaid://+-- leapt:+++++
+ plaid://+-- leapt:/-+/- scalp:+++++
+ plaid://-++ lipid:+++++
+ plaid://-+- split:+++++
+ plaid://-+- split:++/+- spoil:+++++
+ plaid://-+- split:-/++/ tulip:+++++
+ plaid://--- cupel:-++-/ lupus:+++++
+ plaid://--- cupel:-+/-/ lumpy:+++++
+ plaid://--- cupel:--+++ expel:+++++
+ plaid://--- cupel:--+++ expel:/-+++ repel:+++++
+ plaid://--- cupel:--++/ leper:+++++
+ plaid://--- cupel:--+// reply:+++++
+ plaid://--- cupel:--/-+ spool:+++++
+ plaid://--- cupel:--/-/ loopy:+++++
+ plaid://--- cupel:--/-/ loopy:+--+/ lymph:+++++
+ plaid://--- cupel:--//+ spell:+++++
+ plaid://--- cupel:--/// spelt:+++++
+ plaid://--- cupel:--/// spelt:-/++- whelp:+++++
+ plaid://-/- impel:+++++
+ plaid://-/- impel:+++-/ imply:+++++
+ plaid://-/- impel:/-/++ spiel:+++++
+ plaid://-/- impel:/-/-+ spill:+++++
+ plaid://-/- impel:/-/-/ spilt:+++++
+ plaid:///-- apple:+++++
+ plaid:///-- apple:++++- apply:+++++
+ plaid:///-- apple:++-+- aptly:+++++
+ plaid:///-- apple:+-+++ ample:+++++
+ plaid:///-- apple:+-++- amply:+++++
+ plaid:///-- apple:/+-/- splat:+++++
+ plaid:///-- apple:/-+++ maple:+++++
+ plaid:///-- apple:/-+/+ lapse:+++++
+ plaid:///-- apple:/-+// lapel:+++++
+ plaid:///-- apple://-/- ralph:+++++
+
+average guesses 3.620
+
+worst cases (20): [boxer, foyer, gazer, glaze, hazel, hover, joker, jolly, mound, rarer, saner, snail, spite, stave, swore, tasty, vaunt, vying, watch, willy]
+best cases (89): [abled, acrid, adapt, adept, admin, alien, aloud, alpha, anvil, aping, apple, aside, badly, blade, bland, blend, blimp, blind, braid, build, cabin, cater, clamp, could, cried, dealt, depot, devil, diary, dicey, dilly, dolly, drain, drone, elder, elfin, elide, flail, fluid, frail, gloat, heard, ideal, impel, leapt, lipid, lucid, paddy, paint, paler, panic, party, pearl, pedal, peril, piano, piety, pilot, plaid, plain, plane, plead, pleat, plied, plier, polyp, pound, pride, pried, prone, prude, rapid, rival, scald, sepia, slope, spare, speed, spied, spine, split, stale, stare, tepid, tonic, trade, train, triad, valid]

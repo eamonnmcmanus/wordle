@@ -35,7 +35,24 @@ import java.util.concurrent.Future;
 public class Wordle {
   private static final ScoreFactory DEFAULT_SCORE_FACTORY = Score::of;
 
-  enum Mode {NORMAL, HARD}
+  enum Mode {
+    /** The normal Wordle mode, where any guess in the dictionary is allowed. */
+    NORMAL,
+    /**
+     * The hard Wordle mode, where any letter that has been revealed must be used. If you have had
+     * a green letter at a certain position then your guess must contain that letter at that
+     * position. If you have had an ochre letter then that your guess must contain that letter, and
+     * if you had the same letter twice with both occurrences ochre, then your guess must contain
+     * the letter twice.
+     */
+    HARD,
+    /**
+     * A mode where all guesses must be consistent with previous scores. This is different from
+     * {@link #HARD} because previous scores tell you other things: grey letters are not in the word
+     * and ochre letters are not at the position where they were ochre. Any valid consistent-mode
+     * guess is also a valid hard-mode guess, but the converse is not true.
+     */
+    CONSISTENT}
 
   private static final Mode DEFAULT_MODE = Mode.HARD;
 
@@ -51,9 +68,21 @@ public class Wordle {
     this.scoreFactory = scoreFactory;
     this.consistentWords =
         dict.solutionWords().stream().filter(scores::consistentWith).collect(toImmutableSet());
-    this.allowedGuesses = (mode == Mode.HARD)
-        ? dict.guessWords().stream().filter(scores::allowedInHardMode).collect(toImmutableSet())
-        : dict.guessWords();
+    switch (mode) {
+      case NORMAL:
+        this.allowedGuesses = dict.guessWords();
+        break;
+      case HARD:
+        this.allowedGuesses =
+            dict.guessWords().stream().filter(scores::allowedInHardMode).collect(toImmutableSet());
+        break;
+      case CONSISTENT:
+        this.allowedGuesses =
+            dict.guessWords().stream().filter(scores::consistentWith).collect(toImmutableSet());
+        break;
+      default:
+        throw new AssertionError(mode);
+    }
   }
 
   static ImmutableList<Integer> knuthGuesses(Wordle wordle) {
@@ -176,7 +205,7 @@ public class Wordle {
   }
 
   private static ScoreList solve(Dictionary dict, ScoreFactory scoreFactory, Guesser guesser, int actual) {
-    int startCode = Dictionary.encode("raise");
+    int startCode = Dictionary.encode("plaid");
     return solve(dict, scoreFactory, guesser, actual, ScoreList.EMPTY.plus(startCode, scoreFactory.score(startCode, actual)));
   }
 
@@ -202,7 +231,7 @@ public class Wordle {
   }
 
   private static void solveAll(Guesser guesser) {
-    int starting = Dictionary.encode("leant");
+    int starting = Dictionary.encode("plaid");
     Dictionary dict = Dictionary.create();
     int solutionCount = dict.solutionWords().size();
     long total = 0;
@@ -216,7 +245,7 @@ public class Wordle {
       ScoreList solved = solve(dict, DEFAULT_SCORE_FACTORY, guesser, actual, initial);
       System.out.println(solved);
       int size = solved.size();
-      if (size >= 5) {
+      if (size >= 6) {
         pessimal.add(actual);
       }
       if (size <= 2) {
@@ -415,8 +444,8 @@ public class Wordle {
   }
 
   public static void main(String[] args) throws Exception {
-    Guesser guesser = Wordle::neuwirthGuesses;
-    if (true) {
+    Guesser guesser = Wordle::irvingGuesses;
+    if (false) {
       parallelSolve(Dictionary.create(), guesser);
       return;
     }
@@ -424,8 +453,8 @@ public class Wordle {
       solveAll(guesser);
       return;
     }
-    if (false) {
-      System.out.println(solve(Dictionary.create(), DEFAULT_SCORE_FACTORY, guesser, Dictionary.encode("panic")));
+    if (true) {
+      System.out.println(solve(Dictionary.create(), DEFAULT_SCORE_FACTORY, guesser, Dictionary.encode("knoll")));
       return;
     }
     if (false) {
